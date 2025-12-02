@@ -1,6 +1,12 @@
-// Placeholder seed entrypoint. Replace with per-module seed scripts.
+import { PrismaClient } from "@prisma/client";
+import { seedFirms } from "./firms";
+import { seedStartups } from "./startups";
+
+const prisma = new PrismaClient();
+
 export const seed = async () => {
-  // No-op for now.
+  await seedFirms(prisma);
+  await seedStartups(prisma);
 };
 
 if (require.main === module) {
@@ -12,5 +18,8 @@ if (require.main === module) {
     .catch((err) => {
       console.error(err);
       process.exit(1);
+    })
+    .finally(async () => {
+      await prisma.$disconnect();
     });
 }

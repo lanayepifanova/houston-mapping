@@ -44,6 +44,7 @@ docs/
 5) Run:
    - Backend: `pnpm dev` (Express with TS watch).
    - Frontend: `pnpm dev` (Vite + React + Tailwind).
+   - **Start both shells and visit http://localhost:5173** (one terminal `cd backend && pnpm dev`, another `cd frontend && pnpm dev`).
 
 ## Conventions
 

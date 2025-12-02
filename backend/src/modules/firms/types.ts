@@ -21,3 +21,15 @@ export type FirmFeature = {
   };
   properties: Omit<Firm, "location">;
 };
+
+export type CreateFirmInput = {
+  name: string;
+  website?: string;
+  description?: string;
+  tags?: string[];
+  fundSize?: string;
+  stageFocus?: string;
+  latitude: number;
+  longitude: number;
+  address?: string;
+};

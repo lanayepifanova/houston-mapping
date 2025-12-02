@@ -9,7 +9,11 @@ import { apiRouter } from "../api";
 const config = loadConfig();
 const app = express();
 
-app.use(cors({ origin: config.corsOrigin }));
+const corsOrigins = Array.isArray(config.corsOrigin)
+  ? config.corsOrigin
+  : String(config.corsOrigin).split(",").map((o) => o.trim());
+
+app.use(cors({ origin: corsOrigins }));
 app.use(express.json());
 app.use(morgan("dev"));
 

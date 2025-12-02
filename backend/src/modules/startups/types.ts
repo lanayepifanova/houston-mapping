@@ -21,3 +21,15 @@ export type StartupFeature = {
   };
   properties: Omit<Startup, "location">;
 };
+
+export type CreateStartupInput = {
+  name: string;
+  website?: string;
+  description?: string;
+  tags?: string[];
+  stage?: string;
+  industry?: string;
+  latitude: number;
+  longitude: number;
+  address?: string;
+};

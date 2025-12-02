@@ -1,0 +1,8 @@
+.leaflet-shell {
+  height: 480px;
+  width: 100%;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
