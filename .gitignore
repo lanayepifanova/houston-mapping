@@ -5,6 +5,8 @@ frontend/node_modules
 backend/dist
 frontend/dist
 backend/data
+backend/prisma/data
+*.db
 .env
 backend/.env
 frontend/.env
