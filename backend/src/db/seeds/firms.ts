@@ -1,42 +1,24 @@
 import { PrismaClient } from "@prisma/client";
 
 const firms = [
-  {
-    id: "firm-bayou-capital",
-    name: "Bayou Capital",
-    website: "https://bayou.capital",
-    description: "Early-stage VC focused on Houston founders and Gulf Coast energy transition.",
-    tags: ["seed", "houston", "energy"],
-    fundSize: "$75M",
-    stageFocus: "Pre-seed to Series A",
-    latitude: 29.7604,
-    longitude: -95.3698,
-    address: "Downtown Houston, TX"
-  },
-  {
-    id: "firm-space-city-ventures",
-    name: "Space City Ventures",
-    website: "https://spacecity.vc",
-    description: "Backs aerospace, defense, and dual-use tech from Houston.",
-    tags: ["aerospace", "defense", "series-a"],
-    fundSize: "$120M",
-    stageFocus: "Seed to Series B",
-    latitude: 29.5502,
-    longitude: -95.097,
-    address: "Houston Spaceport"
-  },
-  {
-    id: "firm-med-center-partners",
-    name: "Med Center Partners",
-    website: "https://medcenter.partners",
-    description: "Life sciences and digital health focused fund near TMC.",
-    tags: ["health", "biotech", "digital-health"],
-    fundSize: "$60M",
-    stageFocus: "Seed to Series A",
-    latitude: 29.7114,
-    longitude: -95.4018,
-    address: "Texas Medical Center"
-  }
+  { id: "firm-bayou-capital", name: "Bayou Capital", website: "https://bayou.capital", description: "Early-stage VC focused on Houston founders and Gulf Coast energy transition.", tags: ["seed", "houston", "energy"], fundSize: "$75M", stageFocus: "Pre-seed to Series A", latitude: 29.7604, longitude: -95.3698, address: "Downtown Houston, TX" },
+  { id: "firm-space-city-ventures", name: "Space City Ventures", website: "https://spacecity.vc", description: "Backs aerospace, defense, and dual-use tech from Houston.", tags: ["aerospace", "defense", "series-a"], fundSize: "$120M", stageFocus: "Seed to Series B", latitude: 29.5502, longitude: -95.097, address: "Houston Spaceport" },
+  { id: "firm-med-center-partners", name: "Med Center Partners", website: "https://medcenter.partners", description: "Life sciences and digital health focused fund near TMC.", tags: ["health", "biotech", "digital-health"], fundSize: "$60M", stageFocus: "Seed to Series A", latitude: 29.7114, longitude: -95.4018, address: "Texas Medical Center" },
+  { id: "firm-mercury-fund", name: "Mercury Fund", website: "https://mercuryfund.com", description: "Early-stage software VC backing founders in the midcontinent.", tags: ["software", "seed", "series-a"], fundSize: "$500M+", stageFocus: "Seed to Series B", latitude: 29.7583, longitude: -95.3644, address: "The Ion District, Houston, TX" },
+  { id: "firm-chevron-technology-ventures", name: "Chevron Technology Ventures", website: "https://www.chevron.com/technology/technology-ventures", description: "Corporate venture arm investing in energy transition and digital.", tags: ["energy", "climate", "corporate"], fundSize: "$300M+", stageFocus: "Growth and strategic", latitude: 29.7595, longitude: -95.365, address: "Downtown Houston, TX" },
+  { id: "firm-artemis-fund", name: "The Artemis Fund", website: "https://www.theartemisfund.com", description: "Investing in female-led fintech, commerce, and care economy startups.", tags: ["fintech", "female-founders", "seed"], fundSize: "$50M", stageFocus: "Pre-seed to Series A", latitude: 29.7442, longitude: -95.3897, address: "Montrose, Houston, TX" },
+  { id: "firm-goose-capital", name: "Goose Capital", website: "https://www.goose.capital", description: "Angel investment group backing early-stage companies across sectors.", tags: ["angel", "seed", "multi-sector"], fundSize: "$50M+", stageFocus: "Pre-seed to Seed", latitude: 29.7607, longitude: -95.3696, address: "Downtown Houston, TX" },
+  { id: "firm-houston-ventures", name: "Houston Ventures", website: "https://houstonventures.com", description: "B2B tech investments for industrial, logistics, and energy.", tags: ["industrial", "b2b", "energy"], fundSize: "$100M", stageFocus: "Seed to Series B", latitude: 29.749, longitude: -95.358, address: "EaDo, Houston, TX" },
+  { id: "firm-texas-atlantic-capital", name: "Texas Atlantic Capital", website: "https://www.txacapital.com", description: "Texas-focused venture investments across software and services.", tags: ["software", "services", "texas"], fundSize: "$150M", stageFocus: "Series A to Growth", latitude: 29.7589, longitude: -95.3674, address: "Downtown Houston, TX" },
+  { id: "firm-golden-section", name: "Golden Section", website: "https://www.goldensection.com", description: "Capital and GTM support for B2B SaaS founders.", tags: ["saas", "b2b", "seed"], fundSize: "$100M+", stageFocus: "Pre-seed to Series A", latitude: 29.7352, longitude: -95.4635, address: "Uptown Houston, TX" },
+  { id: "firm-seed-round-capital", name: "Seed Round Capital", website: "https://seedround.vc", description: "Houston seed fund backing early teams with traction.", tags: ["seed", "houston", "early-stage"], fundSize: "$25M", stageFocus: "Pre-seed to Seed", latitude: 29.7461, longitude: -95.3885, address: "Midtown Houston, TX" },
+  { id: "firm-quantum-energy-partners", name: "Quantum Energy Partners", website: "https://www.quantumep.com", description: "Energy-focused private equity and growth capital.", tags: ["energy", "climate", "growth"], fundSize: "$18B+", stageFocus: "Growth", latitude: 29.7531, longitude: -95.4619, address: "Memorial, Houston, TX" },
+  { id: "firm-knightsgate-ventures", name: "Knightsgate Ventures", website: "https://www.knightsgate.vc", description: "Impact-driven investments in tech with social and financial returns.", tags: ["impact", "tech", "seed"], fundSize: "$50M", stageFocus: "Seed to Series A", latitude: 29.758, longitude: -95.367, address: "Downtown Houston, TX" },
+  { id: "firm-spacefund", name: "SpaceFund", website: "https://spacefund.com", description: "Invests in space startups across launch, logistics, and infrastructure.", tags: ["space", "aerospace", "seed"], fundSize: "$30M+", stageFocus: "Seed to Series A", latitude: 29.5603, longitude: -95.0852, address: "Near NASA Johnson Space Center" },
+  { id: "firm-hx-venture-fund", name: "HX Venture Fund", website: "https://www.houstonexponential.org/hx-venture-fund", description: "Fund of funds catalyzing venture investment into Houston startups.", tags: ["fund-of-funds", "houston", "platform"], fundSize: "$50M+", stageFocus: "LP interests", latitude: 29.759, longitude: -95.365, address: "Downtown Houston, TX" },
+  { id: "firm-annis-ventures", name: "Annis Ventures", website: "https://annisventures.com", description: "Family office-backed venture investments across sectors.", tags: ["family-office", "multi-sector", "seed"], fundSize: "$20M", stageFocus: "Pre-seed to Seed", latitude: 29.7426, longitude: -95.458, address: "River Oaks, Houston, TX" },
+  { id: "firm-texas-halo-fund", name: "Texas HALO Fund", website: "https://texashalofund.com", description: "Angel fund investing in early-stage companies across Texas.", tags: ["angel", "texas", "seed"], fundSize: "$35M", stageFocus: "Pre-seed to Seed", latitude: 29.74, longitude: -95.4, address: "Houston, TX" },
+  { id: "firm-texas-ventures", name: "Texas Ventures", website: "https://texasventures.com", description: "Growth capital across industrial, energy, and technology.", tags: ["growth", "industrial", "energy"], fundSize: "$200M", stageFocus: "Series B to Growth", latitude: 29.757, longitude: -95.36, address: "Houston, TX" }
 ];
 
 export const seedFirms = async (prisma: PrismaClient) => {
