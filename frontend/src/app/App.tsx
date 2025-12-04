@@ -10,7 +10,7 @@ export const App = () => {
       <BrowserRouter>
         <div className="min-h-screen bg-cloud text-night">
           <Toaster position="top-right" />
-          <div className="mx-auto max-w-6xl px-6 py-8 space-y-6">
+          <div className="mx-auto max-w-7xl px-6 py-8 space-y-6">
             <HealthBanner />
             <header className="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
               <div>
@@ -28,6 +28,12 @@ export const App = () => {
                   to="/firms"
                 >
                   Firms
+                </Link>
+                <Link
+                  className="rounded-lg bg-white px-3 py-2 shadow-sm hover:bg-slate-50"
+                  to="/communities"
+                >
+                  Communities
                 </Link>
                 <Link
                   className="rounded-lg bg-white px-3 py-2 shadow-sm hover:bg-slate-50"

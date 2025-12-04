@@ -1,5 +1,6 @@
 .leaflet-shell {
-  height: 480px;
+  height: 70vh;
+  min-height: 520px;
   width: 100%;
 }
 
