@@ -440,6 +440,182 @@ const communities = [
     latitude: 29.76,
     longitude: -95.37,
     address: "Houston, TX"
+  },
+  {
+    id: "community-greentown-houston",
+    name: "Greentown Labs Houston",
+    website: "https://greentownlabs.com/houston",
+    description: "Flagship climate and energy incubator with labs, workspace, and accelerator programs.",
+    tags: ["accelerator", "climate", "energy"],
+    category: "Accelerator",
+    latitude: 29.738,
+    longitude: -95.3747,
+    address: "4200 San Jacinto St, Houston, TX"
+  },
+  {
+    id: "community-tmcx",
+    name: "TMCx",
+    website: "https://www.tmc.edu/innovation/tmcx",
+    description: "Texas Medical Center accelerator for digital health, med devices, and biotech.",
+    tags: ["health", "biotech", "accelerator"],
+    category: "Accelerator",
+    latitude: 29.7065,
+    longitude: -95.4019,
+    address: "TMC Innovation, Houston, TX"
+  },
+  {
+    id: "community-redlabs",
+    name: "RED Labs",
+    website: "https://www.bauer.uh.edu/redlabs",
+    description: "University of Houston startup accelerator for students.",
+    tags: ["university", "accelerator", "student"],
+    category: "University Program",
+    latitude: 29.7227,
+    longitude: -95.3406,
+    address: "University of Houston, TX"
+  },
+  {
+    id: "community-owlspark",
+    name: "OwlSpark",
+    website: "https://owlspark.com",
+    description: "Rice University accelerator for student and faculty-led startups.",
+    tags: ["university", "accelerator", "rice"],
+    category: "University Program",
+    latitude: 29.716,
+    longitude: -95.402,
+    address: "Rice University, Houston, TX"
+  },
+  {
+    id: "community-surge-accelerator",
+    name: "SURGE Accelerator",
+    website: "https://www.surgeaccelerator.com",
+    description: "Energy and climate accelerator backing founders across the Gulf Coast.",
+    tags: ["energy", "climate", "accelerator"],
+    category: "Accelerator",
+    latitude: 29.7607,
+    longitude: -95.3696,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-redhouse-associates",
+    name: "RedHouse Associates",
+    website: "https://redhouseassoc.com",
+    description: "Houston-based angel group and accelerator supporting early-stage startups.",
+    tags: ["angels", "accelerator", "investment"],
+    category: "Angel Network",
+    latitude: 29.7602,
+    longitude: -95.3695,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-softeq",
+    name: "Softeq Development",
+    website: "https://www.softeq.com/venture-studio",
+    description: "Venture studio and accelerator building and investing in hardware/IoT/software startups.",
+    tags: ["venture-studio", "accelerator", "hardware"],
+    category: "Accelerator",
+    latitude: 29.741,
+    longitude: -95.46,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-halliburton-labs",
+    name: "Halliburton Labs",
+    website: "https://www.halliburtonlabs.com",
+    description: "Clean energy tech accelerator offering industrial scale-up resources.",
+    tags: ["climate", "energy", "accelerator"],
+    category: "Accelerator",
+    latitude: 29.7545,
+    longitude: -95.367,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-eunike-ventures",
+    name: "Eunike Ventures",
+    website: "https://eunikeventures.com",
+    description: "Energy-focused open innovation venture platform partnering with corporates.",
+    tags: ["energy", "venture", "open-innovation"],
+    category: "Venture Studio",
+    latitude: 29.757,
+    longitude: -95.365,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-haa-accelerator",
+    name: "Houston Arts Alliance Accelerator Grant",
+    website: "https://www.houstonartsalliance.com",
+    description: "Accelerator grant program supporting creative and cultural projects.",
+    tags: ["arts", "grant", "accelerator"],
+    category: "Grant Program",
+    latitude: 29.7604,
+    longitude: -95.3698,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-seed-round-capital",
+    name: "Seed Round Capital",
+    website: "https://seedround.vc",
+    description: "Houston seed fund with accelerator-style support.",
+    tags: ["seed", "accelerator", "investment"],
+    category: "Accelerator",
+    latitude: 29.7461,
+    longitude: -95.3885,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-cannon",
+    name: "The Cannon Community",
+    website: "https://thecannon.com",
+    description: "Coworking and startup hub with programming across Houston.",
+    tags: ["coworking", "community", "programs"],
+    category: "Innovation District",
+    latitude: 29.8021,
+    longitude: -95.5609,
+    address: "West Houston, TX"
+  },
+  {
+    id: "community-catapult-houston",
+    name: "Catapult Houston",
+    website: "https://catapulthouston.com",
+    description: "Startup accelerator and founder community offering cohorts and mentorship.",
+    tags: ["accelerator", "mentorship", "cohort"],
+    category: "Accelerator",
+    latitude: 29.7604,
+    longitude: -95.37,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-masschallenge-houston",
+    name: "MassChallenge Houston",
+    website: "https://masschallenge.org",
+    description: "Equity-free accelerator running energy, health, and general tracks in Houston.",
+    tags: ["accelerator", "equity-free", "program"],
+    category: "Accelerator",
+    latitude: 29.753,
+    longitude: -95.359,
+    address: "Downtown Houston, TX"
+  },
+  {
+    id: "community-founder-institute",
+    name: "Founder Institute Houston",
+    website: "https://fi.co",
+    description: "Global pre-seed accelerator with a Houston chapter for idea-to-MVP founders.",
+    tags: ["accelerator", "pre-seed", "program"],
+    category: "Accelerator",
+    latitude: 29.7604,
+    longitude: -95.3698,
+    address: "Houston, TX"
+  },
+  {
+    id: "community-ion-houston",
+    name: "Ion Houston",
+    website: "https://iondistrict.com",
+    description: "Innovation hub with coworking, labs, and corporate/startup programs.",
+    tags: ["innovation-district", "coworking", "programs"],
+    category: "Innovation District",
+    latitude: 29.7336,
+    longitude: -95.3851,
+    address: "4201 Main St, Houston, TX"
   }
 ];
 

@@ -4,6 +4,7 @@ import { FirmsView } from "@features/firms/FirmsView";
 import { StartupsView } from "@features/startups/StartupsView";
 import { SearchView } from "@features/search/SearchView";
 import { CommunitiesView } from "@features/communities/CommunitiesView";
+import { GuidesView } from "@features/guides/GuidesView";
 
 export const AppRouter = () => (
   <Routes>
@@ -12,6 +13,7 @@ export const AppRouter = () => (
     <Route path="/communities" element={<CommunitiesView />} />
     <Route path="/startups" element={<StartupsView />} />
     <Route path="/search" element={<SearchView />} />
+    <Route path="/guides" element={<GuidesView />} />
     <Route path="*" element={<Navigate to="/" replace />} />
   </Routes>
 );

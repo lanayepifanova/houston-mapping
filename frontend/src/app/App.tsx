@@ -14,8 +14,10 @@ export const App = () => {
             <HealthBanner />
             <header className="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
               <div>
-                <h1 className="text-3xl font-semibold">Houston Mapping</h1>
-                <p className="text-slate-600">
+                <h1 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+                  Houston Mapping
+                </h1>
+                <p className="text-sm text-slate-600 sm:text-base sm:leading-relaxed">
                   VC firms and startups mapped for the Rice Residency hacker house.
                 </p>
               </div>
@@ -43,9 +45,9 @@ export const App = () => {
                 </Link>
                 <Link
                   className="rounded-lg bg-white px-3 py-2 shadow-sm hover:bg-slate-50"
-                  to="/search"
+                  to="/guides"
                 >
-                  Search
+                  Guides
                 </Link>
               </nav>
             </header>
