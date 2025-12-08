@@ -209,6 +209,237 @@ const communities = [
     latitude: 29.7607,
     longitude: -95.3696,
     address: "Houston, TX"
+  },
+  {
+    id: "community-rice-alliance",
+    name: "Rice Alliance for Technology and Entrepreneurship",
+    website: "https://alliance.rice.edu",
+    description: "Rice University's flagship accelerator programs and startup competitions.",
+    tags: ["rice", "accelerator", "competitions"],
+    category: "University Program",
+    latitude: 29.7168,
+    longitude: -95.404,
+    address: "Rice University, Houston, TX"
+  },
+  {
+    id: "community-masschallenge-houston",
+    name: "MassChallenge Houston",
+    website: "https://masschallenge.org",
+    description: "Equity-free accelerator running energy, health, and general tracks in Houston.",
+    tags: ["accelerator", "equity-free", "program"],
+    category: "Accelerator",
+    latitude: 29.753,
+    longitude: -95.359,
+    address: "Downtown Houston, TX"
+  },
+  {
+    id: "community-ai-houston",
+    name: "AI Houston Meetup",
+    website: "https://www.meetup.com/ai-houston",
+    description: "Developer and researcher meetup covering ML ops, LLMs, and applied AI projects.",
+    tags: ["ai", "meetup", "developers"],
+    category: "Meetup",
+    latitude: 29.763,
+    longitude: -95.383,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-sugar-land-edc",
+    name: "Sugar Land Economic Development",
+    website: "https://www.sugarlandecodev.com",
+    description: "Office of Economic Development and Tourism for Sugar Land.",
+    tags: ["economic-development", "partner"],
+    category: "Partner",
+    latitude: 29.6197,
+    longitude: -95.6349,
+    address: "Sugar Land, TX"
+  },
+  {
+    id: "partner-texas-am-innovation",
+    name: "Texas A&M Innovation",
+    website: "https://innovation.tamu.edu",
+    description: "Texas A&M innovation and commercialization programs.",
+    tags: ["university", "innovation", "partner"],
+    category: "Partner",
+    latitude: 30.628,
+    longitude: -96.3344,
+    address: "College Station, TX"
+  },
+  {
+    id: "partner-greater-brazos",
+    name: "Greater Brazos Partnership",
+    website: "https://greaterbrazos.com",
+    description: "Regional partnership supporting growth across the Brazos Valley.",
+    tags: ["economic-development", "partner"],
+    category: "Partner",
+    latitude: 30.628,
+    longitude: -96.3344,
+    address: "College Station, TX"
+  },
+  {
+    id: "partner-city-college-station",
+    name: "City of College Station",
+    website: "https://www.cstx.gov",
+    description: "Economic development initiatives for College Station.",
+    tags: ["economic-development", "municipal"],
+    category: "Partner",
+    latitude: 30.628,
+    longitude: -96.3344,
+    address: "College Station, TX"
+  },
+  {
+    id: "partner-city-bryan",
+    name: "City of Bryan",
+    website: "https://www.bryantx.gov",
+    description: "Economic development and innovation support for Bryan.",
+    tags: ["economic-development", "municipal"],
+    category: "Partner",
+    latitude: 30.6744,
+    longitude: -96.3699,
+    address: "Bryan, TX"
+  },
+  {
+    id: "partner-frisco-edc",
+    name: "Frisco Economic Development Corporation",
+    website: "https://www.friscoedc.com",
+    description: "Economic development for Frisco with innovation and corporate attraction.",
+    tags: ["economic-development", "partner"],
+    category: "Partner",
+    latitude: 33.1507,
+    longitude: -96.8236,
+    address: "Frisco, TX"
+  },
+  {
+    id: "partner-mckinney-edc",
+    name: "McKinney Economic Development Corporation",
+    website: "https://www.mckinneyedc.com",
+    description: "Innovation and business attraction for McKinney.",
+    tags: ["economic-development", "partner"],
+    category: "Partner",
+    latitude: 33.1976,
+    longitude: -96.6153,
+    address: "McKinney, TX"
+  },
+  {
+    id: "partner-origin-innovation-hub",
+    name: "Origin Innovation Hub",
+    website: "https://origininnovationhub.com",
+    description: "Incubation and coworking hub supporting startups.",
+    tags: ["coworking", "incubator", "partner"],
+    category: "Partner",
+    latitude: 29.76,
+    longitude: -95.37,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-baylor-sports-therapy",
+    name: "Baylor Scott & White Sports Therapy & Research",
+    website: "https://www.bswhealth.com",
+    description: "Sports therapy and research facility collaborating with innovators.",
+    tags: ["health", "sports", "partner"],
+    category: "Partner",
+    latitude: 33.1047,
+    longitude: -96.819,
+    address: "Frisco, TX"
+  },
+  {
+    id: "partner-ntx-innovation-alliance",
+    name: "North Texas Innovation Alliance",
+    website: "https://ntxia.org",
+    description: "Regional alliance advancing smart city and innovation projects.",
+    tags: ["innovation", "smart-city", "partner"],
+    category: "Partner",
+    latitude: 32.7767,
+    longitude: -96.797,
+    address: "Dallas, TX"
+  },
+  {
+    id: "partner-walmart",
+    name: "Walmart",
+    website: "https://www.walmart.com",
+    description: "Corporate partner supporting innovation pilots and supply chain programs.",
+    tags: ["corporate", "retail", "partner"],
+    category: "Partner",
+    latitude: 29.76,
+    longitude: -95.37,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-exxonmobil",
+    name: "ExxonMobil",
+    website: "https://corporate.exxonmobil.com",
+    description: "Energy corporate collaborating on low-carbon and digital innovation.",
+    tags: ["corporate", "energy", "partner"],
+    category: "Partner",
+    latitude: 29.737,
+    longitude: -95.46,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-shell",
+    name: "Shell",
+    website: "https://www.shell.com",
+    description: "Energy corporate partner for climate tech and digital projects.",
+    tags: ["corporate", "energy", "partner"],
+    category: "Partner",
+    latitude: 29.7604,
+    longitude: -95.3698,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-astrazeneca",
+    name: "AstraZeneca",
+    website: "https://www.astrazeneca.com",
+    description: "Life sciences corporate partner for clinical and digital health pilots.",
+    tags: ["corporate", "health", "partner"],
+    category: "Partner",
+    latitude: 29.71,
+    longitude: -95.4,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-dell",
+    name: "Dell Technologies",
+    website: "https://www.dell.com",
+    description: "Enterprise technology partner supporting cloud and edge innovation.",
+    tags: ["corporate", "cloud", "edge"],
+    category: "Partner",
+    latitude: 29.76,
+    longitude: -95.37,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-microsoft",
+    name: "Microsoft",
+    website: "https://www.microsoft.com",
+    description: "Cloud and AI partner collaborating on startup and enterprise programs.",
+    tags: ["corporate", "cloud", "ai"],
+    category: "Partner",
+    latitude: 29.76,
+    longitude: -95.37,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-lg-chem",
+    name: "LG Chem",
+    website: "https://www.lgchem.com",
+    description: "Materials and battery partner exploring energy transition technologies.",
+    tags: ["corporate", "materials", "energy"],
+    category: "Partner",
+    latitude: 29.76,
+    longitude: -95.37,
+    address: "Houston, TX"
+  },
+  {
+    id: "partner-mercedes-benz",
+    name: "Mercedes-Benz",
+    website: "https://www.mercedes-benz.com",
+    description: "Mobility and automotive innovation partner.",
+    tags: ["corporate", "mobility", "partner"],
+    category: "Partner",
+    latitude: 29.76,
+    longitude: -95.37,
+    address: "Houston, TX"
   }
 ];
 

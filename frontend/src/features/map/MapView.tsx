@@ -1,9 +1,11 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { MapContainer, TileLayer, CircleMarker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Popup, Marker, useMap, Tooltip } from "react-leaflet";
 import { fetchFirms, FirmFeature } from "@services/firms";
 import { fetchStartups, StartupFeature } from "@services/startups";
 import { fetchCommunities, CommunityFeature } from "@services/communities";
+import L from "leaflet";
+import { useLocation } from "react-router-dom";
 import "leaflet/dist/leaflet.css";
 import "./map.css";
 
@@ -33,6 +35,14 @@ type MarkerFeature = {
   kind: "firm" | "startup" | "community";
 };
 
+type FocusTarget = {
+  id: string;
+  kind: MarkerFeature["kind"];
+  lat: number;
+  lng: number;
+  name: string;
+};
+
 const toMarker = (
   feature: FirmFeature | StartupFeature | CommunityFeature,
   kind: "firm" | "startup" | "community"
@@ -55,6 +65,8 @@ const toMarker = (
 export const MapView = () => {
   const [tagFilter, setTagFilter] = useState("");
   const [stageFilter, setStageFilter] = useState("");
+  const [focusTarget, setFocusTarget] = useState<FocusTarget | null>(null);
+  const location = useLocation();
   const firmsQuery = useQuery({
     queryKey: ["firms"],
     queryFn: fetchFirms,
@@ -107,6 +119,13 @@ export const MapView = () => {
 
   const isLoading = firmsQuery.isLoading || startupsQuery.isLoading || communitiesQuery.isLoading;
   const hasError = firmsQuery.isError || startupsQuery.isError || communitiesQuery.isError;
+
+  useEffect(() => {
+    const state = location.state as { focus?: FocusTarget } | null;
+    if (state?.focus) {
+      setFocusTarget(state.focus);
+    }
+  }, [location.state]);
 
   return (
     <section className="space-y-4">
@@ -169,47 +188,7 @@ export const MapView = () => {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          {filteredMarkers.map((marker) => (
-            <CircleMarker
-              key={marker.id}
-              center={[marker.lat, marker.lng]}
-              radius={7}
-              pathOptions={{
-                color: marker.kind === "firm" ? "#0ea5e9" : marker.kind === "startup" ? "#22c55e" : "#f59e0b",
-                fillOpacity: 0.75
-              }}
-            >
-              <Popup>
-                <div className="space-y-1">
-                  <p className="font-semibold">
-                    {marker.name} <span className="text-xs uppercase">({marker.kind})</span>
-                  </p>
-                  {marker.website && (
-                    <a className="text-sky-600" href={marker.website} target="_blank" rel="noreferrer">
-                      Visit site
-                    </a>
-                  )}
-                  {marker.description && <p className="text-sm text-slate-600">{marker.description}</p>}
-                  {marker.tags?.length ? (
-                    <div className="flex flex-wrap gap-1">
-                      {marker.tags.map((tag: string) => (
-                        <span
-                          key={tag}
-                          className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  ) : null}
-                  {marker.stage && <p className="text-xs text-slate-500">Stage: {marker.stage}</p>}
-                  {marker.category && (
-                    <p className="text-xs text-slate-500">Category: {marker.category}</p>
-                  )}
-                </div>
-              </Popup>
-            </CircleMarker>
-          ))}
+          <PinLayer markers={filteredMarkers} focus={focusTarget} />
         </MapContainer>
       </div>
     </section>
@@ -222,3 +201,72 @@ const StatCard = ({ label, value }: { label: string; value: number }) => (
     <p className="text-2xl font-semibold">{value}</p>
   </div>
 );
+
+const PinLayer = ({ markers, focus }: { markers: MarkerFeature[]; focus: FocusTarget | null }) => {
+  const map = useMap();
+  const [lastFocusId, setLastFocusId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (focus && focus.id !== lastFocusId) {
+      map.flyTo([focus.lat, focus.lng], Math.max(13, map.getZoom()));
+      setLastFocusId(focus.id);
+    }
+  }, [focus, lastFocusId, map]);
+
+  return (
+    <>
+      {markers.map((props) => {
+        const isFocused = focus?.id === props.id;
+
+        return (
+          <Marker key={props.id} position={[props.lat, props.lng]} icon={createPinIcon(props.kind, isFocused)}>
+            <Tooltip direction="top" offset={[0, -4]} opacity={0.9}>
+              <span className="font-semibold">{props.name}</span>
+            </Tooltip>
+            <Popup>
+              <div className="space-y-1">
+                <p className="font-semibold">
+                  {props.name} <span className="text-xs uppercase">({props.kind})</span>
+                </p>
+                {props.website && (
+                  <a className="text-sky-600" href={props.website} target="_blank" rel="noreferrer">
+                    Visit site
+                  </a>
+                )}
+                {props.description && <p className="text-sm text-slate-600">{props.description}</p>}
+                {props.tags?.length ? (
+                  <div className="flex flex-wrap gap-1">
+                    {props.tags.map((tag: string) => (
+                      <span
+                        key={tag}
+                        className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
+                {props.stage && <p className="text-xs text-slate-500">Stage: {props.stage}</p>}
+                {props.category && <p className="text-xs text-slate-500">Category: {props.category}</p>}
+              </div>
+            </Popup>
+          </Marker>
+        );
+      })}
+    </>
+  );
+};
+
+const getKindColor = (kind: MarkerFeature["kind"]) =>
+  kind === "firm" ? "#0ea5e9" : kind === "startup" ? "#22c55e" : "#f59e0b";
+
+const createPinIcon = (kind: MarkerFeature["kind"], focused: boolean) => {
+  const color = focused ? "#a855f7" : getKindColor(kind);
+  const size = focused ? 26 : 22;
+  return L.divIcon({
+    className: "pin-icon",
+    html: `<span class="pin pin-${kind}" style="background:${color}; width:${size}px; height:${size}px;"></span>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size]
+  });
+};
