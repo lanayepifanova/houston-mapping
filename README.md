@@ -33,18 +33,23 @@ docs/
 
 1) Prereqs: Node 20+, pnpm (or npm), SQLite available locally.
 2) Install deps:
-   - `cd backend && pnpm install`
-   - `cd ../frontend && pnpm install`
-3) Environment:
-   - Copy `backend/.env.example` to `.env` and set ports/db paths.
-   - OpenAI keys are optional until smart search ships.
-4) Database:
-   - `cd backend && pnpm prisma migrate dev`
-   - Seed starter data: `pnpm run seed` (optional).
-5) Run:
-   - Backend: `pnpm dev` (Express with TS watch).
-   - Frontend: `pnpm dev` (Vite + React + Tailwind).
-   - **Start both shells and visit http://localhost:5173** (one terminal `cd backend && pnpm dev`, another `cd frontend && pnpm dev`).
+ - `cd backend && pnpm install`
+ - `cd ../frontend && pnpm install`
+3) One-command local dev (recommended):
+   - From repo root: `chmod +x dev.sh` (first time), then `./dev.sh`
+   - Script does: ensure `.env` files exist (copies examples if missing), installs deps, starts backend and frontend, opens http://localhost:5173
+4) Manual setup (if you prefer):
+   - Environment:
+     - Copy `backend/.env.example` to `.env` and set ports/db paths.
+     - Copy `frontend/.env.example` to `.env` and set `VITE_API_URL` (defaults to backend at `http://localhost:4000/api`).
+     - OpenAI keys are optional until smart search ships.
+   - Database:
+     - `cd backend && pnpm prisma migrate dev`
+     - Seed starter data: `pnpm run seed` (optional).
+   - Run:
+     - Backend: `pnpm dev` (Express with TS watch).
+     - Frontend: `pnpm dev` (Vite + React + Tailwind).
+     - Visit http://localhost:5173
 
 ## Conventions
 
