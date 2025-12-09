@@ -13,6 +13,7 @@ export const toGeoJson = (startup: Startup): StartupFeature => ({
     description: startup.description,
     tags: startup.tags,
     stage: startup.stage,
-    industry: startup.industry
+    industry: startup.industry,
+    deletedAt: startup.deletedAt
   }
 });

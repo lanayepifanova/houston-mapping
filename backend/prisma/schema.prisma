@@ -18,6 +18,7 @@ model Firm {
   latitude    Float
   longitude   Float
   address     String?
+  deletedAt   DateTime?
 }
 
 model Startup {
@@ -31,6 +32,7 @@ model Startup {
   latitude    Float
   longitude   Float
   address     String?
+  deletedAt   DateTime?
 }
 
 model Community {

@@ -1,4 +1,6 @@
+import { Prisma } from "@prisma/client";
 import { getPrisma } from "../../db/client";
+import { NotFoundError } from "../../core/errors";
 import { CreateFirmInput, Firm } from "./types";
 
 const prisma = getPrisma();
@@ -14,7 +16,7 @@ const parseTags = (raw: string | null): string[] => {
 };
 
 export const listFirms = async (): Promise<Firm[]> => {
-  const rows = await prisma.firm.findMany({ orderBy: { name: "asc" } });
+  const rows = await prisma.firm.findMany({ where: { deletedAt: null }, orderBy: { name: "asc" } });
   return rows.map((row) => ({
     id: row.id,
     name: row.name,
@@ -23,6 +25,7 @@ export const listFirms = async (): Promise<Firm[]> => {
     tags: parseTags(row.tags),
     fundSize: row.fundSize ?? undefined,
     stageFocus: row.stageFocus ?? undefined,
+    deletedAt: row.deletedAt?.toISOString(),
     location: {
       lat: row.latitude,
       lng: row.longitude,
@@ -54,10 +57,76 @@ export const createFirm = async (input: CreateFirmInput): Promise<Firm> => {
     tags: parseTags(created.tags),
     fundSize: created.fundSize ?? undefined,
     stageFocus: created.stageFocus ?? undefined,
+    deletedAt: created.deletedAt?.toISOString(),
     location: {
       lat: created.latitude,
       lng: created.longitude,
       address: created.address ?? undefined
     }
   };
+};
+
+export const deleteFirm = async (id: string): Promise<void> => {
+  try {
+    await prisma.firm.update({ where: { id }, data: { deletedAt: new Date() } });
+  } catch (err) {
+    if (err instanceof Prisma.PrismaClientKnownRequestError && err.code === "P2025") {
+      throw new NotFoundError("Firm not found");
+    }
+    throw err;
+  }
+};
+
+export const listDeletedFirms = async (): Promise<Firm[]> => {
+  const rows = await prisma.firm.findMany({
+    where: { deletedAt: { not: null } },
+    orderBy: { deletedAt: "desc" },
+    take: 20
+  });
+
+  return rows.map((row) => ({
+    id: row.id,
+    name: row.name,
+    website: row.website ?? undefined,
+    description: row.description ?? undefined,
+    tags: parseTags(row.tags),
+    fundSize: row.fundSize ?? undefined,
+    stageFocus: row.stageFocus ?? undefined,
+    deletedAt: row.deletedAt?.toISOString(),
+    location: {
+      lat: row.latitude,
+      lng: row.longitude,
+      address: row.address ?? undefined
+    }
+  }));
+};
+
+export const restoreFirm = async (id: string): Promise<Firm> => {
+  try {
+    const restored = await prisma.firm.update({
+      where: { id },
+      data: { deletedAt: null }
+    });
+
+    return {
+      id: restored.id,
+      name: restored.name,
+      website: restored.website ?? undefined,
+      description: restored.description ?? undefined,
+      tags: parseTags(restored.tags),
+      fundSize: restored.fundSize ?? undefined,
+      stageFocus: restored.stageFocus ?? undefined,
+      deletedAt: restored.deletedAt?.toISOString(),
+      location: {
+        lat: restored.latitude,
+        lng: restored.longitude,
+        address: restored.address ?? undefined
+      }
+    };
+  } catch (err) {
+    if (err instanceof Prisma.PrismaClientKnownRequestError && err.code === "P2025") {
+      throw new NotFoundError("Firm not found");
+    }
+    throw err;
+  }
 };

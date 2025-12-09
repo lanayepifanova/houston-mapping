@@ -8,6 +8,7 @@ export type Startup = {
   tags: string[];
   stage?: string;
   industry?: string;
+  deletedAt?: string;
   location: {
     lat: number;
     lng: number;

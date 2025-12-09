@@ -1,5 +1,4 @@
-import { apiGet } from "./api";
-import { apiPost } from "./api";
+import { apiDelete, apiGet, apiPost } from "./api";
 
 export type StartupFeature = {
   type: "Feature";
@@ -12,10 +11,12 @@ export type StartupFeature = {
     tags: string[];
     stage?: string;
     industry?: string;
+    deletedAt?: string;
   };
 };
 
 export const fetchStartups = () => apiGet<{ features: StartupFeature[] }>("/startups");
+export const fetchDeletedStartups = () => apiGet<{ features: StartupFeature[] }>("/startups/deleted");
 
 export type CreateStartupPayload = {
   name: string;
@@ -31,3 +32,6 @@ export type CreateStartupPayload = {
 
 export const createStartup = (payload: CreateStartupPayload) =>
   apiPost<StartupFeature>("/startups", payload);
+
+export const deleteStartup = (id: string) => apiDelete(`/startups/${id}`);
+export const restoreStartup = (id: string) => apiPost<StartupFeature>(`/startups/${id}/restore`, {});

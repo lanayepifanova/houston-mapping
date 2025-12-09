@@ -32,14 +32,14 @@ docs/
 ## Getting started
 
 1) Prereqs: Node 20+, pnpm (or npm), SQLite available locally.
-2) One-command local dev (recommended):
-   - From repo root: `./rice-residency-rocks`
-   - Think “Rice Residency rocks” — the helper ensures `.env` files exist (copies examples if missing), installs deps, starts backend and frontend, opens http://localhost:5173
-   - Rerun the same command anytime; it handles both processes for you.
-3) Manual setup (if you prefer):
+2) Quick start with the Rice Residency wrapper:
+   - From repo root: `./rice-residency-rocks` (tiny wrapper around `dev.sh`).
+   - It creates `.env` files from the examples (or defaults if missing), installs deps for backend/frontend, starts backend on `${PORT:-4000}` and frontend on 5173, and opens http://localhost:5173.
+   - Rerun the same command anytime; it restarts both processes for you.
+3) Manual setup (if you prefer to run pieces yourself):
    - Environment:
-     - Copy `backend/.env.example` to `.env` and set ports/db paths.
-     - Copy `frontend/.env.example` to `.env` and set `VITE_API_URL` (defaults to backend at `http://localhost:4000/api`).
+     - Copy `backend/.env.example` to `backend/.env` and set ports/db paths.
+     - Copy `frontend/.env.example` to `frontend/.env` and set `VITE_API_URL` (defaults to backend at `http://localhost:4000/api`).
      - OpenAI keys are optional until smart search ships.
    - Database:
      - `cd backend && pnpm prisma migrate dev`

@@ -13,6 +13,7 @@ export const toGeoJson = (firm: Firm): FirmFeature => ({
     description: firm.description,
     tags: firm.tags,
     fundSize: firm.fundSize,
-    stageFocus: firm.stageFocus
+    stageFocus: firm.stageFocus,
+    deletedAt: firm.deletedAt
   }
 });

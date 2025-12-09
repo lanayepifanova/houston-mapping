@@ -8,6 +8,7 @@ export type Firm = {
   tags: string[];
   fundSize?: string;
   stageFocus?: string;
+  deletedAt?: string;
   location: {
     lat: number;
     lng: number;
