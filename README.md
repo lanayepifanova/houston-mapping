@@ -5,7 +5,7 @@
   - cd houston-mapping
     - ./rice-residency-rocks
 
-- Manual:.
+- Manual
   - cd houston-mapping
     - cd backend && pnpm dev
   - cd houston-mapping
