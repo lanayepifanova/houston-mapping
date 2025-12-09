@@ -1,5 +1,3 @@
 - add admin + non admin controls
 
-- be able to delete cards
-
 - better data ingestion pipelines
