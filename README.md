@@ -3,7 +3,7 @@
 ## Setup
 - Quick start
   - cd houston-mapping
-  - ./rice-residency-rocks
+    - ./rice-residency-rocks
 
 - Manual:.
   - cd houston-mapping
