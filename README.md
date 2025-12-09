@@ -1,14 +1,15 @@
 # Houston Mapping – Rice Residency
 
 ## Setup
+- Quick start
+  - cd houston-mapping
+    ./rice-residency-rocks
 
-- Prereqs: Node 20+, pnpm (or npm), SQLite.
-- Quick start from repo root: `./rice-residency-rocks` (creates `.env`s, installs deps, starts backend on `${PORT:-4000}` and frontend on 5173, then opens the app).
-- Manual:
-  - `cp backend/.env.example backend/.env` and set ports/db paths.
-  - `cp frontend/.env.example frontend/.env` and set `VITE_API_URL` (defaults to `http://localhost:4000/api`).
-  - `cd backend && pnpm prisma migrate dev` (seed with `pnpm run seed` if desired).
-  - Run: backend `pnpm dev`, frontend `pnpm dev`, visit http://localhost:5173.
+- Manual:.
+  - cd houston-mapping
+      cd backend && pnpm dev
+  - cd houston-mapping
+      cd frontend && pnpm dev
 
 ## Repo layout
 
