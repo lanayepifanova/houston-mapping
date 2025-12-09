@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # One-command local dev: installs deps if missing, ensures env files exist,
-# starts backend and frontend, and opens the app.
+# starts backend and frontend, and opens the app. Rice Residency rocks.
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BACKEND_DIR="$ROOT_DIR/backend"
@@ -37,6 +37,7 @@ ensure_env() {
 ensure_env "$BACKEND_DIR/.env.example" "$BACKEND_DIR/.env" "PORT=$BACKEND_PORT"
 ensure_env "$FRONTEND_DIR/.env.example" "$FRONTEND_DIR/.env" "VITE_API_URL=http://localhost:${BACKEND_PORT}/api"
 
+echo "🚀 Rice Residency rocks — spinning up the house..."
 echo "Installing dependencies if needed..."
 (cd "$BACKEND_DIR" && pnpm install --frozen-lockfile=false >/dev/null)
 (cd "$FRONTEND_DIR" && pnpm install --frozen-lockfile=false >/dev/null)

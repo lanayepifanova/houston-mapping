@@ -32,13 +32,11 @@ docs/
 ## Getting started
 
 1) Prereqs: Node 20+, pnpm (or npm), SQLite available locally.
-2) Install deps:
- - `cd backend && pnpm install`
- - `cd ../frontend && pnpm install`
-3) One-command local dev (recommended):
-   - From repo root: `chmod +x dev.sh` (first time), then `./dev.sh`
-   - Script does: ensure `.env` files exist (copies examples if missing), installs deps, starts backend and frontend, opens http://localhost:5173
-4) Manual setup (if you prefer):
+2) One-command local dev (recommended):
+   - From repo root: `./rice-residency-rocks`
+   - Think “Rice Residency rocks” — the helper ensures `.env` files exist (copies examples if missing), installs deps, starts backend and frontend, opens http://localhost:5173
+   - Rerun the same command anytime; it handles both processes for you.
+3) Manual setup (if you prefer):
    - Environment:
      - Copy `backend/.env.example` to `.env` and set ports/db paths.
      - Copy `frontend/.env.example` to `.env` and set `VITE_API_URL` (defaults to backend at `http://localhost:4000/api`).
