@@ -7,9 +7,9 @@
 
 - Manual:.
   - cd houston-mapping
-  -  cd backend && pnpm dev
+    - cd backend && pnpm dev
   - cd houston-mapping
-  -   cd frontend && pnpm dev
+    - cd frontend && pnpm dev
 
 ## Repo layout
 
