@@ -1,82 +1,31 @@
 # Houston Mapping – Rice Residency
 
-Map Houston venture capital firms and startups for the Rice Residency hacker house. The stack is intentionally modular so AI development tools and sandboxed environments can work safely (small files, clear boundaries, no giant binaries).
+## Setup
 
-- Backend: Node.js, Express, TypeScript
-- Database/ORM: SQLite (local) + Prisma
-- Frontend: React, Vite, TypeScript, Tailwind CSS
-- Maps: Leaflet
-- Planned: OpenAI API for smart search and auto-tagging
+- Prereqs: Node 20+, pnpm (or npm), SQLite.
+- Quick start from repo root: `./rice-residency-rocks` (creates `.env`s, installs deps, starts backend on `${PORT:-4000}` and frontend on 5173, then opens the app).
+- Manual:
+  - `cp backend/.env.example backend/.env` and set ports/db paths.
+  - `cp frontend/.env.example frontend/.env` and set `VITE_API_URL` (defaults to `http://localhost:4000/api`).
+  - `cd backend && pnpm prisma migrate dev` (seed with `pnpm run seed` if desired).
+  - Run: backend `pnpm dev`, frontend `pnpm dev`, visit http://localhost:5173.
 
-## Repository layout
+## Repo layout
 
 ```
 backend/
-  src/
-    api/          # Route registration per feature (kept small)
-    modules/      # Feature slices: firms, startups, health, search
-    core/         # Server bootstrap, middleware, config
-    db/           # Prisma client + seeds
-  prisma/
-    schema.prisma # Data model (split if it grows)
+  src/        # api, modules, core, db
+  prisma/     # schema.prisma
 frontend/
-  src/
-    app/          # App shell, router, layout
-    features/     # Firms, startups, map, search components
-    services/     # API clients, hooks
-    styles/       # Tailwind config, design tokens
+  src/        # app, features, services, styles
 docs/
   architecture.md
+dev.sh, rice-residency-rocks  # dev wrapper scripts
 ```
 
-## Getting started
+## Tools
 
-1) Prereqs: Node 20+, pnpm (or npm), SQLite available locally.
-2) Quick start with the Rice Residency wrapper:
-   - From repo root: `./rice-residency-rocks` (tiny wrapper around `dev.sh`).
-   - It creates `.env` files from the examples (or defaults if missing), installs deps for backend/frontend, starts backend on `${PORT:-4000}` and frontend on 5173, and opens http://localhost:5173.
-   - Rerun the same command anytime; it restarts both processes for you.
-3) Manual setup (if you prefer to run pieces yourself):
-   - Environment:
-     - Copy `backend/.env.example` to `backend/.env` and set ports/db paths.
-     - Copy `frontend/.env.example` to `frontend/.env` and set `VITE_API_URL` (defaults to backend at `http://localhost:4000/api`).
-     - OpenAI keys are optional until smart search ships.
-   - Database:
-     - `cd backend && pnpm prisma migrate dev`
-     - Seed starter data: `pnpm run seed` (optional).
-   - Run:
-     - Backend: `pnpm dev` (Express with TS watch).
-     - Frontend: `pnpm dev` (Vite + React + Tailwind).
-     - Visit http://localhost:5173
-
-## Conventions
-
-- Keep files under 200 lines; split helpers/services early.
-- Favor feature slices: each module owns its routes, validation, service, and types.
-- No secret data checked in; use `.env`. SQLite files stay in `backend/data/`.
-- Write typed contracts: shared DTOs in `backend/src/modules/*/types.ts`.
-- API schema stays simple: REST endpoints for firms/startups; search endpoint can proxy OpenAI later.
-
-## Testing and linting
-
-- Backend: `pnpm test` (Jest/Vitest) and `pnpm lint`.
-- Frontend: `pnpm test` and `pnpm lint`.
-- Formatting: `pnpm format` (Prettier + ESLint).
-
-## Maps and data model
-
-- Leaflet renders base map with markers for firms and startups.
-- Each entity: name, category (vc/startup), tags, website, location (lat/lng), description, stage/fund size.
-- Server returns GeoJSON-friendly payloads to keep the frontend mapping simple.
-
-## Smart search (planned)
-
-- Add `/search` endpoint calling OpenAI embeddings/metadata once keys exist.
-- Keep provider isolated in `backend/src/modules/search/provider.ts` to avoid sandbox/network surprises.
-- Cache responses locally (SQLite table) to minimize repeated calls.
-
-## Deployment notes
-
-- Target small containers: backend and frontend can be built separately.
-- SQLite for local; swap to Postgres in production by updating Prisma schema and env.
-- Avoid hard-coded absolute paths so sandboxes and CI agents stay happy.
+- Backend: Node.js, Express, TypeScript.
+- Database/ORM: SQLite + Prisma.
+- Frontend: React, Vite, TypeScript, Tailwind CSS.
+- Mapping: Leaflet.
