@@ -80,7 +80,8 @@ export const SearchView = () => {
           </button>
         </div>
         <p className="text-sm text-slate-500">
-          Powered by a local BM25 scorer across firms, startups, and communities. Tag filters are applied before scoring.
+          Runs fully in-browser against the static index (firms, startups, communities). Tag filters
+          are applied before scoring.
         </p>
       </div>
 

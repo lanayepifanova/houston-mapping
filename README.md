@@ -31,8 +31,11 @@ dev.sh, rice-residency-rocks  # dev wrapper scripts
 - Frontend: React, Vite, TypeScript, Tailwind CSS.
 - Mapping: Leaflet.
 
-## Render deploy notes
-- Lockfiles are generated with pnpm 10 (lockfileVersion 9); make sure Render installs the matching pnpm version so the lockfiles are honored.
-- Add a persistent disk to the backend service and set `DATABASE_URL=file:/var/data/prod.db` (Render mounts disks at `/var/data`; `/data` is read-only during builds and will throw the Prisma SQLite parent directory error).
-- Backend service: set `Root Directory` to `backend`, `Build Command` to `corepack enable && corepack prepare pnpm@10.24.0 --activate && pnpm install --frozen-lockfile && pnpm run build`, and `Start Command` to `pnpm prisma migrate deploy && pnpm start` so migrations run after the disk is mounted.
-- Frontend static site: set `Root Directory` to `frontend`, `Build Command` to `corepack enable && corepack prepare pnpm@10.24.0 --activate && pnpm install --frozen-lockfile && pnpm run build`, and `Publish Directory` to `dist`.
+## Static data + build (no backend deploy needed)
+- Data lives in `frontend/public/data/*.json`, generated from the seed files in `backend/src/db/seeds`.
+- Refresh data before a build: `cd backend && pnpm ts-node scripts/export-static-data.ts`.
+- Build the static site: `cd frontend && pnpm install && pnpm build`.
+- Deploy `frontend/dist` to any static host (Netlify, GitHub Pages, Cloudflare Pages). No runtime DB or server is required.
+
+## Legacy backend (optional for data authoring)
+- The backend folder and Prisma schema remain if you want to edit data in code and re-export to JSON, but hosting now only needs the static frontend.

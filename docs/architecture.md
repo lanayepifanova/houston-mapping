@@ -5,6 +5,11 @@
 - Keep modules small (<200 lines per file) so AI tools and sandboxes remain responsive.
 - Be network-optional: app runs fully on local SQLite; external APIs are pluggable.
 
+## Static mode
+- Current deployments are static-only. Data is exported from the seed files into `frontend/public/data/*.json`
+  via `cd backend && pnpm ts-node scripts/export-static-data.ts`, then served as part of the frontend build.
+- The backend codebase and Prisma schema remain for data authoring but are not required in production.
+
 ## Principles
 - Feature slices: each domain (firms, startups, search) owns routes, validation, services, and types.
 - Thin HTTP layer: controllers translate HTTP <> service calls; no heavy logic in routers.

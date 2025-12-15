@@ -1,4 +1,9 @@
-import { apiDelete, apiGet, apiPost } from "./api";
+import { apiGet } from "./api";
+
+export type FeatureCollection<T> = {
+  type: string;
+  features: T[];
+};
 
 export type FirmFeature = {
   type: "Feature";
@@ -15,22 +20,4 @@ export type FirmFeature = {
   };
 };
 
-export const fetchFirms = () => apiGet<{ features: FirmFeature[] }>("/firms");
-export const fetchDeletedFirms = () => apiGet<{ features: FirmFeature[] }>("/firms/deleted");
-
-export type CreateFirmPayload = {
-  name: string;
-  website?: string;
-  description?: string;
-  tags?: string[];
-  fundSize?: string;
-  stageFocus?: string;
-  latitude: number;
-  longitude: number;
-  address?: string;
-};
-
-export const createFirm = (payload: CreateFirmPayload) => apiPost<FirmFeature>("/firms", payload);
-
-export const deleteFirm = (id: string) => apiDelete(`/firms/${id}`);
-export const restoreFirm = (id: string) => apiPost<FirmFeature>(`/firms/${id}/restore`, {});
+export const fetchFirms = () => apiGet<FeatureCollection<FirmFeature>>("firms");

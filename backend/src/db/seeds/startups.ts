@@ -737,8 +737,10 @@ const startups = [
   { id: "startup-wootz", name: "Wootz", description: "Greentown Labs Houston cohort startup.", tags: ["materials", "industrial", "greentown"], stage: "Seed", industry: "Climate Tech", latitude: 29.7604, longitude: -95.3698, address: "Houston, TX" }
 ];
 
+export const startupSeedData = startups;
+
 export const seedStartups = async (prisma: PrismaClient) => {
-  for (const startup of startups) {
+  for (const startup of startupSeedData) {
     await prisma.startup.upsert({
       where: { id: startup.id },
       update: { ...startup, tags: JSON.stringify(startup.tags) },

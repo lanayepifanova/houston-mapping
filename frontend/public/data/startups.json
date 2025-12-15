@@ -1,0 +1,5890 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3584,
+          29.7499
+        ]
+      },
+      "properties": {
+        "id": "startup-space-city-labs",
+        "name": "Space City Labs",
+        "website": "https://spacecitylabs.com",
+        "description": "Geo tools for Houston logistics and energy.",
+        "tags": [
+          "geospatial",
+          "energy",
+          "saas"
+        ],
+        "stage": "Series A",
+        "industry": "Mapping",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4018,
+          29.7045
+        ]
+      },
+      "properties": {
+        "id": "startup-bayou-bio",
+        "name": "Bayou Bio",
+        "website": "https://bayoubio.com",
+        "description": "Wet lab automation for gulf coast biomanufacturing.",
+        "tags": [
+          "biotech",
+          "automation",
+          "seed"
+        ],
+        "stage": "Seed",
+        "industry": "Biotech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3355,
+          29.7847
+        ]
+      },
+      "properties": {
+        "id": "startup-metro-mobility",
+        "name": "Metro Mobility",
+        "website": "https://metromobility.ai",
+        "description": "AI routing for freight along the I-45 corridor.",
+        "tags": [
+          "logistics",
+          "ai",
+          "transport"
+        ],
+        "stage": "Pre-Seed",
+        "industry": "Logistics",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3631,
+          29.7638
+        ]
+      },
+      "properties": {
+        "id": "startup-cart-com",
+        "name": "Cart.com",
+        "website": "https://cart.com",
+        "description": "Ecommerce operations platform with fulfillment, storefront, and analytics.",
+        "tags": [
+          "ecommerce",
+          "fulfillment",
+          "series-c"
+        ],
+        "stage": "Series C",
+        "industry": "Ecommerce",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-convoz",
+        "name": "Convoz",
+        "website": "https://convoz.com",
+        "description": "Short-form video platform that connects fans with creators and celebrities.",
+        "tags": [
+          "social",
+          "video",
+          "seed"
+        ],
+        "stage": "Seed",
+        "industry": "Social",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.367,
+          29.758
+        ]
+      },
+      "properties": {
+        "id": "startup-ally-energy",
+        "name": "Ally Energy",
+        "website": "https://allyenergy.com",
+        "description": "Career and hiring marketplace for energy transition talent.",
+        "tags": [
+          "climate",
+          "jobs",
+          "marketplace"
+        ],
+        "stage": "Series A",
+        "industry": "Climate",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0875,
+          29.5597
+        ]
+      },
+      "properties": {
+        "id": "startup-intuitive-machines",
+        "name": "Intuitive Machines",
+        "website": "https://www.intuitivemachines.com",
+        "description": "Lunar lander and space systems company headquartered at the Houston Spaceport.",
+        "tags": [
+          "aerospace",
+          "space",
+          "public"
+        ],
+        "stage": "Public",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.357,
+          29.754
+        ]
+      },
+      "properties": {
+        "id": "startup-mstack",
+        "name": "Mstack",
+        "website": "https://mstack.com",
+        "description": "Energy software platform for asset data integration and monitoring.",
+        "tags": [
+          "energy",
+          "saas",
+          "asset-management"
+        ],
+        "stage": "Seed",
+        "industry": "Energy Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.357,
+          29.752
+        ]
+      },
+      "properties": {
+        "id": "startup-docjuris",
+        "name": "DocJuris",
+        "website": "https://www.docjuris.com",
+        "description": "Contract negotiation workflow and playbook automation for legal teams.",
+        "tags": [
+          "legaltech",
+          "contracts",
+          "saas"
+        ],
+        "stage": "Series A",
+        "industry": "Legal Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.369,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-wattbridge",
+        "name": "WattBridge",
+        "website": "https://wattbridge.com",
+        "description": "Fast-start power generation platform building flexible natural gas assets.",
+        "tags": [
+          "energy",
+          "power",
+          "infrastructure"
+        ],
+        "stage": "Growth",
+        "industry": "Energy",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3696,
+          29.7605
+        ]
+      },
+      "properties": {
+        "id": "startup-radial-power",
+        "name": "Radial Power",
+        "website": "https://radialpower.com",
+        "description": "Develops and operates distributed solar and storage projects.",
+        "tags": [
+          "solar",
+          "energy",
+          "infrastructure"
+        ],
+        "stage": "Growth",
+        "industry": "Climate",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.472,
+          29.735
+        ]
+      },
+      "properties": {
+        "id": "startup-utility-global",
+        "name": "Utility Global",
+        "website": "https://utility.global",
+        "description": "Technology to produce low-carbon hydrogen from waste gases and renewables.",
+        "tags": [
+          "hydrogen",
+          "climate",
+          "industrial"
+        ],
+        "stage": "Series B",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.402,
+          29.717
+        ]
+      },
+      "properties": {
+        "id": "startup-thirdai",
+        "name": "ThirdAI",
+        "website": "https://thirdai.com",
+        "description": "Houston AI infrastructure company building efficient training and inference.",
+        "tags": [
+          "ai",
+          "infrastructure",
+          "series-a"
+        ],
+        "stage": "Series A",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0875,
+          29.5597
+        ]
+      },
+      "properties": {
+        "id": "startup-axiom-space",
+        "name": "Axiom Space",
+        "website": "https://www.axiomspace.com",
+        "description": "Commercial space station developer supporting private astronaut missions and orbital infrastructure.",
+        "tags": [
+          "space",
+          "aerospace",
+          "infrastructure"
+        ],
+        "stage": "Growth",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-nucamp",
+        "name": "Nucamp",
+        "website": "https://www.nucamp.co",
+        "description": "Affordable coding bootcamps delivered through hybrid online and local cohorts.",
+        "tags": [
+          "edtech",
+          "bootcamp",
+          "coding"
+        ],
+        "stage": "Growth",
+        "industry": "EdTech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3697,
+          29.7608
+        ]
+      },
+      "properties": {
+        "id": "startup-graylog",
+        "name": "Graylog",
+        "website": "https://graylog.org",
+        "description": "Security and log management platform for observability and threat detection.",
+        "tags": [
+          "security",
+          "observability",
+          "saas"
+        ],
+        "stage": "Series C",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.419,
+          29.957
+        ]
+      },
+      "properties": {
+        "id": "startup-highradius",
+        "name": "HighRadius",
+        "website": "https://www.highradius.com",
+        "description": "AI-powered order-to-cash and treasury management software.",
+        "tags": [
+          "fintech",
+          "ai",
+          "saas"
+        ],
+        "stage": "Growth",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.358,
+          29.749
+        ]
+      },
+      "properties": {
+        "id": "startup-hello-alice",
+        "name": "Hello Alice",
+        "website": "https://helloalice.com",
+        "description": "Platform offering grants, funding access, and resources for small business owners.",
+        "tags": [
+          "small-business",
+          "fintech",
+          "marketplace"
+        ],
+        "stage": "Series C",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3695,
+          29.7602
+        ]
+      },
+      "properties": {
+        "id": "startup-onit",
+        "name": "Onit",
+        "website": "https://www.onit.com",
+        "description": "Enterprise legal management and contract automation software.",
+        "tags": [
+          "legaltech",
+          "saas",
+          "enterprise"
+        ],
+        "stage": "Growth",
+        "industry": "Legal Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.472,
+          29.735
+        ]
+      },
+      "properties": {
+        "id": "startup-riversand",
+        "name": "Riversand",
+        "website": "https://www.riversand.com",
+        "description": "Master data management and product information management platform.",
+        "tags": [
+          "data",
+          "mdm",
+          "saas"
+        ],
+        "stage": "Growth",
+        "industry": "Enterprise Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-beyond-finance",
+        "name": "Beyond Finance",
+        "website": "https://www.beyondfinance.com",
+        "description": "Debt resolution fintech helping consumers consolidate and settle debt.",
+        "tags": [
+          "fintech",
+          "consumer",
+          "debt"
+        ],
+        "stage": "Growth",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.389,
+          29.744
+        ]
+      },
+      "properties": {
+        "id": "startup-majority",
+        "name": "MAJORITY",
+        "website": "https://www.majority.com",
+        "description": "Mobile banking and community services tailored for immigrants.",
+        "tags": [
+          "fintech",
+          "banking",
+          "immigrant"
+        ],
+        "stage": "Series B",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.7605
+        ]
+      },
+      "properties": {
+        "id": "startup-lancium",
+        "name": "Lancium",
+        "website": "https://lancium.com",
+        "description": "Grid-scale computing and renewable-powered data centers that stabilize the grid.",
+        "tags": [
+          "energy",
+          "data-centers",
+          "climate"
+        ],
+        "stage": "Growth",
+        "industry": "Energy",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.748
+        ]
+      },
+      "properties": {
+        "id": "startup-tekrevol",
+        "name": "TekRevol",
+        "website": "https://www.tekrevol.com",
+        "description": "Product development studio building mobile, web, and cloud software.",
+        "tags": [
+          "services",
+          "software",
+          "agency"
+        ],
+        "stage": "Growth",
+        "industry": "Software Services",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.359,
+          29.753
+        ]
+      },
+      "properties": {
+        "id": "startup-goexpedi",
+        "name": "GoExpedi",
+        "website": "https://www.goexpedi.com",
+        "description": "Industrial and energy MRO procurement marketplace with logistics and analytics.",
+        "tags": [
+          "marketplace",
+          "energy",
+          "logistics"
+        ],
+        "stage": "Series C",
+        "industry": "Industrial",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.43,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-recode-solutions",
+        "name": "Recode Solutions",
+        "website": "https://recodesolutions.com",
+        "description": "Custom software and product development consultancy.",
+        "tags": [
+          "services",
+          "consulting",
+          "software"
+        ],
+        "stage": "Growth",
+        "industry": "Software Services",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.47,
+          29.736
+        ]
+      },
+      "properties": {
+        "id": "startup-sage-geosystems",
+        "name": "Sage Geosystems",
+        "website": "https://sagegeosystems.com",
+        "description": "Geothermal energy storage and power technology company.",
+        "tags": [
+          "geothermal",
+          "energy",
+          "climate"
+        ],
+        "stage": "Series A",
+        "industry": "Energy",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.095,
+          29.552
+        ]
+      },
+      "properties": {
+        "id": "startup-fluidity-technologies",
+        "name": "Fluidity Technologies",
+        "website": "https://www.fluidity.tech",
+        "description": "Precision motion controllers and joysticks for aerospace and robotics.",
+        "tags": [
+          "aerospace",
+          "hardware",
+          "control"
+        ],
+        "stage": "Growth",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3696,
+          29.7607
+        ]
+      },
+      "properties": {
+        "id": "startup-cognitive-space",
+        "name": "Cognitive Space",
+        "website": "https://www.cognitivespace.com",
+        "description": "AI-driven mission management and tasking platform for satellite constellations.",
+        "tags": [
+          "space",
+          "ai",
+          "satellites"
+        ],
+        "stage": "Series A",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7605
+        ]
+      },
+      "properties": {
+        "id": "startup-c3-ai",
+        "name": "C3 AI",
+        "website": "https://c3.ai",
+        "description": "Enterprise AI platform for predictive maintenance, ESG, and supply chain analytics.",
+        "tags": [
+          "ai",
+          "enterprise",
+          "public"
+        ],
+        "stage": "Public",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.401,
+          29.716
+        ]
+      },
+      "properties": {
+        "id": "startup-koda-health",
+        "name": "Koda Health",
+        "website": "https://www.kodahealthcare.com",
+        "description": "Advance care planning and patient engagement platform for healthcare providers.",
+        "tags": [
+          "healthtech",
+          "saas",
+          "patient-engagement"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-disco",
+        "name": "DISCO",
+        "website": "https://csdisco.com",
+        "description": "Cloud-native eDiscovery and legal case management platform.",
+        "tags": [
+          "legaltech",
+          "saas",
+          "public"
+        ],
+        "stage": "Public",
+        "industry": "Legal Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.365,
+          29.757
+        ]
+      },
+      "properties": {
+        "id": "startup-ltv-ai",
+        "name": "LTV.ai",
+        "website": "https://www.ltv.ai",
+        "description": "AI platform to predict and grow customer lifetime value for ecommerce brands.",
+        "tags": [
+          "ai",
+          "ecommerce",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.359,
+          29.753
+        ]
+      },
+      "properties": {
+        "id": "startup-adaptive-ai",
+        "name": "Adaptive AI LLC",
+        "website": "https://adaptiveai.ai",
+        "description": "AI solutions company delivering predictive models and automation for enterprises.",
+        "tags": [
+          "ai",
+          "automation",
+          "services"
+        ],
+        "stage": "Seed",
+        "industry": "AI Services",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.472,
+          29.735
+        ]
+      },
+      "properties": {
+        "id": "startup-innovapptive",
+        "name": "Innovapptive",
+        "website": "https://www.innovapptive.com",
+        "description": "Connected worker and field operations platform for industrial companies.",
+        "tags": [
+          "industrial",
+          "saas",
+          "mobile"
+        ],
+        "stage": "Growth",
+        "industry": "Industrial Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.751
+        ]
+      },
+      "properties": {
+        "id": "startup-opro-ai",
+        "name": "oPRO.ai Inc",
+        "website": "https://opro.ai",
+        "description": "AI-driven optimization and robotics software for industrial operations.",
+        "tags": [
+          "ai",
+          "industrial",
+          "automation"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-orchestra-macrosystems",
+        "name": "Orchestra Macrosystems",
+        "website": "https://orchestramacro.com",
+        "description": "Data integration and analytics platform for industrial and energy systems.",
+        "tags": [
+          "data",
+          "industrial",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3689,
+          29.7602
+        ]
+      },
+      "properties": {
+        "id": "startup-little-place-labs",
+        "name": "Little Place Labs",
+        "website": "https://littleplacelabs.com",
+        "description": "Edge software to process satellite data for maritime and logistics monitoring.",
+        "tags": [
+          "space",
+          "edge",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.355,
+          29.7575
+        ]
+      },
+      "properties": {
+        "id": "startup-skyline-robotics",
+        "name": "Skyline Robotics",
+        "website": "https://skyline-robotics.io",
+        "description": "Autonomous facade inspection and maintenance robots for high-rise buildings.",
+        "tags": [
+          "robotics",
+          "computer-vision",
+          "construction"
+        ],
+        "stage": "Seed",
+        "industry": "Robotics",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.262,
+          29.729
+        ]
+      },
+      "properties": {
+        "id": "startup-harbor-analytics",
+        "name": "Harbor Analytics",
+        "website": "https://harboranalytics.ai",
+        "description": "Maritime risk intelligence using AIS data, satellite imagery, and LLM-driven summarization.",
+        "tags": [
+          "maritime",
+          "ai",
+          "risk"
+        ],
+        "stage": "Series A",
+        "industry": "Maritime AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.708
+        ]
+      },
+      "properties": {
+        "id": "startup-bayou-bioworks",
+        "name": "Bayou Bioworks",
+        "website": "https://bayoubioworks.com",
+        "description": "Synthetic biology platform producing bio-based materials for energy and aerospace.",
+        "tags": [
+          "synthetic-bio",
+          "materials",
+          "climate"
+        ],
+        "stage": "Seed",
+        "industry": "Biotech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.545,
+          29.781
+        ]
+      },
+      "properties": {
+        "id": "startup-cyberrange-houston",
+        "name": "CyberRange Houston",
+        "website": "https://cyberrangehouston.com",
+        "description": "Hands-on cyber range and training simulations for energy and industrial teams.",
+        "tags": [
+          "cybersecurity",
+          "training",
+          "industrial"
+        ],
+        "stage": "Series A",
+        "industry": "Cybersecurity",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.08,
+          29.555
+        ]
+      },
+      "properties": {
+        "id": "startup-astro-ops",
+        "name": "AstroOps",
+        "website": "https://astroops.io",
+        "description": "Mission assurance platform automating satellite operations with ML-driven playbooks.",
+        "tags": [
+          "space",
+          "ml",
+          "ops"
+        ],
+        "stage": "Seed",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.27,
+          29.67
+        ]
+      },
+      "properties": {
+        "id": "startup-bayou-bite",
+        "name": "Bayou Bite",
+        "website": "https://bayoubite.com",
+        "description": "Foodtech company making shelf-stable, protein-rich meals for disaster relief.",
+        "tags": [
+          "foodtech",
+          "resilience",
+          "supply-chain"
+        ],
+        "stage": "Pre-Seed",
+        "industry": "Food",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.379,
+          29.741
+        ]
+      },
+      "properties": {
+        "id": "startup-ndomedix",
+        "name": "ndoMedix",
+        "website": "https://ndomedix.com",
+        "description": "Clinical decision support for emerging markets with low-connectivity workflows.",
+        "tags": [
+          "health",
+          "ai",
+          "clinical"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.375,
+          29.739
+        ]
+      },
+      "properties": {
+        "id": "startup-eyetronic",
+        "name": "EyeTronic",
+        "website": "https://eyetronic.com",
+        "description": "Computer vision to monitor industrial safety zones and equipment compliance.",
+        "tags": [
+          "computer-vision",
+          "safety",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.71
+        ]
+      },
+      "properties": {
+        "id": "startup-intero-biosystems",
+        "name": "Intero Biosystems",
+        "website": "https://interobio.com",
+        "description": "Bioelectronic devices to monitor gut health and metabolic biomarkers.",
+        "tags": [
+          "bioelectronics",
+          "health",
+          "hardware"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-osperity",
+        "name": "Osperity",
+        "website": "https://osperity.com",
+        "description": "AI visual monitoring for remote oil and gas operations.",
+        "tags": [
+          "energy",
+          "ai",
+          "computer-vision"
+        ],
+        "stage": "Series A",
+        "industry": "Energy Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.352,
+          29.752
+        ]
+      },
+      "properties": {
+        "id": "startup-radioclash",
+        "name": "RadioClash",
+        "website": "https://radioclash.io",
+        "description": "RF analytics platform for industrial IoT and critical infrastructure.",
+        "tags": [
+          "rf",
+          "iot",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial IoT",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.401,
+          29.708
+        ]
+      },
+      "properties": {
+        "id": "startup-navanbio",
+        "name": "NavanBio",
+        "website": "https://navanbio.com",
+        "description": "Platform for targeted RNA therapeutics with rapid design-to-test cycles.",
+        "tags": [
+          "rna",
+          "therapeutics",
+          "biotech"
+        ],
+        "stage": "Seed",
+        "industry": "Biotech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.77
+        ]
+      },
+      "properties": {
+        "id": "startup-xnow",
+        "name": "XNow",
+        "website": "https://xnow.ai",
+        "description": "LLM copilots for field technicians with offline support.",
+        "tags": [
+          "ai",
+          "field-service",
+          "edge"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.47,
+          29.735
+        ]
+      },
+      "properties": {
+        "id": "startup-mars-materials",
+        "name": "Mars Materials",
+        "website": "https://marsmaterials.com",
+        "description": "Carbon-negative materials converting CO2 into performance fibers.",
+        "tags": [
+          "climate",
+          "materials",
+          "co2"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.367,
+          29.748
+        ]
+      },
+      "properties": {
+        "id": "startup-feel-therapeutics",
+        "name": "Feel Therapeutics",
+        "website": "https://feeltherapeutics.com",
+        "description": "Digital biomarkers and interventions for mental health conditions.",
+        "tags": [
+          "mental-health",
+          "digital-health",
+          "biosensors"
+        ],
+        "stage": "Series A",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-conversifi",
+        "name": "Conversifi",
+        "website": "https://conversifi.com",
+        "description": "Language learning via live conversation matching and analytics.",
+        "tags": [
+          "edtech",
+          "language",
+          "marketplace"
+        ],
+        "stage": "Seed",
+        "industry": "EdTech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-vktry-gear",
+        "name": "VKTRY Gear",
+        "website": "https://vktrygear.com",
+        "description": "Performance insoles and wearables for athletes with injury analytics.",
+        "tags": [
+          "sports",
+          "wearables",
+          "hardware"
+        ],
+        "stage": "Growth",
+        "industry": "Sports Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.369,
+          29.746
+        ]
+      },
+      "properties": {
+        "id": "startup-synapse",
+        "name": "Synapse",
+        "website": "https://synapseindustrial.com",
+        "description": "Industrial knowledge capture and SOP automation platform.",
+        "tags": [
+          "industrial",
+          "knowledge",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-swoovy",
+        "name": "Swoovy",
+        "website": "https://swoovy.com",
+        "description": "Volunteering-as-a-service platform for teams and nonprofits.",
+        "tags": [
+          "volunteering",
+          "saas",
+          "marketplace"
+        ],
+        "stage": "Seed",
+        "industry": "HR Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.69
+        ]
+      },
+      "properties": {
+        "id": "startup-steelhead-composites",
+        "name": "Steelhead Composites",
+        "website": "https://steelheadcomposites.com",
+        "description": "Lightweight pressure vessels for hydrogen and advanced mobility.",
+        "tags": [
+          "hydrogen",
+          "materials",
+          "mobility"
+        ],
+        "stage": "Growth",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.355,
+          29.755
+        ]
+      },
+      "properties": {
+        "id": "startup-sip-slide",
+        "name": "Sip-Slide",
+        "website": "https://sip-slide.com",
+        "description": "Reusable drinkware with spill-proof mechanisms for venues and events.",
+        "tags": [
+          "hardware",
+          "consumer",
+          "sustainability"
+        ],
+        "stage": "Pre-Seed",
+        "industry": "Consumer",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          29.77
+        ]
+      },
+      "properties": {
+        "id": "startup-snappyscreen",
+        "name": "SnappyScreen",
+        "website": "https://snappyscreen.com",
+        "description": "Touchless sunscreen spray kiosks for resorts and venues.",
+        "tags": [
+          "hardware",
+          "health",
+          "hospitality"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33,
+          29.78
+        ]
+      },
+      "properties": {
+        "id": "startup-smiley-transportation",
+        "name": "Smiley Transportation",
+        "website": "https://smileytransportation.com",
+        "description": "Tech-enabled transportation for students and communities.",
+        "tags": [
+          "transport",
+          "logistics",
+          "services"
+        ],
+        "stage": "Seed",
+        "industry": "Mobility",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.41,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-skycom",
+        "name": "SkyCom",
+        "website": "https://skycomlabs.com",
+        "description": "Airship-tower communication platform for disaster and rural connectivity.",
+        "tags": [
+          "aerospace",
+          "communications",
+          "infrastructure"
+        ],
+        "stage": "Seed",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-scriberule",
+        "name": "ScribeRule",
+        "website": "https://scriberule.com",
+        "description": "Policy automation and access control platform for regulated industries.",
+        "tags": [
+          "security",
+          "policy",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.708
+        ]
+      },
+      "properties": {
+        "id": "startup-saranas",
+        "name": "Saranas",
+        "website": "https://saranas.com",
+        "description": "Bleed monitoring vascular device to reduce procedure complications.",
+        "tags": [
+          "medtech",
+          "device",
+          "tmc"
+        ],
+        "stage": "Series B",
+        "industry": "Med Device",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.368,
+          29.758
+        ]
+      },
+      "properties": {
+        "id": "startup-safepass-global",
+        "name": "SafePass Global",
+        "website": "https://safepassglobal.com",
+        "description": "Identity and health clearance passes for workforce safety.",
+        "tags": [
+          "identity",
+          "safety",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-rollinvets",
+        "name": "RollinVets",
+        "website": "https://rollinvets.com",
+        "description": "Mobile veterinary clinics with full-stack scheduling and diagnostics.",
+        "tags": [
+          "vet",
+          "mobile",
+          "health"
+        ],
+        "stage": "Seed",
+        "industry": "Pet Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.745
+        ]
+      },
+      "properties": {
+        "id": "startup-rockmyrun",
+        "name": "RockMyRun",
+        "website": "https://rockmyrun.com",
+        "description": "Adaptive music for workouts based on heart rate and cadence.",
+        "tags": [
+          "fitness",
+          "music",
+          "consumer"
+        ],
+        "stage": "Seed",
+        "industry": "Fitness Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-purifyfuel",
+        "name": "PurifyFuel",
+        "website": "https://purifyfuel.com",
+        "description": "Fuel catalysts to cut emissions and improve efficiency for fleets.",
+        "tags": [
+          "energy",
+          "emissions",
+          "industrial"
+        ],
+        "stage": "Growth",
+        "industry": "Industrial",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-petrabytes",
+        "name": "PETRAbytes",
+        "website": "https://petrabytes.com",
+        "description": "Subsurface analytics and digital twins for energy assets.",
+        "tags": [
+          "energy",
+          "analytics",
+          "subsurface"
+        ],
+        "stage": "Growth",
+        "industry": "Energy Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-personal-wine",
+        "name": "Personal Wine",
+        "website": "https://personalwine.com",
+        "description": "Custom wine gifting with engraving and logistics platform.",
+        "tags": [
+          "commerce",
+          "gifting",
+          "consumer"
+        ],
+        "stage": "Growth",
+        "industry": "Ecommerce",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-optelos",
+        "name": "Optelos",
+        "website": "https://optelos.com",
+        "description": "Visual data management for drones and digital twins in infrastructure.",
+        "tags": [
+          "drones",
+          "visual-data",
+          "industrial"
+        ],
+        "stage": "Series A",
+        "industry": "Industrial Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-octetsci",
+        "name": "OctetSci",
+        "website": "https://octetsci.com",
+        "description": "High-throughput testing platform for advanced materials and coatings.",
+        "tags": [
+          "materials",
+          "testing",
+          "hardware"
+        ],
+        "stage": "Seed",
+        "industry": "Materials",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.72
+        ]
+      },
+      "properties": {
+        "id": "startup-neopuretech",
+        "name": "NeoPureTech",
+        "website": "https://neopuretech.com",
+        "description": "Water treatment and purification using advanced membranes.",
+        "tags": [
+          "water",
+          "cleantech",
+          "infrastructure"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.707
+        ]
+      },
+      "properties": {
+        "id": "startup-nanospectra",
+        "name": "NanoSPECTRA",
+        "website": "https://nanospectra.com",
+        "description": "Nanoparticle-based therapeutic platform for precision oncology.",
+        "tags": [
+          "nano",
+          "oncology",
+          "biotech"
+        ],
+        "stage": "Series B",
+        "industry": "Biotech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09,
+          29.56
+        ]
+      },
+      "properties": {
+        "id": "startup-nanoracks",
+        "name": "NanoRacks",
+        "website": "https://nanoracks.com",
+        "description": "Space station services and in-orbit manufacturing solutions.",
+        "tags": [
+          "space",
+          "in-space",
+          "infrastructure"
+        ],
+        "stage": "Growth",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-mylabbox",
+        "name": "MyLabBox",
+        "website": "https://mylabbox.com",
+        "description": "At-home diagnostics kits with telehealth follow-up.",
+        "tags": [
+          "diagnostics",
+          "telehealth",
+          "consumer"
+        ],
+        "stage": "Growth",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.71
+        ]
+      },
+      "properties": {
+        "id": "startup-molecularmatch",
+        "name": "MolecularMatch",
+        "website": "https://molecularmatch.com",
+        "description": "Clinical decision support for oncology trials and treatment matching.",
+        "tags": [
+          "oncology",
+          "clinical",
+          "ai"
+        ],
+        "stage": "Growth",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-mipadrino",
+        "name": "MiPadrino",
+        "website": "https://mipadrino.com",
+        "description": "Event planning and gifting platform for Hispanic celebrations.",
+        "tags": [
+          "events",
+          "marketplace",
+          "commerce"
+        ],
+        "stage": "Seed",
+        "industry": "Ecommerce",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-metricmd",
+        "name": "MetricMD",
+        "website": "https://metricmd.com",
+        "description": "Analytics for provider performance and revenue cycle optimization.",
+        "tags": [
+          "health",
+          "analytics",
+          "rcm"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          29.72
+        ]
+      },
+      "properties": {
+        "id": "startup-metoxtech",
+        "name": "MetOxTech",
+        "website": "https://metoxtech.com",
+        "description": "Superconducting wire manufacturing for fusion and energy infrastructure.",
+        "tags": [
+          "fusion",
+          "materials",
+          "energy"
+        ],
+        "stage": "Series A",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-mergeedu",
+        "name": "MergeEdu",
+        "website": "https://mergeedu.com",
+        "description": "AR/VR learning platform for STEM education.",
+        "tags": [
+          "edtech",
+          "ar",
+          "vr"
+        ],
+        "stage": "Growth",
+        "industry": "EdTech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.77
+        ]
+      },
+      "properties": {
+        "id": "startup-memcpu",
+        "name": "MemCPU",
+        "website": "https://memcpu.com",
+        "description": "Novel computing architecture for hard optimization problems.",
+        "tags": [
+          "compute",
+          "optimization",
+          "hardware"
+        ],
+        "stage": "Seed",
+        "industry": "Deep Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-materna-medical",
+        "name": "Materna Medical",
+        "website": "https://maternamedical.com",
+        "description": "Devices to protect pelvic floor health during childbirth.",
+        "tags": [
+          "medtech",
+          "women's-health",
+          "device"
+        ],
+        "stage": "Series B",
+        "industry": "Med Device",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.401,
+          29.708
+        ]
+      },
+      "properties": {
+        "id": "startup-vitaa-medical",
+        "name": "Vitaa Medical",
+        "website": "https://vitaamedical.com",
+        "description": "Skin graft alternatives using cellularized scaffolds.",
+        "tags": [
+          "wound-care",
+          "biotech",
+          "device"
+        ],
+        "stage": "Seed",
+        "industry": "Biotech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-somnair-sleep",
+        "name": "Somnair Sleep",
+        "website": "https://somnair.com",
+        "description": "Therapy devices and monitoring for sleep apnea patients.",
+        "tags": [
+          "sleep",
+          "device",
+          "health"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-bodhi-solar",
+        "name": "Bodhi.Solar",
+        "website": "https://bodhi.solar",
+        "description": "Platform to manage residential solar fleets and homeowner experience.",
+        "tags": [
+          "solar",
+          "saas",
+          "energy"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-arovia",
+        "name": "Arovia",
+        "website": "https://arovia.com",
+        "description": "Foldable displays and optics for portable workstations.",
+        "tags": [
+          "hardware",
+          "display",
+          "portability"
+        ],
+        "stage": "Seed",
+        "industry": "Hardware",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.401,
+          29.708
+        ]
+      },
+      "properties": {
+        "id": "startup-prana-thoracic",
+        "name": "Prana Thoracic",
+        "website": "https://pranathoracic.com",
+        "description": "Minimally invasive device for early lung cancer intervention.",
+        "tags": [
+          "medtech",
+          "lung",
+          "device"
+        ],
+        "stage": "Seed",
+        "industry": "Med Device",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-siera-ai",
+        "name": "SIERA.AI",
+        "website": "https://siera.ai",
+        "description": "Safety automation and telemetry for forklifts and industrial vehicles.",
+        "tags": [
+          "safety",
+          "telemetry",
+          "industrial"
+        ],
+        "stage": "Series A",
+        "industry": "Industrial Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-direct-kinetics",
+        "name": "Direct Kinetics",
+        "website": "https://directkinetics.com",
+        "description": "Wearable ECG sensors with cloud analytics for remote patient monitoring.",
+        "tags": [
+          "health",
+          "wearables",
+          "ecg"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.71
+        ]
+      },
+      "properties": {
+        "id": "startup-luminaremed",
+        "name": "LuminareMed",
+        "website": "https://luminaremed.com",
+        "description": "Sepsis detection and workflow platform for hospitals.",
+        "tags": [
+          "sepsis",
+          "health",
+          "saas"
+        ],
+        "stage": "Series A",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.69
+        ]
+      },
+      "properties": {
+        "id": "startup-locicontrols",
+        "name": "LociControls",
+        "website": "https://locicontrols.com",
+        "description": "IoT controls to improve landfill gas collection efficiency.",
+        "tags": [
+          "climate",
+          "iot",
+          "methane"
+        ],
+        "stage": "Series A",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-lightline-medical",
+        "name": "Lightline Medical",
+        "website": "https://lightlinemedical.com",
+        "description": "Phototherapy catheters to reduce infections for catheterized patients.",
+        "tags": [
+          "medtech",
+          "device",
+          "infection-control"
+        ],
+        "stage": "Seed",
+        "industry": "Med Device",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-legworks",
+        "name": "Legworks",
+        "website": "https://legworks.com",
+        "description": "Affordable prosthetics with high-performance mechanical components.",
+        "tags": [
+          "prosthetics",
+          "medtech",
+          "access"
+        ],
+        "stage": "Seed",
+        "industry": "Med Device",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-laz3d",
+        "name": "LAZ3D",
+        "website": "https://laz3d.com",
+        "description": "Industrial 3D printing services for aerospace and energy parts.",
+        "tags": [
+          "3d-printing",
+          "aerospace",
+          "energy"
+        ],
+        "stage": "Seed",
+        "industry": "Advanced Manufacturing",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-keyp-biz",
+        "name": "KEYP.biz",
+        "website": "https://keyp.biz",
+        "description": "Digital identity and credentialing tools for small businesses.",
+        "tags": [
+          "identity",
+          "small-business",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-knightscope",
+        "name": "Knightscope",
+        "website": "https://www.knightscope.com",
+        "description": "Autonomous security robots for facilities and campuses.",
+        "tags": [
+          "robots",
+          "security",
+          "hardware"
+        ],
+        "stage": "Public",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-joylux",
+        "name": "Joylux",
+        "website": "https://joylux.com",
+        "description": "At-home pelvic health devices and digital coaching for women.",
+        "tags": [
+          "women's-health",
+          "device",
+          "consumer"
+        ],
+        "stage": "Growth",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-hothintel",
+        "name": "HothIntel",
+        "website": "https://hothintel.com",
+        "description": "Predictive intelligence for maintenance and reliability teams.",
+        "tags": [
+          "predictive",
+          "maintenance",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-heatgenie",
+        "name": "HeatGenie",
+        "website": "https://heatgenie.com",
+        "description": "Self-heating packaging technology for food and beverages.",
+        "tags": [
+          "packaging",
+          "hardware",
+          "consumer"
+        ],
+        "stage": "Seed",
+        "industry": "Consumer",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-gohealthhero",
+        "name": "GoHealthHero",
+        "website": "https://gohealthhero.com",
+        "description": "Employee wellbeing platform with rewards and engagement tools.",
+        "tags": [
+          "wellness",
+          "engagement",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "HR Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-greasebook",
+        "name": "GreaseBook",
+        "website": "https://www.greasebook.com",
+        "description": "Production tracking app for oilfield pumpers and operators.",
+        "tags": [
+          "oilfield",
+          "saas",
+          "energy"
+        ],
+        "stage": "Seed",
+        "industry": "Energy Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-gigeasy",
+        "name": "GIGEasy",
+        "website": "https://gigeasy.com",
+        "description": "Benefits and compliance platform for gig and 1099 workers.",
+        "tags": [
+          "gig-economy",
+          "benefits",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-gecko-robotics",
+        "name": "Gecko Robotics",
+        "website": "https://geckorobotics.com",
+        "description": "Wall-climbing inspection robots for industrial assets.",
+        "tags": [
+          "robots",
+          "inspection",
+          "industrial"
+        ],
+        "stage": "Series C",
+        "industry": "Industrial",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-galedata",
+        "name": "GaleData",
+        "website": "https://galedata.com",
+        "description": "Data backbone for healthcare operations and revenue teams.",
+        "tags": [
+          "health",
+          "data",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-cinegif",
+        "name": "CineGif",
+        "website": "https://cinegif.com",
+        "description": "Lightweight animated content platform for marketing teams.",
+        "tags": [
+          "marketing",
+          "content",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Marketing Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-chowcall",
+        "name": "ChowCall",
+        "website": "https://chowcall.com",
+        "description": "Food delivery platform focused on military bases and secure sites.",
+        "tags": [
+          "delivery",
+          "logistics",
+          "food"
+        ],
+        "stage": "Seed",
+        "industry": "Logistics",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.71
+        ]
+      },
+      "properties": {
+        "id": "startup-agiledd-ai",
+        "name": "AgileDD.ai",
+        "website": "https://agiledd.ai",
+        "description": "Dental diagnostics and charting automation powered by AI.",
+        "tags": [
+          "dental",
+          "ai",
+          "health"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-15five",
+        "name": "15Five",
+        "website": "https://www.15five.com",
+        "description": "Performance and engagement platform for modern teams.",
+        "tags": [
+          "hr",
+          "engagement",
+          "saas"
+        ],
+        "stage": "Growth",
+        "industry": "HR Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-key",
+        "name": "Key",
+        "website": "https://key.company",
+        "description": "Co-ownership and fractional home financing platform.",
+        "tags": [
+          "proptech",
+          "fintech",
+          "housing"
+        ],
+        "stage": "Series A",
+        "industry": "Proptech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          29.77
+        ]
+      },
+      "properties": {
+        "id": "startup-unytag",
+        "name": "Unytag",
+        "website": "https://unytag.com",
+        "description": "Unified tolling and parking payments via mobile tags.",
+        "tags": [
+          "mobility",
+          "payments",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Mobility",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-casectrl",
+        "name": "CaseCtrl",
+        "website": "https://casectrl.com",
+        "description": "Workflow automation and dashboards for contingency law firms.",
+        "tags": [
+          "legaltech",
+          "workflow",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Legal Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-planstreet",
+        "name": "PlanStreet",
+        "website": "https://www.planstreetinc.com",
+        "description": "Case management and workflow for social services teams.",
+        "tags": [
+          "govtech",
+          "case-management",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "GovTech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-hellodivorce",
+        "name": "HelloDivorce",
+        "website": "https://hellodivorce.com",
+        "description": "Self-serve legal platform for uncontested divorces.",
+        "tags": [
+          "legaltech",
+          "consumer",
+          "self-serve"
+        ],
+        "stage": "Series A",
+        "industry": "Legal Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-seeforge",
+        "name": "SeeForge",
+        "website": "https://seeforge.com",
+        "description": "Field ticketing and inspection platform for industrial teams.",
+        "tags": [
+          "field",
+          "industrial",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-meshify",
+        "name": "Meshify",
+        "website": "https://meshify.com",
+        "description": "IoT device management and monitoring platform for industrial assets.",
+        "tags": [
+          "iot",
+          "industrial",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial IoT",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-csid",
+        "name": "CSID",
+        "website": "https://csid.com",
+        "description": "Consumer identity protection and monitoring solutions.",
+        "tags": [
+          "security",
+          "identity",
+          "consumer"
+        ],
+        "stage": "Growth",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-aqua-cell-energy",
+        "name": "Aqua-Cell Energy",
+        "website": "https://aqua-cell-energy.com",
+        "description": "Industrial-scale overnight batteries to deliver affordable solar power.",
+        "tags": [
+          "energy",
+          "storage",
+          "grid"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-arculus",
+        "name": "Arculus",
+        "website": "https://arculus.com",
+        "description": "Multilayer internal pipeline coating that lowers friction and enables CO2 and hydrogen transport.",
+        "tags": [
+          "energy",
+          "pipelines",
+          "materials"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-atmospark",
+        "name": "AtmoSpark",
+        "website": "https://atmospark.com",
+        "description": "Electric field-driven air separation to cut dehumidification energy costs for data centers and industrial sites.",
+        "tags": [
+          "hvac",
+          "efficiency",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-atome",
+        "name": "AtoMe",
+        "website": "https://atomecomposites.com",
+        "description": "Durable metallic composites for energy and aerospace using eco-friendly dry blade methods.",
+        "tags": [
+          "materials",
+          "aerospace",
+          "energy"
+        ],
+        "stage": "Seed",
+        "industry": "Advanced Manufacturing",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-conceptloop",
+        "name": "ConceptLoop",
+        "website": "https://conceptloop.com",
+        "description": "Converts plastic waste into eco-friendly, low-carbon aggregate for construction.",
+        "tags": [
+          "recycling",
+          "materials",
+          "climate"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-fathom-storage",
+        "name": "Fathom Storage",
+        "website": "https://fathomstorage.com",
+        "description": "Embedded, steel-efficient anchoring solutions for offshore service providers and wind developers.",
+        "tags": [
+          "offshore",
+          "wind",
+          "infrastructure"
+        ],
+        "stage": "Seed",
+        "industry": "Energy",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-geokiln",
+        "name": "GeoKiln",
+        "website": "https://geokiln.com",
+        "description": "Applies proven O&G techniques to accelerate natural hydrogen reactions for subsurface hydrogen extraction.",
+        "tags": [
+          "hydrogen",
+          "energy",
+          "subsurface"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.77
+        ]
+      },
+      "properties": {
+        "id": "startup-innowind-energy",
+        "name": "Innowind Energy Solutions",
+        "website": "https://innowindenergy.com",
+        "description": "Nonintrusive active flow control devices that boost turbine energy production and lifespan.",
+        "tags": [
+          "wind",
+          "hardware",
+          "energy"
+        ],
+        "stage": "Seed",
+        "industry": "Energy",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-lukera-energy",
+        "name": "Lukera Energy",
+        "website": "https://lukeraenergy.com",
+        "description": "Transforms waste methane into methanol using breakthrough nanobubble technology.",
+        "tags": [
+          "methane",
+          "chemicals",
+          "climate"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-metal-light",
+        "name": "Metal Light Inc.",
+        "website": "https://metallightenergy.com",
+        "description": "Scalable, cost-effective metal-air generators to replace diesel gensets.",
+        "tags": [
+          "energy",
+          "storage",
+          "off-grid"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "startup-moonshot-hydrogen",
+        "name": "Moonshot Hydrogen",
+        "website": "https://moonshoth2.com",
+        "description": "Converts food and agricultural waste into clean hydrogen and bioethanol.",
+        "tags": [
+          "hydrogen",
+          "waste-to-energy",
+          "biofuels"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.489,
+          30.157
+        ]
+      },
+      "properties": {
+        "id": "startup-resollant",
+        "name": "Resollant",
+        "website": "https://resollant.com",
+        "description": "Compact, zero-emission hydrogen and carbon reactors for heavy industry.",
+        "tags": [
+          "hydrogen",
+          "carbon",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-sotaog",
+        "name": "SOTAOG",
+        "website": "https://sotaog.com",
+        "description": "Industrial IoT analytics and optimization for energy assets.",
+        "tags": [
+          "iot",
+          "analytics",
+          "energy"
+        ],
+        "stage": "Growth",
+        "industry": "Energy Software",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-springcycle-energy",
+        "name": "SpringCycle Energy",
+        "website": "https://springcycleenergy.com",
+        "description": "Energy recovery and recycling solutions for industrial sites.",
+        "tags": [
+          "energy",
+          "recycling",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Energy",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.09,
+          29.56
+        ]
+      },
+      "properties": {
+        "id": "startup-ambrosia-space",
+        "name": "Ambrosia Space Manufacturing Corporation",
+        "website": "https://ambrosiaspace.com",
+        "description": "Space manufacturing concepts for on-orbit production.",
+        "tags": [
+          "space",
+          "manufacturing",
+          "in-space"
+        ],
+        "stage": "Seed",
+        "industry": "Aerospace",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-revterra",
+        "name": "Revterra",
+        "website": "https://revterra.com",
+        "description": "Kinetic energy storage systems for grid and EV charging.",
+        "tags": [
+          "energy",
+          "storage",
+          "climate"
+        ],
+        "stage": "Series A",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-tranzmeo",
+        "name": "Tranzmeo",
+        "website": "https://tranzmeo.com",
+        "description": "AI-powered pipeline monitoring and leak detection.",
+        "tags": [
+          "energy",
+          "ai",
+          "pipelines"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-elementium-materials",
+        "name": "Elementium Materials",
+        "website": "https://elementiummaterials.com",
+        "description": "Advanced materials for energy and aerospace applications.",
+        "tags": [
+          "materials",
+          "energy",
+          "aerospace"
+        ],
+        "stage": "Seed",
+        "industry": "Advanced Manufacturing",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-coflux-purification",
+        "name": "Coflux Purification",
+        "website": "https://cofluxpurification.com",
+        "description": "Novel purification tech for water and industrial fluids.",
+        "tags": [
+          "water",
+          "industrial",
+          "cleantech"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-bigmach-ai",
+        "name": "BigMachine AI",
+        "website": "https://bigmachine.ai",
+        "description": "AI models tailored for industrial and heavy machinery data.",
+        "tags": [
+          "ai",
+          "industrial",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-neuralix",
+        "name": "Neuralix",
+        "website": "https://neuralix.ai",
+        "description": "Edge AI platform for sensor fusion and anomaly detection.",
+        "tags": [
+          "ai",
+          "edge",
+          "sensors"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-reasonos",
+        "name": "ReasonOS",
+        "website": "https://reasonos.com",
+        "description": "Autonomous reasoning layer for enterprise workflows.",
+        "tags": [
+          "ai",
+          "automation",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-intelligent-core",
+        "name": "INTELLIGENT CORE",
+        "website": "https://intelligentcore.ai",
+        "description": "AI-powered operations and risk platform for enterprises.",
+        "tags": [
+          "ai",
+          "risk",
+          "enterprise"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-areto-labs",
+        "name": "Areto Labs",
+        "website": "https://aretolabs.com",
+        "description": "Behavioral analytics to protect online communities and teams.",
+        "tags": [
+          "safety",
+          "analytics",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Security",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-brainsafe",
+        "name": "Brainsafe",
+        "website": "https://brainsafe.ai",
+        "description": "Neurological monitoring and analytics for athletes and workers.",
+        "tags": [
+          "health",
+          "sensors",
+          "sports"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-g8rtech",
+        "name": "G8RTech",
+        "website": "https://g8rtech.com",
+        "description": "Protective sports gear with impact analytics.",
+        "tags": [
+          "sports",
+          "hardware",
+          "safety"
+        ],
+        "stage": "Seed",
+        "industry": "Sports Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.71
+        ]
+      },
+      "properties": {
+        "id": "startup-nanochon",
+        "name": "Nanochon",
+        "website": "https://nanochon.com",
+        "description": "3D-printed cartilage replacement for joint repair.",
+        "tags": [
+          "medtech",
+          "3d-printing",
+          "orthopedics"
+        ],
+        "stage": "Seed",
+        "industry": "Med Device",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-spike-technologies",
+        "name": "Spike Technologies",
+        "website": "https://spiketechnologies.com",
+        "description": "Sports analytics and wearables to improve performance and safety.",
+        "tags": [
+          "sports",
+          "wearables",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "Sports Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-splendohealth",
+        "name": "SplendoHealth",
+        "website": "https://splendohealth.com",
+        "description": "Remote health monitoring and personalized insights.",
+        "tags": [
+          "health",
+          "remote-monitoring",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-stadiumdrop",
+        "name": "StadiumDrop",
+        "website": "https://stadiumdrop.com",
+        "description": "In-seat food and merch delivery platform for venues.",
+        "tags": [
+          "commerce",
+          "sports",
+          "logistics"
+        ],
+        "stage": "Seed",
+        "industry": "Commerce",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-uplift",
+        "name": "Uplift",
+        "website": "https://uplift.com",
+        "description": "Travel and commerce BNPL services.",
+        "tags": [
+          "fintech",
+          "bnpl",
+          "travel"
+        ],
+        "stage": "Growth",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-wild-ai",
+        "name": "Wild.AI",
+        "website": "https://wild.ai",
+        "description": "Female-specific health and training platform for athletes.",
+        "tags": [
+          "health",
+          "sports",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "Health Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-xo-nano",
+        "name": "XO-Nano",
+        "website": "https://xo-nano.com",
+        "description": "Nanofoam materials for impact protection and energy absorption.",
+        "tags": [
+          "materials",
+          "sports",
+          "safety"
+        ],
+        "stage": "Seed",
+        "industry": "Materials",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-aideniq",
+        "name": "AidenIQ",
+        "website": "https://aideniq.com",
+        "description": "AI-driven intelligence platform for revenue teams.",
+        "tags": [
+          "ai",
+          "sales",
+          "saas"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-gig-wage",
+        "name": "Gig Wage",
+        "website": "https://gigwage.com",
+        "description": "Modern payroll infrastructure for the gig economy.",
+        "tags": [
+          "fintech",
+          "payments",
+          "gig"
+        ],
+        "stage": "Series A",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-monit",
+        "name": "Monit",
+        "website": "https://monitapp.io",
+        "description": "Financial insights and cashflow tools for small businesses.",
+        "tags": [
+          "fintech",
+          "smb",
+          "analytics"
+        ],
+        "stage": "Seed",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "startup-nymbus",
+        "name": "Nymbus",
+        "website": "https://nymbus.com",
+        "description": "Banking-as-a-service and digital core platform.",
+        "tags": [
+          "fintech",
+          "banking",
+          "saas"
+        ],
+        "stage": "Growth",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "startup-orum",
+        "name": "Orum",
+        "website": "https://orum.com",
+        "description": "Instant payments routing intelligence.",
+        "tags": [
+          "fintech",
+          "payments",
+          "infrastructure"
+        ],
+        "stage": "Series B",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-quiltt",
+        "name": "Quiltt",
+        "website": "https://quiltt.com",
+        "description": "Unified fintech API to launch financial experiences quickly.",
+        "tags": [
+          "fintech",
+          "api",
+          "infrastructure"
+        ],
+        "stage": "Seed",
+        "industry": "Fintech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-xr-sports",
+        "name": "XR Sports",
+        "website": "https://xrsports.com",
+        "description": "Immersive XR training and fan engagement experiences.",
+        "tags": [
+          "sports",
+          "xr",
+          "fan-engagement"
+        ],
+        "stage": "Seed",
+        "industry": "Sports Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "startup-aireal",
+        "name": "Aireal",
+        "website": "https://aireal.com",
+        "description": "Augmented reality platform for spatial experiences and marketing.",
+        "tags": [
+          "ar",
+          "marketing",
+          "spatial"
+        ],
+        "stage": "Seed",
+        "industry": "XR",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-21senses",
+        "name": "21Senses Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "climate",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-advanced-ionics",
+        "name": "Advanced Ionics",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "hydrogen",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-aeromine",
+        "name": "Aeromine Technologies Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "wind",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-alma-energy",
+        "name": "Alma Energy Innovative Solutions",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "storage",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-aluminum-technologies",
+        "name": "Aluminum Technologies",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-am-peers",
+        "name": "AM Peers",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "manufacturing",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-anning-corporation",
+        "name": "Anning Corporation",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "infrastructure",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-atmospark-technologies",
+        "name": "AtmoSpark Technologies",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "hvac",
+          "water",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-ats-energy",
+        "name": "ATS Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "efficiency",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-axis-sky-renewables",
+        "name": "Axis Sky Renewables",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "renewables",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-biatech",
+        "name": "BiaTech Corporation",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "data",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-biosimo",
+        "name": "Biosimo Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "bio",
+          "chemicals",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-blubridge",
+        "name": "BluBridge Energy Solutions",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-blykalla",
+        "name": "Blykalla",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "nuclear",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-boxes",
+        "name": "Boxes",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "logistics",
+          "climate",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-capwell",
+        "name": "Capwell",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "software",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-carbion",
+        "name": "Carbion",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "carbon",
+          "climate",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-carbonext",
+        "name": "Carbonext",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "carbon",
+          "climate",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-carboniferous",
+        "name": "Carboniferous",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "carbon",
+          "climate",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-cemvita",
+        "name": "Cemvita",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "bio",
+          "carbon",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-claritycastle",
+        "name": "ClarityCastle Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "analytics",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-cleartrace",
+        "name": "Cleartrace",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "data",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-cls-wind",
+        "name": "CLS Wind",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "wind",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-corrolytics",
+        "name": "Corrolytics",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "corrosion",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-datavedik",
+        "name": "DATAVEDIK",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "data",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-decimetrix",
+        "name": "Decimetrix",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "hardware",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-deep-anchor",
+        "name": "Deep Anchor Solutions Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "offshore",
+          "wind",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-drinkicks",
+        "name": "DrinKicks",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "consumer",
+          "sustainability",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-dsider",
+        "name": "Dsider",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "planning",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-earthen",
+        "name": "EarthEn",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "storage",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-electric-hydrogen",
+        "name": "Electric Hydrogen",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "hydrogen",
+          "electrolyzer",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-element-resources",
+        "name": "Element Resources",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "hydrogen",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-elemental-advanced-materials",
+        "name": "Elemental Advanced Materials",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-encore-co2",
+        "name": "Encore CO2",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "carbon",
+          "capture",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-energy-dome",
+        "name": "Energy Dome",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "storage",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-energygigs",
+        "name": "EnergyGigs",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "jobs",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-evillage",
+        "name": "EVillage.io",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "ev",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-excipio-energy",
+        "name": "Excipio Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "offshore",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-flowcellutions",
+        "name": "FlowCellutions",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "storage",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-fluidxlab",
+        "name": "FLUIDXLAB Americas Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-frakktal",
+        "name": "frakktal",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-geofuels",
+        "name": "GeoFuels",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "geothermal",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-gigadac",
+        "name": "GigaDAC",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "carbon",
+          "dac",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-gs-vortex",
+        "name": "GS Vortex Systems",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "hardware",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-haffner-energy",
+        "name": "Haffner Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "hydrogen",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-helix-earth",
+        "name": "Helix Earth Technologies",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "climate",
+          "water",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-hertha-metals",
+        "name": "Hertha Metals",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-imperium-technologies",
+        "name": "Imperium Technologies",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "grid",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-inductive-robotics",
+        "name": "Inductive Robotics",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "robotics",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-infinite-foundry",
+        "name": "Infinite Foundry",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "digital-twin",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-infranergy",
+        "name": "InfraNergy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "infra",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-innovator-energy",
+        "name": "Innovator Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "efficiency",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-intention",
+        "name": "Intention",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "analytics",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-janta-power",
+        "name": "Janta Power",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "solar",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-kanin-energy",
+        "name": "Kanin Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "waste-heat",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-kauel",
+        "name": "Kauel",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "ai",
+          "vision",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-licube",
+        "name": "Licube Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "battery",
+          "materials",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-locoal",
+        "name": "LOCOAL",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "bio",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-mass-materials",
+        "name": "Massachusetts Materials Tech LLC",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-mcatalysis",
+        "name": "MCatalysis Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "catalyst",
+          "chemistry",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-metalex-commodities",
+        "name": "Metalex Commodities",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-moonshot-compost",
+        "name": "Moonshot Compost",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "waste",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-nano-tech-spa",
+        "name": "Nano Tech SpA",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "coatings",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-net-zero-carbon",
+        "name": "Net Zero Carbon Solutions",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "carbon",
+          "climate",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-neuralix-inc",
+        "name": "Neuralix Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "ai",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-newfound-materials",
+        "name": "Newfound Materials",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-newgenium",
+        "name": "NewGenium",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "software",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-noc-energy",
+        "name": "NOC Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "services",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-nominal",
+        "name": "Nominal",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "data",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-onepredict",
+        "name": "ONEPREDICT",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "industrial",
+          "ai",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Industrial AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-pix-force",
+        "name": "Pix Force",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "vision",
+          "ai",
+          "industrial"
+        ],
+        "stage": "Seed",
+        "industry": "AI",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-plasene",
+        "name": "PlaSene",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "plastics",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-pure-blue-tech",
+        "name": "Pure Blue Tech Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "water",
+          "cleantech",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-purgit",
+        "name": "PURGIT",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "emissions",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-resonant-thermal",
+        "name": "Resonant Thermal Systems",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "thermal",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-reverse-energy",
+        "name": "Reverse Energy Solutions",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-rheom-materials",
+        "name": "Rheom Materials",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-secant-fuel",
+        "name": "Secant Fuel",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "fuel",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-skyh2o",
+        "name": "SkyH2O",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "water",
+          "atmospheric",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-smartpipe",
+        "name": "Smartpipe Technologies",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "pipelines",
+          "integrity",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-solidec",
+        "name": "Solidec",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "hardware",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-sphinx",
+        "name": "SPHINX INC",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-sustonable",
+        "name": "Sustonable",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "recycling",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-tds-select",
+        "name": "TDS Select",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "services",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-teknobuilt",
+        "name": "Teknobuilt Ltd",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "construction",
+          "software",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-terralytiq",
+        "name": "Terralytiq",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "analytics",
+          "climate",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-thiozen",
+        "name": "Thiozen Inc",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "sulfur",
+          "energy",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-timbergrove",
+        "name": "Timbergrove",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "industrial",
+          "software",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-wattsto",
+        "name": "Wattsto Energy",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "storage",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-wise-energie",
+        "name": "WISE ENERGIE",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "energy",
+          "grid",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "startup-wootz",
+        "name": "Wootz",
+        "description": "Greentown Labs Houston cohort startup.",
+        "tags": [
+          "materials",
+          "industrial",
+          "greentown"
+        ],
+        "stage": "Seed",
+        "industry": "Climate Tech",
+        "deletedAt": null
+      }
+    }
+  ]
+}

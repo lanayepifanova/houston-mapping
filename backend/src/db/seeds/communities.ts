@@ -619,8 +619,10 @@ const communities = [
   }
 ];
 
+export const communitySeedData = communities;
+
 export const seedCommunities = async (prisma: PrismaClient) => {
-  for (const community of communities) {
+  for (const community of communitySeedData) {
     await prisma.community.upsert({
       where: { id: community.id },
       update: { ...community, tags: JSON.stringify(community.tags) },

@@ -42,8 +42,10 @@ const firms = [
   { id: "firm-murphee-venture", name: "Murphee Venture Partners", website: "https://murphee.com", description: "Texas-focused venture capital across tech and energy.", tags: ["multi-sector", "seed"], fundSize: "$75M", stageFocus: "Seed to Series A", latitude: 29.76, longitude: -95.37, address: "Houston, TX" }
 ];
 
+export const firmSeedData = firms;
+
 export const seedFirms = async (prisma: PrismaClient) => {
-  for (const firm of firms) {
+  for (const firm of firmSeedData) {
     await prisma.firm.upsert({
       where: { id: firm.id },
       update: { ...firm, tags: JSON.stringify(firm.tags) },

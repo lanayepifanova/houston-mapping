@@ -1,0 +1,938 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "firm-bayou-capital",
+        "name": "Bayou Capital",
+        "website": "https://bayou.capital",
+        "description": "Early-stage VC focused on Houston founders and Gulf Coast energy transition.",
+        "tags": [
+          "seed",
+          "houston",
+          "energy"
+        ],
+        "fundSize": "$75M",
+        "stageFocus": "Pre-seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.097,
+          29.5502
+        ]
+      },
+      "properties": {
+        "id": "firm-space-city-ventures",
+        "name": "Space City Ventures",
+        "website": "https://spacecity.vc",
+        "description": "Backs aerospace, defense, and dual-use tech from Houston.",
+        "tags": [
+          "aerospace",
+          "defense",
+          "series-a"
+        ],
+        "fundSize": "$120M",
+        "stageFocus": "Seed to Series B",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4018,
+          29.7114
+        ]
+      },
+      "properties": {
+        "id": "firm-med-center-partners",
+        "name": "Med Center Partners",
+        "website": "https://medcenter.partners",
+        "description": "Life sciences and digital health focused fund near TMC.",
+        "tags": [
+          "health",
+          "biotech",
+          "digital-health"
+        ],
+        "fundSize": "$60M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3644,
+          29.7583
+        ]
+      },
+      "properties": {
+        "id": "firm-mercury-fund",
+        "name": "Mercury Fund",
+        "website": "https://mercuryfund.com",
+        "description": "Early-stage software VC backing founders in the midcontinent.",
+        "tags": [
+          "software",
+          "seed",
+          "series-a"
+        ],
+        "fundSize": "$500M+",
+        "stageFocus": "Seed to Series B",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.365,
+          29.7595
+        ]
+      },
+      "properties": {
+        "id": "firm-chevron-technology-ventures",
+        "name": "Chevron Technology Ventures",
+        "website": "https://www.chevron.com/technology/technology-ventures",
+        "description": "Corporate venture arm investing in energy transition and digital.",
+        "tags": [
+          "energy",
+          "climate",
+          "corporate"
+        ],
+        "fundSize": "$300M+",
+        "stageFocus": "Growth and strategic",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3897,
+          29.7442
+        ]
+      },
+      "properties": {
+        "id": "firm-artemis-fund",
+        "name": "The Artemis Fund",
+        "website": "https://www.theartemisfund.com",
+        "description": "Investing in female-led fintech, commerce, and care economy startups.",
+        "tags": [
+          "fintech",
+          "female-founders",
+          "seed"
+        ],
+        "fundSize": "$50M",
+        "stageFocus": "Pre-seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3696,
+          29.7607
+        ]
+      },
+      "properties": {
+        "id": "firm-goose-capital",
+        "name": "Goose Capital",
+        "website": "https://www.goose.capital",
+        "description": "Angel investment group backing early-stage companies across sectors.",
+        "tags": [
+          "angel",
+          "seed",
+          "multi-sector"
+        ],
+        "fundSize": "$50M+",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.358,
+          29.749
+        ]
+      },
+      "properties": {
+        "id": "firm-houston-ventures",
+        "name": "Houston Ventures",
+        "website": "https://houstonventures.com",
+        "description": "B2B tech investments for industrial, logistics, and energy.",
+        "tags": [
+          "industrial",
+          "b2b",
+          "energy"
+        ],
+        "fundSize": "$100M",
+        "stageFocus": "Seed to Series B",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3674,
+          29.7589
+        ]
+      },
+      "properties": {
+        "id": "firm-texas-atlantic-capital",
+        "name": "Texas Atlantic Capital",
+        "website": "https://www.txacapital.com",
+        "description": "Texas-focused venture investments across software and services.",
+        "tags": [
+          "software",
+          "services",
+          "texas"
+        ],
+        "fundSize": "$150M",
+        "stageFocus": "Series A to Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4635,
+          29.7352
+        ]
+      },
+      "properties": {
+        "id": "firm-golden-section",
+        "name": "Golden Section",
+        "website": "https://www.goldensection.com",
+        "description": "Capital and GTM support for B2B SaaS founders.",
+        "tags": [
+          "saas",
+          "b2b",
+          "seed"
+        ],
+        "fundSize": "$100M+",
+        "stageFocus": "Pre-seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3885,
+          29.7461
+        ]
+      },
+      "properties": {
+        "id": "firm-seed-round-capital",
+        "name": "Seed Round Capital",
+        "website": "https://seedround.vc",
+        "description": "Houston seed fund backing early teams with traction.",
+        "tags": [
+          "seed",
+          "houston",
+          "early-stage"
+        ],
+        "fundSize": "$25M",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4619,
+          29.7531
+        ]
+      },
+      "properties": {
+        "id": "firm-quantum-energy-partners",
+        "name": "Quantum Energy Partners",
+        "website": "https://www.quantumep.com",
+        "description": "Energy-focused private equity and growth capital.",
+        "tags": [
+          "energy",
+          "climate",
+          "growth"
+        ],
+        "fundSize": "$18B+",
+        "stageFocus": "Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.367,
+          29.758
+        ]
+      },
+      "properties": {
+        "id": "firm-knightsgate-ventures",
+        "name": "Knightsgate Ventures",
+        "website": "https://www.knightsgate.vc",
+        "description": "Impact-driven investments in tech with social and financial returns.",
+        "tags": [
+          "impact",
+          "tech",
+          "seed"
+        ],
+        "fundSize": "$50M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0852,
+          29.5603
+        ]
+      },
+      "properties": {
+        "id": "firm-spacefund",
+        "name": "SpaceFund",
+        "website": "https://spacefund.com",
+        "description": "Invests in space startups across launch, logistics, and infrastructure.",
+        "tags": [
+          "space",
+          "aerospace",
+          "seed"
+        ],
+        "fundSize": "$30M+",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.365,
+          29.759
+        ]
+      },
+      "properties": {
+        "id": "firm-hx-venture-fund",
+        "name": "HX Venture Fund",
+        "website": "https://www.houstonexponential.org/hx-venture-fund",
+        "description": "Fund of funds catalyzing venture investment into Houston startups.",
+        "tags": [
+          "fund-of-funds",
+          "houston",
+          "platform"
+        ],
+        "fundSize": "$50M+",
+        "stageFocus": "LP interests",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.458,
+          29.7426
+        ]
+      },
+      "properties": {
+        "id": "firm-annis-ventures",
+        "name": "Annis Ventures",
+        "website": "https://annisventures.com",
+        "description": "Family office-backed venture investments across sectors.",
+        "tags": [
+          "family-office",
+          "multi-sector",
+          "seed"
+        ],
+        "fundSize": "$20M",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "firm-texas-halo-fund",
+        "name": "Texas HALO Fund",
+        "website": "https://texashalofund.com",
+        "description": "Angel fund investing in early-stage companies across Texas.",
+        "tags": [
+          "angel",
+          "texas",
+          "seed"
+        ],
+        "fundSize": "$35M",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.757
+        ]
+      },
+      "properties": {
+        "id": "firm-texas-ventures",
+        "name": "Texas Ventures",
+        "website": "https://texasventures.com",
+        "description": "Growth capital across industrial, energy, and technology.",
+        "tags": [
+          "growth",
+          "industrial",
+          "energy"
+        ],
+        "fundSize": "$200M",
+        "stageFocus": "Series B to Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.409,
+          29.723
+        ]
+      },
+      "properties": {
+        "id": "firm-bayou-quantum",
+        "name": "Bayou Quantum",
+        "website": "https://bayouquantum.com",
+        "description": "Investing in quantum sensing, compute, and security startups along the Gulf Coast.",
+        "tags": [
+          "quantum",
+          "security",
+          "seed"
+        ],
+        "fundSize": "$80M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.29,
+          29.71
+        ]
+      },
+      "properties": {
+        "id": "firm-coastal-climate-partners",
+        "name": "Coastal Climate Partners",
+        "website": "https://coastalclimate.vc",
+        "description": "Checks for coastal resilience, carbon, and grid-scale climate tech.",
+        "tags": [
+          "climate",
+          "resilience",
+          "infrastructure"
+        ],
+        "fundSize": "$110M",
+        "stageFocus": "Series A to Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.089,
+          29.5305
+        ]
+      },
+      "properties": {
+        "id": "firm-skyharbor-ventures",
+        "name": "SkyHarbor Ventures",
+        "website": "https://skyharbor.vc",
+        "description": "Dual-use aerospace and national security tech investor.",
+        "tags": [
+          "aerospace",
+          "dual-use",
+          "defense"
+        ],
+        "fundSize": "$150M",
+        "stageFocus": "Seed to Series B",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.383,
+          29.763
+        ]
+      },
+      "properties": {
+        "id": "firm-buffalo-bayou-builders",
+        "name": "Buffalo Bayou Builders",
+        "website": "https://buffalobayoubuilders.com",
+        "description": "Proptech and construction tech-focused micro fund.",
+        "tags": [
+          "proptech",
+          "construction",
+          "seed"
+        ],
+        "fundSize": "$35M",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.115,
+          29.575
+        ]
+      },
+      "properties": {
+        "id": "firm-galactic-gulf-labs",
+        "name": "Galactic Gulf Labs",
+        "website": "https://galacticgulf.com",
+        "description": "Studio + fund spinning up space infrastructure and robotics companies in Houston.",
+        "tags": [
+          "studio",
+          "space",
+          "robotics"
+        ],
+        "fundSize": "$60M",
+        "stageFocus": "Company creation",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-moonshots",
+        "name": "Moonshots Capital",
+        "website": "https://moonshotscapital.com",
+        "description": "Veteran-led venture fund backing extraordinary leadership.",
+        "tags": [
+          "seed",
+          "veteran",
+          "saas"
+        ],
+        "fundSize": "$100M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-silent-ventures",
+        "name": "Silent Ventures",
+        "website": "https://silentventures.com",
+        "description": "Fund investing in deep tech and frontier technologies.",
+        "tags": [
+          "deep-tech",
+          "frontier",
+          "seed"
+        ],
+        "fundSize": "$150M",
+        "stageFocus": "Seed to Series B",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "firm-8090-industries",
+        "name": "8090 Industries",
+        "website": "https://8090industries.com",
+        "description": "Industrial and climate tech investors.",
+        "tags": [
+          "industrial",
+          "climate",
+          "growth"
+        ],
+        "fundSize": "$250M",
+        "stageFocus": "Series A to Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "firm-govo-vp",
+        "name": "Govo Venture Partners",
+        "website": "https://govo.vc",
+        "description": "Gov/enterprise-focused fund backing critical infrastructure software.",
+        "tags": [
+          "govtech",
+          "infrastructure",
+          "series-a"
+        ],
+        "fundSize": "$75M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-bessemer",
+        "name": "Bessemer Venture Partners",
+        "website": "https://www.bvp.com",
+        "description": "Global venture firm across cloud, consumer, frontier, and healthcare.",
+        "tags": [
+          "multi-stage",
+          "cloud",
+          "frontier"
+        ],
+        "fundSize": "$10B+",
+        "stageFocus": "Seed to Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "firm-micron-ventures",
+        "name": "Micron Ventures",
+        "website": "https://www.micron.com",
+        "description": "Corporate venture arm focused on memory-driven and AI applications.",
+        "tags": [
+          "corporate",
+          "ai",
+          "hardware"
+        ],
+        "fundSize": "$200M",
+        "stageFocus": "Seed to Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.74
+        ]
+      },
+      "properties": {
+        "id": "firm-mediatek",
+        "name": "MediaTek Ventures",
+        "website": "https://www.mediatek.com",
+        "description": "Investing in semiconductor, connectivity, and edge AI ecosystems.",
+        "tags": [
+          "semiconductor",
+          "edge",
+          "ai"
+        ],
+        "fundSize": "$300M",
+        "stageFocus": "Seed to Series B",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36,
+          29.75
+        ]
+      },
+      "properties": {
+        "id": "firm-pear-vc",
+        "name": "Pear VC",
+        "website": "https://pear.vc",
+        "description": "Early-stage fund backing category-defining companies.",
+        "tags": [
+          "seed",
+          "pre-seed",
+          "multi-sector"
+        ],
+        "fundSize": "$600M",
+        "stageFocus": "Pre-seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-boost-vc",
+        "name": "Boost VC",
+        "website": "https://www.boost.vc",
+        "description": "Accelerator and fund for sci-fi tech: crypto, aerospace, robotics, VR.",
+        "tags": [
+          "accelerator",
+          "frontier",
+          "seed"
+        ],
+        "fundSize": "$100M",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7605
+        ]
+      },
+      "properties": {
+        "id": "firm-pipeline-angels",
+        "name": "Pipeline Angels",
+        "website": "https://pipelineangels.com",
+        "description": "Angel training and investment collective funding women and nonbinary founders.",
+        "tags": [
+          "angel",
+          "diversity",
+          "seed"
+        ],
+        "fundSize": "$50M",
+        "stageFocus": "Pre-seed to Seed",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      },
+      "properties": {
+        "id": "firm-encap",
+        "name": "EnCap Investments",
+        "website": "https://www.encapinvestments.com",
+        "description": "Energy private equity firm across upstream and transition assets.",
+        "tags": [
+          "energy",
+          "growth",
+          "private-equity"
+        ],
+        "fundSize": "$37B",
+        "stageFocus": "Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-ta-capital",
+        "name": "TA Capital",
+        "website": "https://www.ta.com",
+        "description": "Global growth equity across technology, health care, financial services, consumer, and business services.",
+        "tags": [
+          "growth",
+          "multi-sector",
+          "private-equity"
+        ],
+        "fundSize": "$50B+",
+        "stageFocus": "Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-scotia-capital",
+        "name": "Scotia Capital",
+        "website": "https://www.scotiabank.com",
+        "description": "Corporate capital arm with energy and industrial exposure.",
+        "tags": [
+          "corporate",
+          "energy",
+          "growth"
+        ],
+        "fundSize": "$1B+",
+        "stageFocus": "Growth",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-fitz-gate",
+        "name": "Fitz Gate Ventures",
+        "website": "https://fitzgateway.com",
+        "description": "Early-stage fund investing in founders with Princeton ties and beyond.",
+        "tags": [
+          "seed",
+          "multi-sector"
+        ],
+        "fundSize": "$50M",
+        "stageFocus": "Pre-seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-sternhill",
+        "name": "Sternhill Partners",
+        "website": "https://sternhill.com",
+        "description": "Houston venture firm across technology and healthcare.",
+        "tags": [
+          "multi-sector",
+          "series-a"
+        ],
+        "fundSize": "$100M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "firm-murphee-venture",
+        "name": "Murphee Venture Partners",
+        "website": "https://murphee.com",
+        "description": "Texas-focused venture capital across tech and energy.",
+        "tags": [
+          "multi-sector",
+          "seed"
+        ],
+        "fundSize": "$75M",
+        "stageFocus": "Seed to Series A",
+        "deletedAt": null
+      }
+    }
+  ]
+}

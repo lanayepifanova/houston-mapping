@@ -1,0 +1,6096 @@
+{
+  "items": [
+    {
+      "id": "firm-bayou-capital",
+      "kind": "firm",
+      "name": "Bayou Capital",
+      "description": "Early-stage VC focused on Houston founders and Gulf Coast energy transition.",
+      "website": "https://bayou.capital",
+      "tags": [
+        "seed",
+        "houston",
+        "energy"
+      ],
+      "stage": "Pre-seed to Series A",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-space-city-ventures",
+      "kind": "firm",
+      "name": "Space City Ventures",
+      "description": "Backs aerospace, defense, and dual-use tech from Houston.",
+      "website": "https://spacecity.vc",
+      "tags": [
+        "aerospace",
+        "defense",
+        "series-a"
+      ],
+      "stage": "Seed to Series B",
+      "location": {
+        "lat": 29.5502,
+        "lng": -95.097,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "firm-med-center-partners",
+      "kind": "firm",
+      "name": "Med Center Partners",
+      "description": "Life sciences and digital health focused fund near TMC.",
+      "website": "https://medcenter.partners",
+      "tags": [
+        "health",
+        "biotech",
+        "digital-health"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.7114,
+        "lng": -95.4018,
+        "address": "Texas Medical Center"
+      }
+    },
+    {
+      "id": "firm-mercury-fund",
+      "kind": "firm",
+      "name": "Mercury Fund",
+      "description": "Early-stage software VC backing founders in the midcontinent.",
+      "website": "https://mercuryfund.com",
+      "tags": [
+        "software",
+        "seed",
+        "series-a"
+      ],
+      "stage": "Seed to Series B",
+      "location": {
+        "lat": 29.7583,
+        "lng": -95.3644,
+        "address": "The Ion District, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-chevron-technology-ventures",
+      "kind": "firm",
+      "name": "Chevron Technology Ventures",
+      "description": "Corporate venture arm investing in energy transition and digital.",
+      "website": "https://www.chevron.com/technology/technology-ventures",
+      "tags": [
+        "energy",
+        "climate",
+        "corporate"
+      ],
+      "stage": "Growth and strategic",
+      "location": {
+        "lat": 29.7595,
+        "lng": -95.365,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-artemis-fund",
+      "kind": "firm",
+      "name": "The Artemis Fund",
+      "description": "Investing in female-led fintech, commerce, and care economy startups.",
+      "website": "https://www.theartemisfund.com",
+      "tags": [
+        "fintech",
+        "female-founders",
+        "seed"
+      ],
+      "stage": "Pre-seed to Series A",
+      "location": {
+        "lat": 29.7442,
+        "lng": -95.3897,
+        "address": "Montrose, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-goose-capital",
+      "kind": "firm",
+      "name": "Goose Capital",
+      "description": "Angel investment group backing early-stage companies across sectors.",
+      "website": "https://www.goose.capital",
+      "tags": [
+        "angel",
+        "seed",
+        "multi-sector"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.7607,
+        "lng": -95.3696,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-houston-ventures",
+      "kind": "firm",
+      "name": "Houston Ventures",
+      "description": "B2B tech investments for industrial, logistics, and energy.",
+      "website": "https://houstonventures.com",
+      "tags": [
+        "industrial",
+        "b2b",
+        "energy"
+      ],
+      "stage": "Seed to Series B",
+      "location": {
+        "lat": 29.749,
+        "lng": -95.358,
+        "address": "EaDo, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-texas-atlantic-capital",
+      "kind": "firm",
+      "name": "Texas Atlantic Capital",
+      "description": "Texas-focused venture investments across software and services.",
+      "website": "https://www.txacapital.com",
+      "tags": [
+        "software",
+        "services",
+        "texas"
+      ],
+      "stage": "Series A to Growth",
+      "location": {
+        "lat": 29.7589,
+        "lng": -95.3674,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-golden-section",
+      "kind": "firm",
+      "name": "Golden Section",
+      "description": "Capital and GTM support for B2B SaaS founders.",
+      "website": "https://www.goldensection.com",
+      "tags": [
+        "saas",
+        "b2b",
+        "seed"
+      ],
+      "stage": "Pre-seed to Series A",
+      "location": {
+        "lat": 29.7352,
+        "lng": -95.4635,
+        "address": "Uptown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-seed-round-capital",
+      "kind": "firm",
+      "name": "Seed Round Capital",
+      "description": "Houston seed fund backing early teams with traction.",
+      "website": "https://seedround.vc",
+      "tags": [
+        "seed",
+        "houston",
+        "early-stage"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.7461,
+        "lng": -95.3885,
+        "address": "Midtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-quantum-energy-partners",
+      "kind": "firm",
+      "name": "Quantum Energy Partners",
+      "description": "Energy-focused private equity and growth capital.",
+      "website": "https://www.quantumep.com",
+      "tags": [
+        "energy",
+        "climate",
+        "growth"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7531,
+        "lng": -95.4619,
+        "address": "Memorial, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-knightsgate-ventures",
+      "kind": "firm",
+      "name": "Knightsgate Ventures",
+      "description": "Impact-driven investments in tech with social and financial returns.",
+      "website": "https://www.knightsgate.vc",
+      "tags": [
+        "impact",
+        "tech",
+        "seed"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.758,
+        "lng": -95.367,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-spacefund",
+      "kind": "firm",
+      "name": "SpaceFund",
+      "description": "Invests in space startups across launch, logistics, and infrastructure.",
+      "website": "https://spacefund.com",
+      "tags": [
+        "space",
+        "aerospace",
+        "seed"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.5603,
+        "lng": -95.0852,
+        "address": "Near NASA Johnson Space Center"
+      }
+    },
+    {
+      "id": "firm-hx-venture-fund",
+      "kind": "firm",
+      "name": "HX Venture Fund",
+      "description": "Fund of funds catalyzing venture investment into Houston startups.",
+      "website": "https://www.houstonexponential.org/hx-venture-fund",
+      "tags": [
+        "fund-of-funds",
+        "houston",
+        "platform"
+      ],
+      "stage": "LP interests",
+      "location": {
+        "lat": 29.759,
+        "lng": -95.365,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "firm-annis-ventures",
+      "kind": "firm",
+      "name": "Annis Ventures",
+      "description": "Family office-backed venture investments across sectors.",
+      "website": "https://annisventures.com",
+      "tags": [
+        "family-office",
+        "multi-sector",
+        "seed"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.7426,
+        "lng": -95.458,
+        "address": "River Oaks, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-texas-halo-fund",
+      "kind": "firm",
+      "name": "Texas HALO Fund",
+      "description": "Angel fund investing in early-stage companies across Texas.",
+      "website": "https://texashalofund.com",
+      "tags": [
+        "angel",
+        "texas",
+        "seed"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.4,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-texas-ventures",
+      "kind": "firm",
+      "name": "Texas Ventures",
+      "description": "Growth capital across industrial, energy, and technology.",
+      "website": "https://texasventures.com",
+      "tags": [
+        "growth",
+        "industrial",
+        "energy"
+      ],
+      "stage": "Series B to Growth",
+      "location": {
+        "lat": 29.757,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-bayou-quantum",
+      "kind": "firm",
+      "name": "Bayou Quantum",
+      "description": "Investing in quantum sensing, compute, and security startups along the Gulf Coast.",
+      "website": "https://bayouquantum.com",
+      "tags": [
+        "quantum",
+        "security",
+        "seed"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.723,
+        "lng": -95.409,
+        "address": "Greenway, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-coastal-climate-partners",
+      "kind": "firm",
+      "name": "Coastal Climate Partners",
+      "description": "Checks for coastal resilience, carbon, and grid-scale climate tech.",
+      "website": "https://coastalclimate.vc",
+      "tags": [
+        "climate",
+        "resilience",
+        "infrastructure"
+      ],
+      "stage": "Series A to Growth",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.29,
+        "address": "Bay Area Houston, TX"
+      }
+    },
+    {
+      "id": "firm-skyharbor-ventures",
+      "kind": "firm",
+      "name": "SkyHarbor Ventures",
+      "description": "Dual-use aerospace and national security tech investor.",
+      "website": "https://skyharbor.vc",
+      "tags": [
+        "aerospace",
+        "dual-use",
+        "defense"
+      ],
+      "stage": "Seed to Series B",
+      "location": {
+        "lat": 29.5305,
+        "lng": -95.089,
+        "address": "Near Ellington Field, Houston, TX"
+      }
+    },
+    {
+      "id": "firm-buffalo-bayou-builders",
+      "kind": "firm",
+      "name": "Buffalo Bayou Builders",
+      "description": "Proptech and construction tech-focused micro fund.",
+      "website": "https://buffalobayoubuilders.com",
+      "tags": [
+        "proptech",
+        "construction",
+        "seed"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.763,
+        "lng": -95.383,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-galactic-gulf-labs",
+      "kind": "firm",
+      "name": "Galactic Gulf Labs",
+      "description": "Studio + fund spinning up space infrastructure and robotics companies in Houston.",
+      "website": "https://galacticgulf.com",
+      "tags": [
+        "studio",
+        "space",
+        "robotics"
+      ],
+      "stage": "Company creation",
+      "location": {
+        "lat": 29.575,
+        "lng": -95.115,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "firm-moonshots",
+      "kind": "firm",
+      "name": "Moonshots Capital",
+      "description": "Veteran-led venture fund backing extraordinary leadership.",
+      "website": "https://moonshotscapital.com",
+      "tags": [
+        "seed",
+        "veteran",
+        "saas"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-silent-ventures",
+      "kind": "firm",
+      "name": "Silent Ventures",
+      "description": "Fund investing in deep tech and frontier technologies.",
+      "website": "https://silentventures.com",
+      "tags": [
+        "deep-tech",
+        "frontier",
+        "seed"
+      ],
+      "stage": "Seed to Series B",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-8090-industries",
+      "kind": "firm",
+      "name": "8090 Industries",
+      "description": "Industrial and climate tech investors.",
+      "website": "https://8090industries.com",
+      "tags": [
+        "industrial",
+        "climate",
+        "growth"
+      ],
+      "stage": "Series A to Growth",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-govo-vp",
+      "kind": "firm",
+      "name": "Govo Venture Partners",
+      "description": "Gov/enterprise-focused fund backing critical infrastructure software.",
+      "website": "https://govo.vc",
+      "tags": [
+        "govtech",
+        "infrastructure",
+        "series-a"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-bessemer",
+      "kind": "firm",
+      "name": "Bessemer Venture Partners",
+      "description": "Global venture firm across cloud, consumer, frontier, and healthcare.",
+      "website": "https://www.bvp.com",
+      "tags": [
+        "multi-stage",
+        "cloud",
+        "frontier"
+      ],
+      "stage": "Seed to Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-micron-ventures",
+      "kind": "firm",
+      "name": "Micron Ventures",
+      "description": "Corporate venture arm focused on memory-driven and AI applications.",
+      "website": "https://www.micron.com",
+      "tags": [
+        "corporate",
+        "ai",
+        "hardware"
+      ],
+      "stage": "Seed to Growth",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-mediatek",
+      "kind": "firm",
+      "name": "MediaTek Ventures",
+      "description": "Investing in semiconductor, connectivity, and edge AI ecosystems.",
+      "website": "https://www.mediatek.com",
+      "tags": [
+        "semiconductor",
+        "edge",
+        "ai"
+      ],
+      "stage": "Seed to Series B",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-pear-vc",
+      "kind": "firm",
+      "name": "Pear VC",
+      "description": "Early-stage fund backing category-defining companies.",
+      "website": "https://pear.vc",
+      "tags": [
+        "seed",
+        "pre-seed",
+        "multi-sector"
+      ],
+      "stage": "Pre-seed to Series A",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-boost-vc",
+      "kind": "firm",
+      "name": "Boost VC",
+      "description": "Accelerator and fund for sci-fi tech: crypto, aerospace, robotics, VR.",
+      "website": "https://www.boost.vc",
+      "tags": [
+        "accelerator",
+        "frontier",
+        "seed"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-pipeline-angels",
+      "kind": "firm",
+      "name": "Pipeline Angels",
+      "description": "Angel training and investment collective funding women and nonbinary founders.",
+      "website": "https://pipelineangels.com",
+      "tags": [
+        "angel",
+        "diversity",
+        "seed"
+      ],
+      "stage": "Pre-seed to Seed",
+      "location": {
+        "lat": 29.7605,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-encap",
+      "kind": "firm",
+      "name": "EnCap Investments",
+      "description": "Energy private equity firm across upstream and transition assets.",
+      "website": "https://www.encapinvestments.com",
+      "tags": [
+        "energy",
+        "growth",
+        "private-equity"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-ta-capital",
+      "kind": "firm",
+      "name": "TA Capital",
+      "description": "Global growth equity across technology, health care, financial services, consumer, and business services.",
+      "website": "https://www.ta.com",
+      "tags": [
+        "growth",
+        "multi-sector",
+        "private-equity"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-scotia-capital",
+      "kind": "firm",
+      "name": "Scotia Capital",
+      "description": "Corporate capital arm with energy and industrial exposure.",
+      "website": "https://www.scotiabank.com",
+      "tags": [
+        "corporate",
+        "energy",
+        "growth"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-fitz-gate",
+      "kind": "firm",
+      "name": "Fitz Gate Ventures",
+      "description": "Early-stage fund investing in founders with Princeton ties and beyond.",
+      "website": "https://fitzgateway.com",
+      "tags": [
+        "seed",
+        "multi-sector"
+      ],
+      "stage": "Pre-seed to Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-sternhill",
+      "kind": "firm",
+      "name": "Sternhill Partners",
+      "description": "Houston venture firm across technology and healthcare.",
+      "website": "https://sternhill.com",
+      "tags": [
+        "multi-sector",
+        "series-a"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "firm-murphee-venture",
+      "kind": "firm",
+      "name": "Murphee Venture Partners",
+      "description": "Texas-focused venture capital across tech and energy.",
+      "website": "https://murphee.com",
+      "tags": [
+        "multi-sector",
+        "seed"
+      ],
+      "stage": "Seed to Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-space-city-labs",
+      "kind": "startup",
+      "name": "Space City Labs",
+      "description": "Geo tools for Houston logistics and energy.",
+      "website": "https://spacecitylabs.com",
+      "tags": [
+        "geospatial",
+        "energy",
+        "saas"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.7499,
+        "lng": -95.3584,
+        "address": "EaDo, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-bayou-bio",
+      "kind": "startup",
+      "name": "Bayou Bio",
+      "description": "Wet lab automation for gulf coast biomanufacturing.",
+      "website": "https://bayoubio.com",
+      "tags": [
+        "biotech",
+        "automation",
+        "seed"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7045,
+        "lng": -95.4018,
+        "address": "Texas Medical Center"
+      }
+    },
+    {
+      "id": "startup-metro-mobility",
+      "kind": "startup",
+      "name": "Metro Mobility",
+      "description": "AI routing for freight along the I-45 corridor.",
+      "website": "https://metromobility.ai",
+      "tags": [
+        "logistics",
+        "ai",
+        "transport"
+      ],
+      "stage": "Pre-Seed",
+      "location": {
+        "lat": 29.7847,
+        "lng": -95.3355,
+        "address": "Northside, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cart-com",
+      "kind": "startup",
+      "name": "Cart.com",
+      "description": "Ecommerce operations platform with fulfillment, storefront, and analytics.",
+      "website": "https://cart.com",
+      "tags": [
+        "ecommerce",
+        "fulfillment",
+        "series-c"
+      ],
+      "stage": "Series C",
+      "location": {
+        "lat": 29.7638,
+        "lng": -95.3631,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-convoz",
+      "kind": "startup",
+      "name": "Convoz",
+      "description": "Short-form video platform that connects fans with creators and celebrities.",
+      "website": "https://convoz.com",
+      "tags": [
+        "social",
+        "video",
+        "seed"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-ally-energy",
+      "kind": "startup",
+      "name": "Ally Energy",
+      "description": "Career and hiring marketplace for energy transition talent.",
+      "website": "https://allyenergy.com",
+      "tags": [
+        "climate",
+        "jobs",
+        "marketplace"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.758,
+        "lng": -95.367,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-intuitive-machines",
+      "kind": "startup",
+      "name": "Intuitive Machines",
+      "description": "Lunar lander and space systems company headquartered at the Houston Spaceport.",
+      "website": "https://www.intuitivemachines.com",
+      "tags": [
+        "aerospace",
+        "space",
+        "public"
+      ],
+      "stage": "Public",
+      "location": {
+        "lat": 29.5597,
+        "lng": -95.0875,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "startup-mstack",
+      "kind": "startup",
+      "name": "Mstack",
+      "description": "Energy software platform for asset data integration and monitoring.",
+      "website": "https://mstack.com",
+      "tags": [
+        "energy",
+        "saas",
+        "asset-management"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.754,
+        "lng": -95.357,
+        "address": "East Downtown, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-docjuris",
+      "kind": "startup",
+      "name": "DocJuris",
+      "description": "Contract negotiation workflow and playbook automation for legal teams.",
+      "website": "https://www.docjuris.com",
+      "tags": [
+        "legaltech",
+        "contracts",
+        "saas"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.752,
+        "lng": -95.357,
+        "address": "EaDo, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-wattbridge",
+      "kind": "startup",
+      "name": "WattBridge",
+      "description": "Fast-start power generation platform building flexible natural gas assets.",
+      "website": "https://wattbridge.com",
+      "tags": [
+        "energy",
+        "power",
+        "infrastructure"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.369,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-radial-power",
+      "kind": "startup",
+      "name": "Radial Power",
+      "description": "Develops and operates distributed solar and storage projects.",
+      "website": "https://radialpower.com",
+      "tags": [
+        "solar",
+        "energy",
+        "infrastructure"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7605,
+        "lng": -95.3696,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-utility-global",
+      "kind": "startup",
+      "name": "Utility Global",
+      "description": "Technology to produce low-carbon hydrogen from waste gases and renewables.",
+      "website": "https://utility.global",
+      "tags": [
+        "hydrogen",
+        "climate",
+        "industrial"
+      ],
+      "stage": "Series B",
+      "location": {
+        "lat": 29.735,
+        "lng": -95.472,
+        "address": "Uptown, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-thirdai",
+      "kind": "startup",
+      "name": "ThirdAI",
+      "description": "Houston AI infrastructure company building efficient training and inference.",
+      "website": "https://thirdai.com",
+      "tags": [
+        "ai",
+        "infrastructure",
+        "series-a"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.717,
+        "lng": -95.402,
+        "address": "Rice University area, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-axiom-space",
+      "kind": "startup",
+      "name": "Axiom Space",
+      "description": "Commercial space station developer supporting private astronaut missions and orbital infrastructure.",
+      "website": "https://www.axiomspace.com",
+      "tags": [
+        "space",
+        "aerospace",
+        "infrastructure"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.5597,
+        "lng": -95.0875,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "startup-nucamp",
+      "kind": "startup",
+      "name": "Nucamp",
+      "description": "Affordable coding bootcamps delivered through hybrid online and local cohorts.",
+      "website": "https://www.nucamp.co",
+      "tags": [
+        "edtech",
+        "bootcamp",
+        "coding"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-graylog",
+      "kind": "startup",
+      "name": "Graylog",
+      "description": "Security and log management platform for observability and threat detection.",
+      "website": "https://graylog.org",
+      "tags": [
+        "security",
+        "observability",
+        "saas"
+      ],
+      "stage": "Series C",
+      "location": {
+        "lat": 29.7608,
+        "lng": -95.3697,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-highradius",
+      "kind": "startup",
+      "name": "HighRadius",
+      "description": "AI-powered order-to-cash and treasury management software.",
+      "website": "https://www.highradius.com",
+      "tags": [
+        "fintech",
+        "ai",
+        "saas"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.957,
+        "lng": -95.419,
+        "address": "North Houston, TX"
+      }
+    },
+    {
+      "id": "startup-hello-alice",
+      "kind": "startup",
+      "name": "Hello Alice",
+      "description": "Platform offering grants, funding access, and resources for small business owners.",
+      "website": "https://helloalice.com",
+      "tags": [
+        "small-business",
+        "fintech",
+        "marketplace"
+      ],
+      "stage": "Series C",
+      "location": {
+        "lat": 29.749,
+        "lng": -95.358,
+        "address": "EaDo, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-onit",
+      "kind": "startup",
+      "name": "Onit",
+      "description": "Enterprise legal management and contract automation software.",
+      "website": "https://www.onit.com",
+      "tags": [
+        "legaltech",
+        "saas",
+        "enterprise"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7602,
+        "lng": -95.3695,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-riversand",
+      "kind": "startup",
+      "name": "Riversand",
+      "description": "Master data management and product information management platform.",
+      "website": "https://www.riversand.com",
+      "tags": [
+        "data",
+        "mdm",
+        "saas"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.735,
+        "lng": -95.472,
+        "address": "Uptown, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-beyond-finance",
+      "kind": "startup",
+      "name": "Beyond Finance",
+      "description": "Debt resolution fintech helping consumers consolidate and settle debt.",
+      "website": "https://www.beyondfinance.com",
+      "tags": [
+        "fintech",
+        "consumer",
+        "debt"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-majority",
+      "kind": "startup",
+      "name": "MAJORITY",
+      "description": "Mobile banking and community services tailored for immigrants.",
+      "website": "https://www.majority.com",
+      "tags": [
+        "fintech",
+        "banking",
+        "immigrant"
+      ],
+      "stage": "Series B",
+      "location": {
+        "lat": 29.744,
+        "lng": -95.389,
+        "address": "Montrose, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-lancium",
+      "kind": "startup",
+      "name": "Lancium",
+      "description": "Grid-scale computing and renewable-powered data centers that stabilize the grid.",
+      "website": "https://lancium.com",
+      "tags": [
+        "energy",
+        "data-centers",
+        "climate"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.7605,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-tekrevol",
+      "kind": "startup",
+      "name": "TekRevol",
+      "description": "Product development studio building mobile, web, and cloud software.",
+      "website": "https://www.tekrevol.com",
+      "tags": [
+        "services",
+        "software",
+        "agency"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.748,
+        "lng": -95.37,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-goexpedi",
+      "kind": "startup",
+      "name": "GoExpedi",
+      "description": "Industrial and energy MRO procurement marketplace with logistics and analytics.",
+      "website": "https://www.goexpedi.com",
+      "tags": [
+        "marketplace",
+        "energy",
+        "logistics"
+      ],
+      "stage": "Series C",
+      "location": {
+        "lat": 29.753,
+        "lng": -95.359,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-recode-solutions",
+      "kind": "startup",
+      "name": "Recode Solutions",
+      "description": "Custom software and product development consultancy.",
+      "website": "https://recodesolutions.com",
+      "tags": [
+        "services",
+        "consulting",
+        "software"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.43,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-sage-geosystems",
+      "kind": "startup",
+      "name": "Sage Geosystems",
+      "description": "Geothermal energy storage and power technology company.",
+      "website": "https://sagegeosystems.com",
+      "tags": [
+        "geothermal",
+        "energy",
+        "climate"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.736,
+        "lng": -95.47,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-fluidity-technologies",
+      "kind": "startup",
+      "name": "Fluidity Technologies",
+      "description": "Precision motion controllers and joysticks for aerospace and robotics.",
+      "website": "https://www.fluidity.tech",
+      "tags": [
+        "aerospace",
+        "hardware",
+        "control"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.552,
+        "lng": -95.095,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cognitive-space",
+      "kind": "startup",
+      "name": "Cognitive Space",
+      "description": "AI-driven mission management and tasking platform for satellite constellations.",
+      "website": "https://www.cognitivespace.com",
+      "tags": [
+        "space",
+        "ai",
+        "satellites"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.7607,
+        "lng": -95.3696,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-c3-ai",
+      "kind": "startup",
+      "name": "C3 AI",
+      "description": "Enterprise AI platform for predictive maintenance, ESG, and supply chain analytics.",
+      "website": "https://c3.ai",
+      "tags": [
+        "ai",
+        "enterprise",
+        "public"
+      ],
+      "stage": "Public",
+      "location": {
+        "lat": 29.7605,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-koda-health",
+      "kind": "startup",
+      "name": "Koda Health",
+      "description": "Advance care planning and patient engagement platform for healthcare providers.",
+      "website": "https://www.kodahealthcare.com",
+      "tags": [
+        "healthtech",
+        "saas",
+        "patient-engagement"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.716,
+        "lng": -95.401,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-disco",
+      "kind": "startup",
+      "name": "DISCO",
+      "description": "Cloud-native eDiscovery and legal case management platform.",
+      "website": "https://csdisco.com",
+      "tags": [
+        "legaltech",
+        "saas",
+        "public"
+      ],
+      "stage": "Public",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-ltv-ai",
+      "kind": "startup",
+      "name": "LTV.ai",
+      "description": "AI platform to predict and grow customer lifetime value for ecommerce brands.",
+      "website": "https://www.ltv.ai",
+      "tags": [
+        "ai",
+        "ecommerce",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.757,
+        "lng": -95.365,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-adaptive-ai",
+      "kind": "startup",
+      "name": "Adaptive AI LLC",
+      "description": "AI solutions company delivering predictive models and automation for enterprises.",
+      "website": "https://adaptiveai.ai",
+      "tags": [
+        "ai",
+        "automation",
+        "services"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.753,
+        "lng": -95.359,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-innovapptive",
+      "kind": "startup",
+      "name": "Innovapptive",
+      "description": "Connected worker and field operations platform for industrial companies.",
+      "website": "https://www.innovapptive.com",
+      "tags": [
+        "industrial",
+        "saas",
+        "mobile"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.735,
+        "lng": -95.472,
+        "address": "Uptown, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-opro-ai",
+      "kind": "startup",
+      "name": "oPRO.ai Inc",
+      "description": "AI-driven optimization and robotics software for industrial operations.",
+      "website": "https://opro.ai",
+      "tags": [
+        "ai",
+        "industrial",
+        "automation"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.751,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-orchestra-macrosystems",
+      "kind": "startup",
+      "name": "Orchestra Macrosystems",
+      "description": "Data integration and analytics platform for industrial and energy systems.",
+      "website": "https://orchestramacro.com",
+      "tags": [
+        "data",
+        "industrial",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.4,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-little-place-labs",
+      "kind": "startup",
+      "name": "Little Place Labs",
+      "description": "Edge software to process satellite data for maritime and logistics monitoring.",
+      "website": "https://littleplacelabs.com",
+      "tags": [
+        "space",
+        "edge",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7602,
+        "lng": -95.3689,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-skyline-robotics",
+      "kind": "startup",
+      "name": "Skyline Robotics",
+      "description": "Autonomous facade inspection and maintenance robots for high-rise buildings.",
+      "website": "https://skyline-robotics.io",
+      "tags": [
+        "robotics",
+        "computer-vision",
+        "construction"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7575,
+        "lng": -95.355,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "startup-harbor-analytics",
+      "kind": "startup",
+      "name": "Harbor Analytics",
+      "description": "Maritime risk intelligence using AIS data, satellite imagery, and LLM-driven summarization.",
+      "website": "https://harboranalytics.ai",
+      "tags": [
+        "maritime",
+        "ai",
+        "risk"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.729,
+        "lng": -95.262,
+        "address": "Port of Houston, TX"
+      }
+    },
+    {
+      "id": "startup-bayou-bioworks",
+      "kind": "startup",
+      "name": "Bayou Bioworks",
+      "description": "Synthetic biology platform producing bio-based materials for energy and aerospace.",
+      "website": "https://bayoubioworks.com",
+      "tags": [
+        "synthetic-bio",
+        "materials",
+        "climate"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.708,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cyberrange-houston",
+      "kind": "startup",
+      "name": "CyberRange Houston",
+      "description": "Hands-on cyber range and training simulations for energy and industrial teams.",
+      "website": "https://cyberrangehouston.com",
+      "tags": [
+        "cybersecurity",
+        "training",
+        "industrial"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.781,
+        "lng": -95.545,
+        "address": "West Houston, TX"
+      }
+    },
+    {
+      "id": "startup-astro-ops",
+      "kind": "startup",
+      "name": "AstroOps",
+      "description": "Mission assurance platform automating satellite operations with ML-driven playbooks.",
+      "website": "https://astroops.io",
+      "tags": [
+        "space",
+        "ml",
+        "ops"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.555,
+        "lng": -95.08,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "startup-bayou-bite",
+      "kind": "startup",
+      "name": "Bayou Bite",
+      "description": "Foodtech company making shelf-stable, protein-rich meals for disaster relief.",
+      "website": "https://bayoubite.com",
+      "tags": [
+        "foodtech",
+        "resilience",
+        "supply-chain"
+      ],
+      "stage": "Pre-Seed",
+      "location": {
+        "lat": 29.67,
+        "lng": -95.27,
+        "address": "Pasadena, TX"
+      }
+    },
+    {
+      "id": "startup-ndomedix",
+      "kind": "startup",
+      "name": "ndoMedix",
+      "description": "Clinical decision support for emerging markets with low-connectivity workflows.",
+      "website": "https://ndomedix.com",
+      "tags": [
+        "health",
+        "ai",
+        "clinical"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.741,
+        "lng": -95.379,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-eyetronic",
+      "kind": "startup",
+      "name": "EyeTronic",
+      "description": "Computer vision to monitor industrial safety zones and equipment compliance.",
+      "website": "https://eyetronic.com",
+      "tags": [
+        "computer-vision",
+        "safety",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.739,
+        "lng": -95.375,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-intero-biosystems",
+      "kind": "startup",
+      "name": "Intero Biosystems",
+      "description": "Bioelectronic devices to monitor gut health and metabolic biomarkers.",
+      "website": "https://interobio.com",
+      "tags": [
+        "bioelectronics",
+        "health",
+        "hardware"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.4,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-osperity",
+      "kind": "startup",
+      "name": "Osperity",
+      "description": "AI visual monitoring for remote oil and gas operations.",
+      "website": "https://osperity.com",
+      "tags": [
+        "energy",
+        "ai",
+        "computer-vision"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-radioclash",
+      "kind": "startup",
+      "name": "RadioClash",
+      "description": "RF analytics platform for industrial IoT and critical infrastructure.",
+      "website": "https://radioclash.io",
+      "tags": [
+        "rf",
+        "iot",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.752,
+        "lng": -95.352,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-navanbio",
+      "kind": "startup",
+      "name": "NavanBio",
+      "description": "Platform for targeted RNA therapeutics with rapid design-to-test cycles.",
+      "website": "https://navanbio.com",
+      "tags": [
+        "rna",
+        "therapeutics",
+        "biotech"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.708,
+        "lng": -95.401,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-xnow",
+      "kind": "startup",
+      "name": "XNow",
+      "description": "LLM copilots for field technicians with offline support.",
+      "website": "https://xnow.ai",
+      "tags": [
+        "ai",
+        "field-service",
+        "edge"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.77,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-mars-materials",
+      "kind": "startup",
+      "name": "Mars Materials",
+      "description": "Carbon-negative materials converting CO2 into performance fibers.",
+      "website": "https://marsmaterials.com",
+      "tags": [
+        "climate",
+        "materials",
+        "co2"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.735,
+        "lng": -95.47,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-feel-therapeutics",
+      "kind": "startup",
+      "name": "Feel Therapeutics",
+      "description": "Digital biomarkers and interventions for mental health conditions.",
+      "website": "https://feeltherapeutics.com",
+      "tags": [
+        "mental-health",
+        "digital-health",
+        "biosensors"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.748,
+        "lng": -95.367,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-conversifi",
+      "kind": "startup",
+      "name": "Conversifi",
+      "description": "Language learning via live conversation matching and analytics.",
+      "website": "https://conversifi.com",
+      "tags": [
+        "edtech",
+        "language",
+        "marketplace"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-vktry-gear",
+      "kind": "startup",
+      "name": "VKTRY Gear",
+      "description": "Performance insoles and wearables for athletes with injury analytics.",
+      "website": "https://vktrygear.com",
+      "tags": [
+        "sports",
+        "wearables",
+        "hardware"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-synapse",
+      "kind": "startup",
+      "name": "Synapse",
+      "description": "Industrial knowledge capture and SOP automation platform.",
+      "website": "https://synapseindustrial.com",
+      "tags": [
+        "industrial",
+        "knowledge",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.746,
+        "lng": -95.369,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-swoovy",
+      "kind": "startup",
+      "name": "Swoovy",
+      "description": "Volunteering-as-a-service platform for teams and nonprofits.",
+      "website": "https://swoovy.com",
+      "tags": [
+        "volunteering",
+        "saas",
+        "marketplace"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-steelhead-composites",
+      "kind": "startup",
+      "name": "Steelhead Composites",
+      "description": "Lightweight pressure vessels for hydrogen and advanced mobility.",
+      "website": "https://steelheadcomposites.com",
+      "tags": [
+        "hydrogen",
+        "materials",
+        "mobility"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.69,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-sip-slide",
+      "kind": "startup",
+      "name": "Sip-Slide",
+      "description": "Reusable drinkware with spill-proof mechanisms for venues and events.",
+      "website": "https://sip-slide.com",
+      "tags": [
+        "hardware",
+        "consumer",
+        "sustainability"
+      ],
+      "stage": "Pre-Seed",
+      "location": {
+        "lat": 29.755,
+        "lng": -95.355,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-snappyscreen",
+      "kind": "startup",
+      "name": "SnappyScreen",
+      "description": "Touchless sunscreen spray kiosks for resorts and venues.",
+      "website": "https://snappyscreen.com",
+      "tags": [
+        "hardware",
+        "health",
+        "hospitality"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.77,
+        "lng": -95.34,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-smiley-transportation",
+      "kind": "startup",
+      "name": "Smiley Transportation",
+      "description": "Tech-enabled transportation for students and communities.",
+      "website": "https://smileytransportation.com",
+      "tags": [
+        "transport",
+        "logistics",
+        "services"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.78,
+        "lng": -95.33,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-skycom",
+      "kind": "startup",
+      "name": "SkyCom",
+      "description": "Airship-tower communication platform for disaster and rural connectivity.",
+      "website": "https://skycomlabs.com",
+      "tags": [
+        "aerospace",
+        "communications",
+        "infrastructure"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.41,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-scriberule",
+      "kind": "startup",
+      "name": "ScribeRule",
+      "description": "Policy automation and access control platform for regulated industries.",
+      "website": "https://scriberule.com",
+      "tags": [
+        "security",
+        "policy",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.39,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-saranas",
+      "kind": "startup",
+      "name": "Saranas",
+      "description": "Bleed monitoring vascular device to reduce procedure complications.",
+      "website": "https://saranas.com",
+      "tags": [
+        "medtech",
+        "device",
+        "tmc"
+      ],
+      "stage": "Series B",
+      "location": {
+        "lat": 29.708,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-safepass-global",
+      "kind": "startup",
+      "name": "SafePass Global",
+      "description": "Identity and health clearance passes for workforce safety.",
+      "website": "https://safepassglobal.com",
+      "tags": [
+        "identity",
+        "safety",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.758,
+        "lng": -95.368,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-rollinvets",
+      "kind": "startup",
+      "name": "RollinVets",
+      "description": "Mobile veterinary clinics with full-stack scheduling and diagnostics.",
+      "website": "https://rollinvets.com",
+      "tags": [
+        "vet",
+        "mobile",
+        "health"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-rockmyrun",
+      "kind": "startup",
+      "name": "RockMyRun",
+      "description": "Adaptive music for workouts based on heart rate and cadence.",
+      "website": "https://rockmyrun.com",
+      "tags": [
+        "fitness",
+        "music",
+        "consumer"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.745,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-purifyfuel",
+      "kind": "startup",
+      "name": "PurifyFuel",
+      "description": "Fuel catalysts to cut emissions and improve efficiency for fleets.",
+      "website": "https://purifyfuel.com",
+      "tags": [
+        "energy",
+        "emissions",
+        "industrial"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-petrabytes",
+      "kind": "startup",
+      "name": "PETRAbytes",
+      "description": "Subsurface analytics and digital twins for energy assets.",
+      "website": "https://petrabytes.com",
+      "tags": [
+        "energy",
+        "analytics",
+        "subsurface"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-personal-wine",
+      "kind": "startup",
+      "name": "Personal Wine",
+      "description": "Custom wine gifting with engraving and logistics platform.",
+      "website": "https://personalwine.com",
+      "tags": [
+        "commerce",
+        "gifting",
+        "consumer"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-optelos",
+      "kind": "startup",
+      "name": "Optelos",
+      "description": "Visual data management for drones and digital twins in infrastructure.",
+      "website": "https://optelos.com",
+      "tags": [
+        "drones",
+        "visual-data",
+        "industrial"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.34,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-octetsci",
+      "kind": "startup",
+      "name": "OctetSci",
+      "description": "High-throughput testing platform for advanced materials and coatings.",
+      "website": "https://octetsci.com",
+      "tags": [
+        "materials",
+        "testing",
+        "hardware"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-neopuretech",
+      "kind": "startup",
+      "name": "NeoPureTech",
+      "description": "Water treatment and purification using advanced membranes.",
+      "website": "https://neopuretech.com",
+      "tags": [
+        "water",
+        "cleantech",
+        "infrastructure"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.72,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-nanospectra",
+      "kind": "startup",
+      "name": "NanoSPECTRA",
+      "description": "Nanoparticle-based therapeutic platform for precision oncology.",
+      "website": "https://nanospectra.com",
+      "tags": [
+        "nano",
+        "oncology",
+        "biotech"
+      ],
+      "stage": "Series B",
+      "location": {
+        "lat": 29.707,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-nanoracks",
+      "kind": "startup",
+      "name": "NanoRacks",
+      "description": "Space station services and in-orbit manufacturing solutions.",
+      "website": "https://nanoracks.com",
+      "tags": [
+        "space",
+        "in-space",
+        "infrastructure"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.56,
+        "lng": -95.09,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "startup-mylabbox",
+      "kind": "startup",
+      "name": "MyLabBox",
+      "description": "At-home diagnostics kits with telehealth follow-up.",
+      "website": "https://mylabbox.com",
+      "tags": [
+        "diagnostics",
+        "telehealth",
+        "consumer"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-molecularmatch",
+      "kind": "startup",
+      "name": "MolecularMatch",
+      "description": "Clinical decision support for oncology trials and treatment matching.",
+      "website": "https://molecularmatch.com",
+      "tags": [
+        "oncology",
+        "clinical",
+        "ai"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-mipadrino",
+      "kind": "startup",
+      "name": "MiPadrino",
+      "description": "Event planning and gifting platform for Hispanic celebrations.",
+      "website": "https://mipadrino.com",
+      "tags": [
+        "events",
+        "marketplace",
+        "commerce"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-metricmd",
+      "kind": "startup",
+      "name": "MetricMD",
+      "description": "Analytics for provider performance and revenue cycle optimization.",
+      "website": "https://metricmd.com",
+      "tags": [
+        "health",
+        "analytics",
+        "rcm"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-metoxtech",
+      "kind": "startup",
+      "name": "MetOxTech",
+      "description": "Superconducting wire manufacturing for fusion and energy infrastructure.",
+      "website": "https://metoxtech.com",
+      "tags": [
+        "fusion",
+        "materials",
+        "energy"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.72,
+        "lng": -95.34,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-mergeedu",
+      "kind": "startup",
+      "name": "MergeEdu",
+      "description": "AR/VR learning platform for STEM education.",
+      "website": "https://mergeedu.com",
+      "tags": [
+        "edtech",
+        "ar",
+        "vr"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-memcpu",
+      "kind": "startup",
+      "name": "MemCPU",
+      "description": "Novel computing architecture for hard optimization problems.",
+      "website": "https://memcpu.com",
+      "tags": [
+        "compute",
+        "optimization",
+        "hardware"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.77,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-materna-medical",
+      "kind": "startup",
+      "name": "Materna Medical",
+      "description": "Devices to protect pelvic floor health during childbirth.",
+      "website": "https://maternamedical.com",
+      "tags": [
+        "medtech",
+        "women's-health",
+        "device"
+      ],
+      "stage": "Series B",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-vitaa-medical",
+      "kind": "startup",
+      "name": "Vitaa Medical",
+      "description": "Skin graft alternatives using cellularized scaffolds.",
+      "website": "https://vitaamedical.com",
+      "tags": [
+        "wound-care",
+        "biotech",
+        "device"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.708,
+        "lng": -95.401,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-somnair-sleep",
+      "kind": "startup",
+      "name": "Somnair Sleep",
+      "description": "Therapy devices and monitoring for sleep apnea patients.",
+      "website": "https://somnair.com",
+      "tags": [
+        "sleep",
+        "device",
+        "health"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-bodhi-solar",
+      "kind": "startup",
+      "name": "Bodhi.Solar",
+      "description": "Platform to manage residential solar fleets and homeowner experience.",
+      "website": "https://bodhi.solar",
+      "tags": [
+        "solar",
+        "saas",
+        "energy"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.34,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-arovia",
+      "kind": "startup",
+      "name": "Arovia",
+      "description": "Foldable displays and optics for portable workstations.",
+      "website": "https://arovia.com",
+      "tags": [
+        "hardware",
+        "display",
+        "portability"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-prana-thoracic",
+      "kind": "startup",
+      "name": "Prana Thoracic",
+      "description": "Minimally invasive device for early lung cancer intervention.",
+      "website": "https://pranathoracic.com",
+      "tags": [
+        "medtech",
+        "lung",
+        "device"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.708,
+        "lng": -95.401,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-siera-ai",
+      "kind": "startup",
+      "name": "SIERA.AI",
+      "description": "Safety automation and telemetry for forklifts and industrial vehicles.",
+      "website": "https://siera.ai",
+      "tags": [
+        "safety",
+        "telemetry",
+        "industrial"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-direct-kinetics",
+      "kind": "startup",
+      "name": "Direct Kinetics",
+      "description": "Wearable ECG sensors with cloud analytics for remote patient monitoring.",
+      "website": "https://directkinetics.com",
+      "tags": [
+        "health",
+        "wearables",
+        "ecg"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-luminaremed",
+      "kind": "startup",
+      "name": "LuminareMed",
+      "description": "Sepsis detection and workflow platform for hospitals.",
+      "website": "https://luminaremed.com",
+      "tags": [
+        "sepsis",
+        "health",
+        "saas"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-locicontrols",
+      "kind": "startup",
+      "name": "LociControls",
+      "description": "IoT controls to improve landfill gas collection efficiency.",
+      "website": "https://locicontrols.com",
+      "tags": [
+        "climate",
+        "iot",
+        "methane"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.69,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-lightline-medical",
+      "kind": "startup",
+      "name": "Lightline Medical",
+      "description": "Phototherapy catheters to reduce infections for catheterized patients.",
+      "website": "https://lightlinemedical.com",
+      "tags": [
+        "medtech",
+        "device",
+        "infection-control"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-legworks",
+      "kind": "startup",
+      "name": "Legworks",
+      "description": "Affordable prosthetics with high-performance mechanical components.",
+      "website": "https://legworks.com",
+      "tags": [
+        "prosthetics",
+        "medtech",
+        "access"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-laz3d",
+      "kind": "startup",
+      "name": "LAZ3D",
+      "description": "Industrial 3D printing services for aerospace and energy parts.",
+      "website": "https://laz3d.com",
+      "tags": [
+        "3d-printing",
+        "aerospace",
+        "energy"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.39,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-keyp-biz",
+      "kind": "startup",
+      "name": "KEYP.biz",
+      "description": "Digital identity and credentialing tools for small businesses.",
+      "website": "https://keyp.biz",
+      "tags": [
+        "identity",
+        "small-business",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-knightscope",
+      "kind": "startup",
+      "name": "Knightscope",
+      "description": "Autonomous security robots for facilities and campuses.",
+      "website": "https://www.knightscope.com",
+      "tags": [
+        "robots",
+        "security",
+        "hardware"
+      ],
+      "stage": "Public",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-joylux",
+      "kind": "startup",
+      "name": "Joylux",
+      "description": "At-home pelvic health devices and digital coaching for women.",
+      "website": "https://joylux.com",
+      "tags": [
+        "women's-health",
+        "device",
+        "consumer"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-hothintel",
+      "kind": "startup",
+      "name": "HothIntel",
+      "description": "Predictive intelligence for maintenance and reliability teams.",
+      "website": "https://hothintel.com",
+      "tags": [
+        "predictive",
+        "maintenance",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-heatgenie",
+      "kind": "startup",
+      "name": "HeatGenie",
+      "description": "Self-heating packaging technology for food and beverages.",
+      "website": "https://heatgenie.com",
+      "tags": [
+        "packaging",
+        "hardware",
+        "consumer"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-gohealthhero",
+      "kind": "startup",
+      "name": "GoHealthHero",
+      "description": "Employee wellbeing platform with rewards and engagement tools.",
+      "website": "https://gohealthhero.com",
+      "tags": [
+        "wellness",
+        "engagement",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-greasebook",
+      "kind": "startup",
+      "name": "GreaseBook",
+      "description": "Production tracking app for oilfield pumpers and operators.",
+      "website": "https://www.greasebook.com",
+      "tags": [
+        "oilfield",
+        "saas",
+        "energy"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-gigeasy",
+      "kind": "startup",
+      "name": "GIGEasy",
+      "description": "Benefits and compliance platform for gig and 1099 workers.",
+      "website": "https://gigeasy.com",
+      "tags": [
+        "gig-economy",
+        "benefits",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-gecko-robotics",
+      "kind": "startup",
+      "name": "Gecko Robotics",
+      "description": "Wall-climbing inspection robots for industrial assets.",
+      "website": "https://geckorobotics.com",
+      "tags": [
+        "robots",
+        "inspection",
+        "industrial"
+      ],
+      "stage": "Series C",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-galedata",
+      "kind": "startup",
+      "name": "GaleData",
+      "description": "Data backbone for healthcare operations and revenue teams.",
+      "website": "https://galedata.com",
+      "tags": [
+        "health",
+        "data",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cinegif",
+      "kind": "startup",
+      "name": "CineGif",
+      "description": "Lightweight animated content platform for marketing teams.",
+      "website": "https://cinegif.com",
+      "tags": [
+        "marketing",
+        "content",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-chowcall",
+      "kind": "startup",
+      "name": "ChowCall",
+      "description": "Food delivery platform focused on military bases and secure sites.",
+      "website": "https://chowcall.com",
+      "tags": [
+        "delivery",
+        "logistics",
+        "food"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-agiledd-ai",
+      "kind": "startup",
+      "name": "AgileDD.ai",
+      "description": "Dental diagnostics and charting automation powered by AI.",
+      "website": "https://agiledd.ai",
+      "tags": [
+        "dental",
+        "ai",
+        "health"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-15five",
+      "kind": "startup",
+      "name": "15Five",
+      "description": "Performance and engagement platform for modern teams.",
+      "website": "https://www.15five.com",
+      "tags": [
+        "hr",
+        "engagement",
+        "saas"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-key",
+      "kind": "startup",
+      "name": "Key",
+      "description": "Co-ownership and fractional home financing platform.",
+      "website": "https://key.company",
+      "tags": [
+        "proptech",
+        "fintech",
+        "housing"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-unytag",
+      "kind": "startup",
+      "name": "Unytag",
+      "description": "Unified tolling and parking payments via mobile tags.",
+      "website": "https://unytag.com",
+      "tags": [
+        "mobility",
+        "payments",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.77,
+        "lng": -95.34,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-casectrl",
+      "kind": "startup",
+      "name": "CaseCtrl",
+      "description": "Workflow automation and dashboards for contingency law firms.",
+      "website": "https://casectrl.com",
+      "tags": [
+        "legaltech",
+        "workflow",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-planstreet",
+      "kind": "startup",
+      "name": "PlanStreet",
+      "description": "Case management and workflow for social services teams.",
+      "website": "https://www.planstreetinc.com",
+      "tags": [
+        "govtech",
+        "case-management",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-hellodivorce",
+      "kind": "startup",
+      "name": "HelloDivorce",
+      "description": "Self-serve legal platform for uncontested divorces.",
+      "website": "https://hellodivorce.com",
+      "tags": [
+        "legaltech",
+        "consumer",
+        "self-serve"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-seeforge",
+      "kind": "startup",
+      "name": "SeeForge",
+      "description": "Field ticketing and inspection platform for industrial teams.",
+      "website": "https://seeforge.com",
+      "tags": [
+        "field",
+        "industrial",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-meshify",
+      "kind": "startup",
+      "name": "Meshify",
+      "description": "IoT device management and monitoring platform for industrial assets.",
+      "website": "https://meshify.com",
+      "tags": [
+        "iot",
+        "industrial",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-csid",
+      "kind": "startup",
+      "name": "CSID",
+      "description": "Consumer identity protection and monitoring solutions.",
+      "website": "https://csid.com",
+      "tags": [
+        "security",
+        "identity",
+        "consumer"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-aqua-cell-energy",
+      "kind": "startup",
+      "name": "Aqua-Cell Energy",
+      "description": "Industrial-scale overnight batteries to deliver affordable solar power.",
+      "website": "https://aqua-cell-energy.com",
+      "tags": [
+        "energy",
+        "storage",
+        "grid"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-arculus",
+      "kind": "startup",
+      "name": "Arculus",
+      "description": "Multilayer internal pipeline coating that lowers friction and enables CO2 and hydrogen transport.",
+      "website": "https://arculus.com",
+      "tags": [
+        "energy",
+        "pipelines",
+        "materials"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-atmospark",
+      "kind": "startup",
+      "name": "AtmoSpark",
+      "description": "Electric field-driven air separation to cut dehumidification energy costs for data centers and industrial sites.",
+      "website": "https://atmospark.com",
+      "tags": [
+        "hvac",
+        "efficiency",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-atome",
+      "kind": "startup",
+      "name": "AtoMe",
+      "description": "Durable metallic composites for energy and aerospace using eco-friendly dry blade methods.",
+      "website": "https://atomecomposites.com",
+      "tags": [
+        "materials",
+        "aerospace",
+        "energy"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-conceptloop",
+      "kind": "startup",
+      "name": "ConceptLoop",
+      "description": "Converts plastic waste into eco-friendly, low-carbon aggregate for construction.",
+      "website": "https://conceptloop.com",
+      "tags": [
+        "recycling",
+        "materials",
+        "climate"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.39,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-fathom-storage",
+      "kind": "startup",
+      "name": "Fathom Storage",
+      "description": "Embedded, steel-efficient anchoring solutions for offshore service providers and wind developers.",
+      "website": "https://fathomstorage.com",
+      "tags": [
+        "offshore",
+        "wind",
+        "infrastructure"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-geokiln",
+      "kind": "startup",
+      "name": "GeoKiln",
+      "description": "Applies proven O&G techniques to accelerate natural hydrogen reactions for subsurface hydrogen extraction.",
+      "website": "https://geokiln.com",
+      "tags": [
+        "hydrogen",
+        "energy",
+        "subsurface"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-innowind-energy",
+      "kind": "startup",
+      "name": "Innowind Energy Solutions",
+      "description": "Nonintrusive active flow control devices that boost turbine energy production and lifespan.",
+      "website": "https://innowindenergy.com",
+      "tags": [
+        "wind",
+        "hardware",
+        "energy"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.77,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-lukera-energy",
+      "kind": "startup",
+      "name": "Lukera Energy",
+      "description": "Transforms waste methane into methanol using breakthrough nanobubble technology.",
+      "website": "https://lukeraenergy.com",
+      "tags": [
+        "methane",
+        "chemicals",
+        "climate"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.35,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-metal-light",
+      "kind": "startup",
+      "name": "Metal Light Inc.",
+      "description": "Scalable, cost-effective metal-air generators to replace diesel gensets.",
+      "website": "https://metallightenergy.com",
+      "tags": [
+        "energy",
+        "storage",
+        "off-grid"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-moonshot-hydrogen",
+      "kind": "startup",
+      "name": "Moonshot Hydrogen",
+      "description": "Converts food and agricultural waste into clean hydrogen and bioethanol.",
+      "website": "https://moonshoth2.com",
+      "tags": [
+        "hydrogen",
+        "waste-to-energy",
+        "biofuels"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.73,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-resollant",
+      "kind": "startup",
+      "name": "Resollant",
+      "description": "Compact, zero-emission hydrogen and carbon reactors for heavy industry.",
+      "website": "https://resollant.com",
+      "tags": [
+        "hydrogen",
+        "carbon",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 30.157,
+        "lng": -95.489,
+        "address": "The Woodlands, TX"
+      }
+    },
+    {
+      "id": "startup-sotaog",
+      "kind": "startup",
+      "name": "SOTAOG",
+      "description": "Industrial IoT analytics and optimization for energy assets.",
+      "website": "https://sotaog.com",
+      "tags": [
+        "iot",
+        "analytics",
+        "energy"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-springcycle-energy",
+      "kind": "startup",
+      "name": "SpringCycle Energy",
+      "description": "Energy recovery and recycling solutions for industrial sites.",
+      "website": "https://springcycleenergy.com",
+      "tags": [
+        "energy",
+        "recycling",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-ambrosia-space",
+      "kind": "startup",
+      "name": "Ambrosia Space Manufacturing Corporation",
+      "description": "Space manufacturing concepts for on-orbit production.",
+      "website": "https://ambrosiaspace.com",
+      "tags": [
+        "space",
+        "manufacturing",
+        "in-space"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.56,
+        "lng": -95.09,
+        "address": "Houston Spaceport"
+      }
+    },
+    {
+      "id": "startup-revterra",
+      "kind": "startup",
+      "name": "Revterra",
+      "description": "Kinetic energy storage systems for grid and EV charging.",
+      "website": "https://revterra.com",
+      "tags": [
+        "energy",
+        "storage",
+        "climate"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-tranzmeo",
+      "kind": "startup",
+      "name": "Tranzmeo",
+      "description": "AI-powered pipeline monitoring and leak detection.",
+      "website": "https://tranzmeo.com",
+      "tags": [
+        "energy",
+        "ai",
+        "pipelines"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-elementium-materials",
+      "kind": "startup",
+      "name": "Elementium Materials",
+      "description": "Advanced materials for energy and aerospace applications.",
+      "website": "https://elementiummaterials.com",
+      "tags": [
+        "materials",
+        "energy",
+        "aerospace"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-coflux-purification",
+      "kind": "startup",
+      "name": "Coflux Purification",
+      "description": "Novel purification tech for water and industrial fluids.",
+      "website": "https://cofluxpurification.com",
+      "tags": [
+        "water",
+        "industrial",
+        "cleantech"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-bigmach-ai",
+      "kind": "startup",
+      "name": "BigMachine AI",
+      "description": "AI models tailored for industrial and heavy machinery data.",
+      "website": "https://bigmachine.ai",
+      "tags": [
+        "ai",
+        "industrial",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-neuralix",
+      "kind": "startup",
+      "name": "Neuralix",
+      "description": "Edge AI platform for sensor fusion and anomaly detection.",
+      "website": "https://neuralix.ai",
+      "tags": [
+        "ai",
+        "edge",
+        "sensors"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-reasonos",
+      "kind": "startup",
+      "name": "ReasonOS",
+      "description": "Autonomous reasoning layer for enterprise workflows.",
+      "website": "https://reasonos.com",
+      "tags": [
+        "ai",
+        "automation",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-intelligent-core",
+      "kind": "startup",
+      "name": "INTELLIGENT CORE",
+      "description": "AI-powered operations and risk platform for enterprises.",
+      "website": "https://intelligentcore.ai",
+      "tags": [
+        "ai",
+        "risk",
+        "enterprise"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-areto-labs",
+      "kind": "startup",
+      "name": "Areto Labs",
+      "description": "Behavioral analytics to protect online communities and teams.",
+      "website": "https://aretolabs.com",
+      "tags": [
+        "safety",
+        "analytics",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-brainsafe",
+      "kind": "startup",
+      "name": "Brainsafe",
+      "description": "Neurological monitoring and analytics for athletes and workers.",
+      "website": "https://brainsafe.ai",
+      "tags": [
+        "health",
+        "sensors",
+        "sports"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-g8rtech",
+      "kind": "startup",
+      "name": "G8RTech",
+      "description": "Protective sports gear with impact analytics.",
+      "website": "https://g8rtech.com",
+      "tags": [
+        "sports",
+        "hardware",
+        "safety"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-nanochon",
+      "kind": "startup",
+      "name": "Nanochon",
+      "description": "3D-printed cartilage replacement for joint repair.",
+      "website": "https://nanochon.com",
+      "tags": [
+        "medtech",
+        "3d-printing",
+        "orthopedics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.4,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "startup-spike-technologies",
+      "kind": "startup",
+      "name": "Spike Technologies",
+      "description": "Sports analytics and wearables to improve performance and safety.",
+      "website": "https://spiketechnologies.com",
+      "tags": [
+        "sports",
+        "wearables",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-splendohealth",
+      "kind": "startup",
+      "name": "SplendoHealth",
+      "description": "Remote health monitoring and personalized insights.",
+      "website": "https://splendohealth.com",
+      "tags": [
+        "health",
+        "remote-monitoring",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-stadiumdrop",
+      "kind": "startup",
+      "name": "StadiumDrop",
+      "description": "In-seat food and merch delivery platform for venues.",
+      "website": "https://stadiumdrop.com",
+      "tags": [
+        "commerce",
+        "sports",
+        "logistics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-uplift",
+      "kind": "startup",
+      "name": "Uplift",
+      "description": "Travel and commerce BNPL services.",
+      "website": "https://uplift.com",
+      "tags": [
+        "fintech",
+        "bnpl",
+        "travel"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-wild-ai",
+      "kind": "startup",
+      "name": "Wild.AI",
+      "description": "Female-specific health and training platform for athletes.",
+      "website": "https://wild.ai",
+      "tags": [
+        "health",
+        "sports",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-xo-nano",
+      "kind": "startup",
+      "name": "XO-Nano",
+      "description": "Nanofoam materials for impact protection and energy absorption.",
+      "website": "https://xo-nano.com",
+      "tags": [
+        "materials",
+        "sports",
+        "safety"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-aideniq",
+      "kind": "startup",
+      "name": "AidenIQ",
+      "description": "AI-driven intelligence platform for revenue teams.",
+      "website": "https://aideniq.com",
+      "tags": [
+        "ai",
+        "sales",
+        "saas"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-gig-wage",
+      "kind": "startup",
+      "name": "Gig Wage",
+      "description": "Modern payroll infrastructure for the gig economy.",
+      "website": "https://gigwage.com",
+      "tags": [
+        "fintech",
+        "payments",
+        "gig"
+      ],
+      "stage": "Series A",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-monit",
+      "kind": "startup",
+      "name": "Monit",
+      "description": "Financial insights and cashflow tools for small businesses.",
+      "website": "https://monitapp.io",
+      "tags": [
+        "fintech",
+        "smb",
+        "analytics"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-nymbus",
+      "kind": "startup",
+      "name": "Nymbus",
+      "description": "Banking-as-a-service and digital core platform.",
+      "website": "https://nymbus.com",
+      "tags": [
+        "fintech",
+        "banking",
+        "saas"
+      ],
+      "stage": "Growth",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-orum",
+      "kind": "startup",
+      "name": "Orum",
+      "description": "Instant payments routing intelligence.",
+      "website": "https://orum.com",
+      "tags": [
+        "fintech",
+        "payments",
+        "infrastructure"
+      ],
+      "stage": "Series B",
+      "location": {
+        "lat": 29.74,
+        "lng": -95.38,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-quiltt",
+      "kind": "startup",
+      "name": "Quiltt",
+      "description": "Unified fintech API to launch financial experiences quickly.",
+      "website": "https://quiltt.com",
+      "tags": [
+        "fintech",
+        "api",
+        "infrastructure"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-xr-sports",
+      "kind": "startup",
+      "name": "XR Sports",
+      "description": "Immersive XR training and fan engagement experiences.",
+      "website": "https://xrsports.com",
+      "tags": [
+        "sports",
+        "xr",
+        "fan-engagement"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-aireal",
+      "kind": "startup",
+      "name": "Aireal",
+      "description": "Augmented reality platform for spatial experiences and marketing.",
+      "website": "https://aireal.com",
+      "tags": [
+        "ar",
+        "marketing",
+        "spatial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.75,
+        "lng": -95.36,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-21senses",
+      "kind": "startup",
+      "name": "21Senses Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "climate",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-advanced-ionics",
+      "kind": "startup",
+      "name": "Advanced Ionics",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "hydrogen",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-aeromine",
+      "kind": "startup",
+      "name": "Aeromine Technologies Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "wind",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-alma-energy",
+      "kind": "startup",
+      "name": "Alma Energy Innovative Solutions",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "storage",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-aluminum-technologies",
+      "kind": "startup",
+      "name": "Aluminum Technologies",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-am-peers",
+      "kind": "startup",
+      "name": "AM Peers",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "manufacturing",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-anning-corporation",
+      "kind": "startup",
+      "name": "Anning Corporation",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "infrastructure",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-atmospark-technologies",
+      "kind": "startup",
+      "name": "AtmoSpark Technologies",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "hvac",
+        "water",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-ats-energy",
+      "kind": "startup",
+      "name": "ATS Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "efficiency",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-axis-sky-renewables",
+      "kind": "startup",
+      "name": "Axis Sky Renewables",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "renewables",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-biatech",
+      "kind": "startup",
+      "name": "BiaTech Corporation",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "data",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-biosimo",
+      "kind": "startup",
+      "name": "Biosimo Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "bio",
+        "chemicals",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-blubridge",
+      "kind": "startup",
+      "name": "BluBridge Energy Solutions",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-blykalla",
+      "kind": "startup",
+      "name": "Blykalla",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "nuclear",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-boxes",
+      "kind": "startup",
+      "name": "Boxes",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "logistics",
+        "climate",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-capwell",
+      "kind": "startup",
+      "name": "Capwell",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "software",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-carbion",
+      "kind": "startup",
+      "name": "Carbion",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "carbon",
+        "climate",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-carbonext",
+      "kind": "startup",
+      "name": "Carbonext",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "carbon",
+        "climate",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-carboniferous",
+      "kind": "startup",
+      "name": "Carboniferous",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "carbon",
+        "climate",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cemvita",
+      "kind": "startup",
+      "name": "Cemvita",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "bio",
+        "carbon",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-claritycastle",
+      "kind": "startup",
+      "name": "ClarityCastle Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "analytics",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cleartrace",
+      "kind": "startup",
+      "name": "Cleartrace",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "data",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-cls-wind",
+      "kind": "startup",
+      "name": "CLS Wind",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "wind",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-corrolytics",
+      "kind": "startup",
+      "name": "Corrolytics",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "corrosion",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-datavedik",
+      "kind": "startup",
+      "name": "DATAVEDIK",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "data",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-decimetrix",
+      "kind": "startup",
+      "name": "Decimetrix",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "hardware",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-deep-anchor",
+      "kind": "startup",
+      "name": "Deep Anchor Solutions Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "offshore",
+        "wind",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-drinkicks",
+      "kind": "startup",
+      "name": "DrinKicks",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "consumer",
+        "sustainability",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-dsider",
+      "kind": "startup",
+      "name": "Dsider",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "planning",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-earthen",
+      "kind": "startup",
+      "name": "EarthEn",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "storage",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-electric-hydrogen",
+      "kind": "startup",
+      "name": "Electric Hydrogen",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "hydrogen",
+        "electrolyzer",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-element-resources",
+      "kind": "startup",
+      "name": "Element Resources",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "hydrogen",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-elemental-advanced-materials",
+      "kind": "startup",
+      "name": "Elemental Advanced Materials",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-encore-co2",
+      "kind": "startup",
+      "name": "Encore CO2",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "carbon",
+        "capture",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-energy-dome",
+      "kind": "startup",
+      "name": "Energy Dome",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "storage",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-energygigs",
+      "kind": "startup",
+      "name": "EnergyGigs",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "jobs",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-evillage",
+      "kind": "startup",
+      "name": "EVillage.io",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "ev",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-excipio-energy",
+      "kind": "startup",
+      "name": "Excipio Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "offshore",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-flowcellutions",
+      "kind": "startup",
+      "name": "FlowCellutions",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "storage",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-fluidxlab",
+      "kind": "startup",
+      "name": "FLUIDXLAB Americas Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-frakktal",
+      "kind": "startup",
+      "name": "frakktal",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-geofuels",
+      "kind": "startup",
+      "name": "GeoFuels",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "geothermal",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-gigadac",
+      "kind": "startup",
+      "name": "GigaDAC",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "carbon",
+        "dac",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-gs-vortex",
+      "kind": "startup",
+      "name": "GS Vortex Systems",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "hardware",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-haffner-energy",
+      "kind": "startup",
+      "name": "Haffner Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "hydrogen",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-helix-earth",
+      "kind": "startup",
+      "name": "Helix Earth Technologies",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "climate",
+        "water",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-hertha-metals",
+      "kind": "startup",
+      "name": "Hertha Metals",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-imperium-technologies",
+      "kind": "startup",
+      "name": "Imperium Technologies",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "grid",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-inductive-robotics",
+      "kind": "startup",
+      "name": "Inductive Robotics",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "robotics",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-infinite-foundry",
+      "kind": "startup",
+      "name": "Infinite Foundry",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "digital-twin",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-infranergy",
+      "kind": "startup",
+      "name": "InfraNergy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "infra",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-innovator-energy",
+      "kind": "startup",
+      "name": "Innovator Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "efficiency",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-intention",
+      "kind": "startup",
+      "name": "Intention",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "analytics",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-janta-power",
+      "kind": "startup",
+      "name": "Janta Power",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "solar",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-kanin-energy",
+      "kind": "startup",
+      "name": "Kanin Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "waste-heat",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-kauel",
+      "kind": "startup",
+      "name": "Kauel",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "ai",
+        "vision",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-licube",
+      "kind": "startup",
+      "name": "Licube Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "battery",
+        "materials",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-locoal",
+      "kind": "startup",
+      "name": "LOCOAL",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "bio",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-mass-materials",
+      "kind": "startup",
+      "name": "Massachusetts Materials Tech LLC",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-mcatalysis",
+      "kind": "startup",
+      "name": "MCatalysis Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "catalyst",
+        "chemistry",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-metalex-commodities",
+      "kind": "startup",
+      "name": "Metalex Commodities",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-moonshot-compost",
+      "kind": "startup",
+      "name": "Moonshot Compost",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "waste",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-nano-tech-spa",
+      "kind": "startup",
+      "name": "Nano Tech SpA",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "coatings",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-net-zero-carbon",
+      "kind": "startup",
+      "name": "Net Zero Carbon Solutions",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "carbon",
+        "climate",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-neuralix-inc",
+      "kind": "startup",
+      "name": "Neuralix Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "ai",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-newfound-materials",
+      "kind": "startup",
+      "name": "Newfound Materials",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-newgenium",
+      "kind": "startup",
+      "name": "NewGenium",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "software",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-noc-energy",
+      "kind": "startup",
+      "name": "NOC Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "services",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-nominal",
+      "kind": "startup",
+      "name": "Nominal",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "data",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-onepredict",
+      "kind": "startup",
+      "name": "ONEPREDICT",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "industrial",
+        "ai",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-pix-force",
+      "kind": "startup",
+      "name": "Pix Force",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "vision",
+        "ai",
+        "industrial"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-plasene",
+      "kind": "startup",
+      "name": "PlaSene",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "plastics",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-pure-blue-tech",
+      "kind": "startup",
+      "name": "Pure Blue Tech Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "water",
+        "cleantech",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-purgit",
+      "kind": "startup",
+      "name": "PURGIT",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "emissions",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-resonant-thermal",
+      "kind": "startup",
+      "name": "Resonant Thermal Systems",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "thermal",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-reverse-energy",
+      "kind": "startup",
+      "name": "Reverse Energy Solutions",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-rheom-materials",
+      "kind": "startup",
+      "name": "Rheom Materials",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-secant-fuel",
+      "kind": "startup",
+      "name": "Secant Fuel",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "fuel",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-skyh2o",
+      "kind": "startup",
+      "name": "SkyH2O",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "water",
+        "atmospheric",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-smartpipe",
+      "kind": "startup",
+      "name": "Smartpipe Technologies",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "pipelines",
+        "integrity",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-solidec",
+      "kind": "startup",
+      "name": "Solidec",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "hardware",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-sphinx",
+      "kind": "startup",
+      "name": "SPHINX INC",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-sustonable",
+      "kind": "startup",
+      "name": "Sustonable",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "recycling",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-tds-select",
+      "kind": "startup",
+      "name": "TDS Select",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "services",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-teknobuilt",
+      "kind": "startup",
+      "name": "Teknobuilt Ltd",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "construction",
+        "software",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-terralytiq",
+      "kind": "startup",
+      "name": "Terralytiq",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "analytics",
+        "climate",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-thiozen",
+      "kind": "startup",
+      "name": "Thiozen Inc",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "sulfur",
+        "energy",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-timbergrove",
+      "kind": "startup",
+      "name": "Timbergrove",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "industrial",
+        "software",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-wattsto",
+      "kind": "startup",
+      "name": "Wattsto Energy",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "storage",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-wise-energie",
+      "kind": "startup",
+      "name": "WISE ENERGIE",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "energy",
+        "grid",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "startup-wootz",
+      "kind": "startup",
+      "name": "Wootz",
+      "description": "Greentown Labs Houston cohort startup.",
+      "tags": [
+        "materials",
+        "industrial",
+        "greentown"
+      ],
+      "stage": "Seed",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-ion-district",
+      "kind": "community",
+      "name": "Ion District",
+      "description": "Innovation district anchored by the Ion with labs, offices, and community programs.",
+      "website": "https://iondistrict.com",
+      "tags": [
+        "innovation-district",
+        "coworking",
+        "programs"
+      ],
+      "category": "Innovation District",
+      "location": {
+        "lat": 29.7336,
+        "lng": -95.3851,
+        "address": "Midtown, Houston, TX"
+      }
+    },
+    {
+      "id": "community-the-cannon",
+      "kind": "community",
+      "name": "The Cannon",
+      "description": "Coworking campus and startup hub with programming and corporate partnerships.",
+      "website": "https://thecannon.com",
+      "tags": [
+        "coworking",
+        "accelerator",
+        "events"
+      ],
+      "category": "Startup Hub",
+      "location": {
+        "lat": 29.8021,
+        "lng": -95.5609,
+        "address": "West Houston, TX"
+      }
+    },
+    {
+      "id": "community-impact-hub-houston",
+      "kind": "community",
+      "name": "Impact Hub Houston",
+      "description": "Impact-focused entrepreneurial community supporting social and climate ventures.",
+      "website": "https://houston.impacthub.net",
+      "tags": [
+        "impact",
+        "climate",
+        "community"
+      ],
+      "category": "Impact Community",
+      "location": {
+        "lat": 29.7429,
+        "lng": -95.3808,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "community-tie-houston",
+      "kind": "community",
+      "name": "TiE Houston",
+      "description": "Chapter of TiE Global fostering mentorship and investment for founders.",
+      "website": "https://houston.tie.org",
+      "tags": [
+        "mentorship",
+        "investment",
+        "network"
+      ],
+      "category": "Founder Network",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.369,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-startup-grind-houston",
+      "kind": "community",
+      "name": "Startup Grind Houston",
+      "description": "Local Startup Grind chapter hosting fireside chats, mixers, and founder education.",
+      "website": "https://www.startupgrind.com/houston",
+      "tags": [
+        "events",
+        "education",
+        "community"
+      ],
+      "category": "Events",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-houston-exponential",
+      "kind": "community",
+      "name": "Houston Exponential",
+      "description": "Ecosystem connector accelerating Houston's innovation economy.",
+      "website": "https://www.houstonexponential.org",
+      "tags": [
+        "ecosystem",
+        "platform",
+        "community"
+      ],
+      "category": "Ecosystem Platform",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-fruition-tech-labs",
+      "kind": "community",
+      "name": "Fruition Tech Labs",
+      "description": "Startup studio and accelerator supporting early-stage founders with build services.",
+      "website": "https://fruitiontechlabs.com",
+      "tags": [
+        "accelerator",
+        "studio",
+        "services"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.734,
+        "lng": -95.384,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-access-silicon-valley-houston",
+      "kind": "community",
+      "name": "Access Silicon Valley – Houston",
+      "description": "Angel and founder networking series bridging Houston and Silicon Valley investors.",
+      "website": "https://www.accesssiliconvalley.net",
+      "tags": [
+        "angels",
+        "network",
+        "events"
+      ],
+      "category": "Angel Network",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-houston-angel-network",
+      "kind": "community",
+      "name": "Houston Angel Network",
+      "description": "One of the largest angel investing networks in Texas backing early-stage startups.",
+      "website": "https://houstonangelnetwork.org",
+      "tags": [
+        "angels",
+        "investment",
+        "early-stage"
+      ],
+      "category": "Angel Network",
+      "location": {
+        "lat": 29.7608,
+        "lng": -95.3697,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "community-pipeline-angels",
+      "kind": "community",
+      "name": "Pipeline Angels",
+      "description": "Angel training and investment collective funding women and nonbinary founders.",
+      "website": "https://pipelineangels.com",
+      "tags": [
+        "angels",
+        "diversity",
+        "investment"
+      ],
+      "category": "Angel Network",
+      "location": {
+        "lat": 29.7605,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-rice-angels",
+      "kind": "community",
+      "name": "Rice Angels",
+      "description": "Rice alumni and community angel group investing in early-stage ventures.",
+      "website": "https://entrepreneurship.rice.edu",
+      "tags": [
+        "angels",
+        "rice",
+        "investment"
+      ],
+      "category": "Angel Network",
+      "location": {
+        "lat": 29.7174,
+        "lng": -95.4018,
+        "address": "Rice University, Houston, TX"
+      }
+    },
+    {
+      "id": "community-houston-lean-startup-circle",
+      "kind": "community",
+      "name": "Houston Lean Startup Circle",
+      "description": "Meetup community practicing Lean Startup with founder workshops and peer feedback.",
+      "website": "https://www.meetup.com/lean-startup-circle-houston",
+      "tags": [
+        "meetup",
+        "lean-startup",
+        "community"
+      ],
+      "category": "Founder Community",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-jlabs-tmc",
+      "kind": "community",
+      "name": "JLABS @ TMC",
+      "description": "Johnson & Johnson's life sciences incubator at Texas Medical Center.",
+      "website": "https://jlabs.jnjinnovation.com/locations/texas-medical-center",
+      "tags": [
+        "biotech",
+        "incubator",
+        "tmc"
+      ],
+      "category": "Incubator",
+      "location": {
+        "lat": 29.7057,
+        "lng": -95.401,
+        "address": "Texas Medical Center, Houston, TX"
+      }
+    },
+    {
+      "id": "community-redhouse-associates",
+      "kind": "community",
+      "name": "RedHouse Associates",
+      "description": "Houston-based angel group and accelerator supporting early-stage startups.",
+      "website": "https://redhouseassoc.com",
+      "tags": [
+        "angels",
+        "accelerator",
+        "investment"
+      ],
+      "category": "Angel Network",
+      "location": {
+        "lat": 29.7602,
+        "lng": -95.3695,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-catapult-houston",
+      "kind": "community",
+      "name": "Catapult Houston",
+      "description": "Startup accelerator and founder community offering cohorts and mentorship.",
+      "website": "https://catapulthouston.com",
+      "tags": [
+        "accelerator",
+        "mentorship",
+        "cohort"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-plug-and-play-houston",
+      "kind": "community",
+      "name": "Plug and Play Houston",
+      "description": "Corporate innovation platform running energy and health programs in Houston.",
+      "website": "https://www.plugandplaytechcenter.com",
+      "tags": [
+        "accelerator",
+        "corporate",
+        "energy"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7605,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-eunike-ventures",
+      "kind": "community",
+      "name": "Eunike Ventures",
+      "description": "Energy-focused open innovation venture platform partnering with corporates.",
+      "website": "https://eunikeventures.com",
+      "tags": [
+        "energy",
+        "venture",
+        "open-innovation"
+      ],
+      "category": "Venture Studio",
+      "location": {
+        "lat": 29.757,
+        "lng": -95.365,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-halliburton-labs",
+      "kind": "community",
+      "name": "Halliburton Labs",
+      "description": "Clean energy tech accelerator offering industrial scale-up resources.",
+      "website": "https://www.halliburtonlabs.com",
+      "tags": [
+        "climate",
+        "energy",
+        "accelerator"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7545,
+        "lng": -95.367,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-surge-accelerator",
+      "kind": "community",
+      "name": "SURGE Accelerator",
+      "description": "Energy and climate accelerator backing founders across the Gulf Coast.",
+      "website": "https://www.surgeaccelerator.com",
+      "tags": [
+        "energy",
+        "climate",
+        "accelerator"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7607,
+        "lng": -95.3696,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-rice-alliance",
+      "kind": "community",
+      "name": "Rice Alliance for Technology and Entrepreneurship",
+      "description": "Rice University's flagship accelerator programs and startup competitions.",
+      "website": "https://alliance.rice.edu",
+      "tags": [
+        "rice",
+        "accelerator",
+        "competitions"
+      ],
+      "category": "University Program",
+      "location": {
+        "lat": 29.7168,
+        "lng": -95.404,
+        "address": "Rice University, Houston, TX"
+      }
+    },
+    {
+      "id": "community-masschallenge-houston",
+      "kind": "community",
+      "name": "MassChallenge Houston",
+      "description": "Equity-free accelerator running energy, health, and general tracks in Houston.",
+      "website": "https://masschallenge.org",
+      "tags": [
+        "accelerator",
+        "equity-free",
+        "program"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.753,
+        "lng": -95.359,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "community-ai-houston",
+      "kind": "community",
+      "name": "AI Houston Meetup",
+      "description": "Developer and researcher meetup covering ML ops, LLMs, and applied AI projects.",
+      "website": "https://www.meetup.com/ai-houston",
+      "tags": [
+        "ai",
+        "meetup",
+        "developers"
+      ],
+      "category": "Meetup",
+      "location": {
+        "lat": 29.763,
+        "lng": -95.383,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-sugar-land-edc",
+      "kind": "community",
+      "name": "Sugar Land Economic Development",
+      "description": "Office of Economic Development and Tourism for Sugar Land.",
+      "website": "https://www.sugarlandecodev.com",
+      "tags": [
+        "economic-development",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.6197,
+        "lng": -95.6349,
+        "address": "Sugar Land, TX"
+      }
+    },
+    {
+      "id": "partner-texas-am-innovation",
+      "kind": "community",
+      "name": "Texas A&M Innovation",
+      "description": "Texas A&M innovation and commercialization programs.",
+      "website": "https://innovation.tamu.edu",
+      "tags": [
+        "university",
+        "innovation",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 30.628,
+        "lng": -96.3344,
+        "address": "College Station, TX"
+      }
+    },
+    {
+      "id": "partner-greater-brazos",
+      "kind": "community",
+      "name": "Greater Brazos Partnership",
+      "description": "Regional partnership supporting growth across the Brazos Valley.",
+      "website": "https://greaterbrazos.com",
+      "tags": [
+        "economic-development",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 30.628,
+        "lng": -96.3344,
+        "address": "College Station, TX"
+      }
+    },
+    {
+      "id": "partner-city-college-station",
+      "kind": "community",
+      "name": "City of College Station",
+      "description": "Economic development initiatives for College Station.",
+      "website": "https://www.cstx.gov",
+      "tags": [
+        "economic-development",
+        "municipal"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 30.628,
+        "lng": -96.3344,
+        "address": "College Station, TX"
+      }
+    },
+    {
+      "id": "partner-city-bryan",
+      "kind": "community",
+      "name": "City of Bryan",
+      "description": "Economic development and innovation support for Bryan.",
+      "website": "https://www.bryantx.gov",
+      "tags": [
+        "economic-development",
+        "municipal"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 30.6744,
+        "lng": -96.3699,
+        "address": "Bryan, TX"
+      }
+    },
+    {
+      "id": "partner-frisco-edc",
+      "kind": "community",
+      "name": "Frisco Economic Development Corporation",
+      "description": "Economic development for Frisco with innovation and corporate attraction.",
+      "website": "https://www.friscoedc.com",
+      "tags": [
+        "economic-development",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 33.1507,
+        "lng": -96.8236,
+        "address": "Frisco, TX"
+      }
+    },
+    {
+      "id": "partner-mckinney-edc",
+      "kind": "community",
+      "name": "McKinney Economic Development Corporation",
+      "description": "Innovation and business attraction for McKinney.",
+      "website": "https://www.mckinneyedc.com",
+      "tags": [
+        "economic-development",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 33.1976,
+        "lng": -96.6153,
+        "address": "McKinney, TX"
+      }
+    },
+    {
+      "id": "partner-origin-innovation-hub",
+      "kind": "community",
+      "name": "Origin Innovation Hub",
+      "description": "Incubation and coworking hub supporting startups.",
+      "website": "https://origininnovationhub.com",
+      "tags": [
+        "coworking",
+        "incubator",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-baylor-sports-therapy",
+      "kind": "community",
+      "name": "Baylor Scott & White Sports Therapy & Research",
+      "description": "Sports therapy and research facility collaborating with innovators.",
+      "website": "https://www.bswhealth.com",
+      "tags": [
+        "health",
+        "sports",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 33.1047,
+        "lng": -96.819,
+        "address": "Frisco, TX"
+      }
+    },
+    {
+      "id": "partner-ntx-innovation-alliance",
+      "kind": "community",
+      "name": "North Texas Innovation Alliance",
+      "description": "Regional alliance advancing smart city and innovation projects.",
+      "website": "https://ntxia.org",
+      "tags": [
+        "innovation",
+        "smart-city",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 32.7767,
+        "lng": -96.797,
+        "address": "Dallas, TX"
+      }
+    },
+    {
+      "id": "partner-walmart",
+      "kind": "community",
+      "name": "Walmart",
+      "description": "Corporate partner supporting innovation pilots and supply chain programs.",
+      "website": "https://www.walmart.com",
+      "tags": [
+        "corporate",
+        "retail",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-exxonmobil",
+      "kind": "community",
+      "name": "ExxonMobil",
+      "description": "Energy corporate collaborating on low-carbon and digital innovation.",
+      "website": "https://corporate.exxonmobil.com",
+      "tags": [
+        "corporate",
+        "energy",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.737,
+        "lng": -95.46,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-shell",
+      "kind": "community",
+      "name": "Shell",
+      "description": "Energy corporate partner for climate tech and digital projects.",
+      "website": "https://www.shell.com",
+      "tags": [
+        "corporate",
+        "energy",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-astrazeneca",
+      "kind": "community",
+      "name": "AstraZeneca",
+      "description": "Life sciences corporate partner for clinical and digital health pilots.",
+      "website": "https://www.astrazeneca.com",
+      "tags": [
+        "corporate",
+        "health",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.71,
+        "lng": -95.4,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-dell",
+      "kind": "community",
+      "name": "Dell Technologies",
+      "description": "Enterprise technology partner supporting cloud and edge innovation.",
+      "website": "https://www.dell.com",
+      "tags": [
+        "corporate",
+        "cloud",
+        "edge"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-microsoft",
+      "kind": "community",
+      "name": "Microsoft",
+      "description": "Cloud and AI partner collaborating on startup and enterprise programs.",
+      "website": "https://www.microsoft.com",
+      "tags": [
+        "corporate",
+        "cloud",
+        "ai"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-lg-chem",
+      "kind": "community",
+      "name": "LG Chem",
+      "description": "Materials and battery partner exploring energy transition technologies.",
+      "website": "https://www.lgchem.com",
+      "tags": [
+        "corporate",
+        "materials",
+        "energy"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "partner-mercedes-benz",
+      "kind": "community",
+      "name": "Mercedes-Benz",
+      "description": "Mobility and automotive innovation partner.",
+      "website": "https://www.mercedes-benz.com",
+      "tags": [
+        "corporate",
+        "mobility",
+        "partner"
+      ],
+      "category": "Partner",
+      "location": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-greentown-houston",
+      "kind": "community",
+      "name": "Greentown Labs Houston",
+      "description": "Flagship climate and energy incubator with labs, workspace, and accelerator programs.",
+      "website": "https://greentownlabs.com/houston",
+      "tags": [
+        "accelerator",
+        "climate",
+        "energy"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.738,
+        "lng": -95.3747,
+        "address": "4200 San Jacinto St, Houston, TX"
+      }
+    },
+    {
+      "id": "community-tmcx",
+      "kind": "community",
+      "name": "TMCx",
+      "description": "Texas Medical Center accelerator for digital health, med devices, and biotech.",
+      "website": "https://www.tmc.edu/innovation/tmcx",
+      "tags": [
+        "health",
+        "biotech",
+        "accelerator"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7065,
+        "lng": -95.4019,
+        "address": "TMC Innovation, Houston, TX"
+      }
+    },
+    {
+      "id": "community-redlabs",
+      "kind": "community",
+      "name": "RED Labs",
+      "description": "University of Houston startup accelerator for students.",
+      "website": "https://www.bauer.uh.edu/redlabs",
+      "tags": [
+        "university",
+        "accelerator",
+        "student"
+      ],
+      "category": "University Program",
+      "location": {
+        "lat": 29.7227,
+        "lng": -95.3406,
+        "address": "University of Houston, TX"
+      }
+    },
+    {
+      "id": "community-owlspark",
+      "kind": "community",
+      "name": "OwlSpark",
+      "description": "Rice University accelerator for student and faculty-led startups.",
+      "website": "https://owlspark.com",
+      "tags": [
+        "university",
+        "accelerator",
+        "rice"
+      ],
+      "category": "University Program",
+      "location": {
+        "lat": 29.716,
+        "lng": -95.402,
+        "address": "Rice University, Houston, TX"
+      }
+    },
+    {
+      "id": "community-surge-accelerator",
+      "kind": "community",
+      "name": "SURGE Accelerator",
+      "description": "Energy and climate accelerator backing founders across the Gulf Coast.",
+      "website": "https://www.surgeaccelerator.com",
+      "tags": [
+        "energy",
+        "climate",
+        "accelerator"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7607,
+        "lng": -95.3696,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-redhouse-associates",
+      "kind": "community",
+      "name": "RedHouse Associates",
+      "description": "Houston-based angel group and accelerator supporting early-stage startups.",
+      "website": "https://redhouseassoc.com",
+      "tags": [
+        "angels",
+        "accelerator",
+        "investment"
+      ],
+      "category": "Angel Network",
+      "location": {
+        "lat": 29.7602,
+        "lng": -95.3695,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-softeq",
+      "kind": "community",
+      "name": "Softeq Development",
+      "description": "Venture studio and accelerator building and investing in hardware/IoT/software startups.",
+      "website": "https://www.softeq.com/venture-studio",
+      "tags": [
+        "venture-studio",
+        "accelerator",
+        "hardware"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.741,
+        "lng": -95.46,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-halliburton-labs",
+      "kind": "community",
+      "name": "Halliburton Labs",
+      "description": "Clean energy tech accelerator offering industrial scale-up resources.",
+      "website": "https://www.halliburtonlabs.com",
+      "tags": [
+        "climate",
+        "energy",
+        "accelerator"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7545,
+        "lng": -95.367,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-eunike-ventures",
+      "kind": "community",
+      "name": "Eunike Ventures",
+      "description": "Energy-focused open innovation venture platform partnering with corporates.",
+      "website": "https://eunikeventures.com",
+      "tags": [
+        "energy",
+        "venture",
+        "open-innovation"
+      ],
+      "category": "Venture Studio",
+      "location": {
+        "lat": 29.757,
+        "lng": -95.365,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-haa-accelerator",
+      "kind": "community",
+      "name": "Houston Arts Alliance Accelerator Grant",
+      "description": "Accelerator grant program supporting creative and cultural projects.",
+      "website": "https://www.houstonartsalliance.com",
+      "tags": [
+        "arts",
+        "grant",
+        "accelerator"
+      ],
+      "category": "Grant Program",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-seed-round-capital",
+      "kind": "community",
+      "name": "Seed Round Capital",
+      "description": "Houston seed fund with accelerator-style support.",
+      "website": "https://seedround.vc",
+      "tags": [
+        "seed",
+        "accelerator",
+        "investment"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7461,
+        "lng": -95.3885,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-cannon",
+      "kind": "community",
+      "name": "The Cannon Community",
+      "description": "Coworking and startup hub with programming across Houston.",
+      "website": "https://thecannon.com",
+      "tags": [
+        "coworking",
+        "community",
+        "programs"
+      ],
+      "category": "Innovation District",
+      "location": {
+        "lat": 29.8021,
+        "lng": -95.5609,
+        "address": "West Houston, TX"
+      }
+    },
+    {
+      "id": "community-catapult-houston",
+      "kind": "community",
+      "name": "Catapult Houston",
+      "description": "Startup accelerator and founder community offering cohorts and mentorship.",
+      "website": "https://catapulthouston.com",
+      "tags": [
+        "accelerator",
+        "mentorship",
+        "cohort"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.37,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-masschallenge-houston",
+      "kind": "community",
+      "name": "MassChallenge Houston",
+      "description": "Equity-free accelerator running energy, health, and general tracks in Houston.",
+      "website": "https://masschallenge.org",
+      "tags": [
+        "accelerator",
+        "equity-free",
+        "program"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.753,
+        "lng": -95.359,
+        "address": "Downtown Houston, TX"
+      }
+    },
+    {
+      "id": "community-founder-institute",
+      "kind": "community",
+      "name": "Founder Institute Houston",
+      "description": "Global pre-seed accelerator with a Houston chapter for idea-to-MVP founders.",
+      "website": "https://fi.co",
+      "tags": [
+        "accelerator",
+        "pre-seed",
+        "program"
+      ],
+      "category": "Accelerator",
+      "location": {
+        "lat": 29.7604,
+        "lng": -95.3698,
+        "address": "Houston, TX"
+      }
+    },
+    {
+      "id": "community-ion-houston",
+      "kind": "community",
+      "name": "Ion Houston",
+      "description": "Innovation hub with coworking, labs, and corporate/startup programs.",
+      "website": "https://iondistrict.com",
+      "tags": [
+        "innovation-district",
+        "coworking",
+        "programs"
+      ],
+      "category": "Innovation District",
+      "location": {
+        "lat": 29.7336,
+        "lng": -95.3851,
+        "address": "4201 Main St, Houston, TX"
+      }
+    }
+  ]
+}

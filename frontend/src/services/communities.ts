@@ -1,4 +1,5 @@
-import { apiGet, apiPost } from "./api";
+import { apiGet } from "./api";
+import type { FeatureCollection } from "./firms";
 
 export type CommunityFeature = {
   type: "Feature";
@@ -13,18 +14,4 @@ export type CommunityFeature = {
   };
 };
 
-export const fetchCommunities = () => apiGet<{ features: CommunityFeature[] }>("/communities");
-
-export type CreateCommunityPayload = {
-  name: string;
-  website?: string;
-  description?: string;
-  tags?: string[];
-  category?: string;
-  latitude: number;
-  longitude: number;
-  address?: string;
-};
-
-export const createCommunity = (payload: CreateCommunityPayload) =>
-  apiPost<CommunityFeature>("/communities", payload);
+export const fetchCommunities = () => apiGet<FeatureCollection<CommunityFeature>>("communities");

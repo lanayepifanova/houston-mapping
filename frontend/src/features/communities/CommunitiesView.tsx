@@ -27,7 +27,7 @@ export const CommunitiesView = () => {
     );
   }, [data?.features, tagFilter, categoryFilter]);
 
-  if (error) return <p className="text-red-600">Failed to load communities. Check API or CORS.</p>;
+  if (error) return <p className="text-red-600">Failed to load communities from static data.</p>;
 
   return (
     <section className="space-y-4">
