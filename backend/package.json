@@ -2,6 +2,7 @@
   "name": "houston-mapping-backend",
   "version": "0.0.1",
   "private": true,
+  "packageManager": "pnpm@10.24.0",
   "type": "commonjs",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/core/server.ts",
