@@ -29,7 +29,7 @@ export const App = () => {
                     </p>
                   </div>
                 </div>
-                <nav className="flex flex-wrap gap-2 text-sm font-semibold text-neutral-700 animate-rise-delayed">
+                <nav className="flex gap-2 text-xs font-semibold text-neutral-700 animate-rise-delayed overflow-x-auto whitespace-nowrap pb-2 -mx-1 px-1 sm:flex-wrap sm:overflow-visible sm:pb-0 sm:text-sm">
                   <NavLink className={navClass} to="/" end>
                     Map
                   </NavLink>

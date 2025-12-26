@@ -189,7 +189,7 @@ export const MapView = () => {
                 Filter by tag
               </span>
               <select
-                className="w-44 rounded-lg border border-black bg-white px-3 py-2 text-sm focus:outline-none sm:w-48"
+                className="w-full rounded-lg border border-black bg-white px-3 py-2 text-sm focus:outline-none sm:w-48"
                 value={tagFilter}
                 onChange={(e) => setTagFilter(e.target.value)}
               >
@@ -207,7 +207,7 @@ export const MapView = () => {
                 Filter startups by stage
               </span>
               <select
-                className="w-48 rounded-lg border border-black bg-white px-3 py-2 text-sm focus:outline-none"
+                className="w-full rounded-lg border border-black bg-white px-3 py-2 text-sm focus:outline-none sm:w-48"
                 value={stageFilter}
                 onChange={(e) => setStageFilter(e.target.value)}
               >

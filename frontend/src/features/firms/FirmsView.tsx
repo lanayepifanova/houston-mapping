@@ -36,13 +36,13 @@ export const FirmsView = () => {
 
       <div className="flex flex-wrap gap-3">
         <input
-          className="rounded-lg border border-black px-3 py-2"
+          className="w-full rounded-lg border border-black px-3 py-2 sm:w-auto"
           placeholder="Filter by tag"
           value={tagFilter}
           onChange={(e) => setTagFilter(e.target.value)}
         />
         <input
-          className="rounded-lg border border-black px-3 py-2"
+          className="w-full rounded-lg border border-black px-3 py-2 sm:w-auto"
           placeholder="Filter by stage"
           value={stageFilter}
           onChange={(e) => setStageFilter(e.target.value)}
