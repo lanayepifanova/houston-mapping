@@ -67,6 +67,11 @@ const toMarker = (
 export const MapView = () => {
   const [tagFilter, setTagFilter] = useState("");
   const [stageFilter, setStageFilter] = useState("");
+  const [kindFilters, setKindFilters] = useState<MarkerFeature["kind"][]>([
+    "firm",
+    "startup",
+    "community"
+  ]);
   const [focusTarget, setFocusTarget] = useState<FocusTarget | null>(null);
   const [highlightTags, setHighlightTags] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -95,6 +100,18 @@ export const MapView = () => {
     ...(communitiesQuery.data?.features.map((c) => toMarker(c, "community")) ?? [])
   ];
 
+  const kindCounts = useMemo(
+    () =>
+      markers.reduce(
+        (acc, marker) => {
+          acc[marker.kind] += 1;
+          return acc;
+        },
+        { firm: 0, startup: 0, community: 0 } as Record<MarkerFeature["kind"], number>
+      ),
+    [markers]
+  );
+
   const tagOptions = TAG_BUCKETS.map((bucket) => bucket.label);
 
   const stageOptions = useMemo(() => {
@@ -109,6 +126,7 @@ export const MapView = () => {
     const tagBucket = TAG_BUCKETS.find((bucket) => bucket.label === tagFilter);
     const stage = stageFilter.toLowerCase();
     return markers.filter((marker) => {
+      const matchKind = !kindFilters.length || kindFilters.includes(marker.kind);
       const matchTag =
         !tagBucket ||
         marker.tags.some((t) => {
@@ -120,9 +138,9 @@ export const MapView = () => {
       const matchHighlight =
         !highlightTags.length ||
         marker.tags.some((t) => highlightTags.some((h) => t.toLowerCase().includes(h.toLowerCase())));
-      return matchTag && matchStage && matchHighlight;
+      return matchKind && matchTag && matchStage && matchHighlight;
     });
-  }, [markers, tagFilter, stageFilter, highlightTags]);
+  }, [markers, kindFilters, tagFilter, stageFilter, highlightTags]);
 
   const houstonCenter: [number, number] = [29.7604, -95.3698];
 
@@ -151,65 +169,97 @@ export const MapView = () => {
     }
   }, [location.state, markers]);
 
-  return (
-    <section className="space-y-4">
-      <div className="flex flex-col gap-4 leading-relaxed md:flex-row md:flex-wrap">
-        <div className="flex flex-wrap gap-4">
-          <label className="space-y-1 text-sm font-medium text-slate-800">
-            <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500">
-              Filter by tag
-            </span>
-            <select
-              className="w-44 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-sky-400 focus:outline-none sm:w-48"
-              value={tagFilter}
-              onChange={(e) => setTagFilter(e.target.value)}
-            >
-              <option value="">All tags</option>
-              {tagOptions.map((tag) => (
-                <option key={tag} value={tag}>
-                  {tag}
-                </option>
-              ))}
-            </select>
-          </label>
+  const toggleKind = (kind: MarkerFeature["kind"]) => {
+    setKindFilters((prev) => (prev.includes(kind) ? prev.filter((item) => item !== kind) : [...prev, kind]));
+  };
 
-          <label className="space-y-1 text-sm font-medium text-slate-800">
-            <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500">
-              Filter startups by stage
-            </span>
-            <select
-              className="w-48 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-sky-400 focus:outline-none"
-              value={stageFilter}
-              onChange={(e) => setStageFilter(e.target.value)}
-            >
-              <option value="">All stages</option>
-              {stageOptions.map((stage) => (
-                <option key={stage} value={stage}>
-                  {stage}
-                </option>
-              ))}
-            </select>
-          </label>
+  const kindLabels: Record<MarkerFeature["kind"], string> = {
+    firm: "Firms",
+    startup: "Startups",
+    community: "Communities"
+  };
+
+  return (
+    <section className="space-y-6">
+      <div className="glass-panel p-5 space-y-4 animate-rise">
+        <div className="flex flex-col gap-4 leading-relaxed lg:flex-row lg:flex-wrap">
+          <div className="flex flex-wrap gap-4">
+            <label className="space-y-1 text-sm font-medium text-slate-800">
+              <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500">
+                Filter by tag
+              </span>
+              <select
+                className="w-44 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-orange-300 focus:outline-none sm:w-48"
+                value={tagFilter}
+                onChange={(e) => setTagFilter(e.target.value)}
+              >
+                <option value="">All tags</option>
+                {tagOptions.map((tag) => (
+                  <option key={tag} value={tag}>
+                    {tag}
+                  </option>
+                ))}
+              </select>
+            </label>
+
+            <label className="space-y-1 text-sm font-medium text-slate-800">
+              <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500">
+                Filter startups by stage
+              </span>
+              <select
+                className="w-48 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-orange-300 focus:outline-none"
+                value={stageFilter}
+                onChange={(e) => setStageFilter(e.target.value)}
+              >
+                <option value="">All stages</option>
+                {stageOptions.map((stage) => (
+                  <option key={stage} value={stage}>
+                    {stage}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+
+          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:gap-2 sm:ml-auto">
+            <StatCard label="Firms" value={firmsQuery.data?.features.length ?? 0} />
+            <StatCard label="Startups" value={startupsQuery.data?.features.length ?? 0} />
+            <StatCard label="Communities" value={communitiesQuery.data?.features.length ?? 0} />
+            <StatCard label="Markers" value={filteredMarkers.length} />
+          </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:gap-2 sm:ml-auto">
-          <StatCard label="Firms" value={firmsQuery.data?.features.length ?? 0} />
-          <StatCard label="Startups" value={startupsQuery.data?.features.length ?? 0} />
-          <StatCard label="Communities" value={communitiesQuery.data?.features.length ?? 0} />
-          <StatCard label="Markers" value={filteredMarkers.length} />
+        <div className="flex flex-wrap items-center gap-2 text-sm text-slate-700">
+          <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+            Show on map
+          </span>
+          {(Object.keys(kindLabels) as MarkerFeature["kind"][]).map((kind) => (
+            <button
+              key={kind}
+              className={`tag-pill inline-flex items-center gap-2 ${
+                kindFilters.includes(kind) ? "tag-pill-active" : ""
+              }`}
+              onClick={() => toggleKind(kind)}
+              type="button"
+            >
+              <span className="h-2.5 w-2.5 rounded-full" style={{ background: getKindColor(kind) }} />
+              {kindLabels[kind]}
+              <span className="text-xs text-slate-500">{kindCounts[kind]}</span>
+            </button>
+          ))}
         </div>
       </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white/90 p-4 shadow-sm">
+      <div className="glass-panel p-4 animate-rise-delayed">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
           <div className="flex flex-col text-sm font-medium text-slate-800">
             <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">Search</span>
             <div className="mt-1 flex flex-col gap-2 sm:flex-row sm:items-center">
               <input
-                className="w-full rounded-lg border border-slate-200 px-3 py-2 shadow-inner focus:border-sky-400 focus:outline-none sm:w-72"
+                className="w-full rounded-lg border border-slate-200 px-3 py-2 shadow-inner focus:border-orange-300 focus:outline-none sm:w-72"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Find firms/startups/communities…"
+                placeholder="Find firms/startups/communities..."
               />
               <button
                 onClick={async () => {
@@ -221,10 +271,10 @@ export const MapView = () => {
                     setSearching(false);
                   }
                 }}
-                className="rounded-lg bg-sky-600 px-3 py-2 text-sm font-semibold text-white shadow hover:bg-sky-700 disabled:opacity-60"
+                className="rounded-lg bg-orange-500 px-3 py-2 text-sm font-semibold text-white shadow hover:bg-orange-600 disabled:opacity-60"
                 disabled={searching}
               >
-                {searching ? "…" : "Search"}
+                {searching ? "..." : "Search"}
               </button>
             </div>
           </div>
@@ -235,7 +285,7 @@ export const MapView = () => {
             {searchResults.map((hit) => (
               <div
                 key={`${hit.kind}-${hit.id}`}
-                className="rounded-lg border border-slate-100 bg-slate-50 p-3 shadow-sm leading-relaxed"
+                className="rounded-lg border border-slate-100 bg-white/90 p-3 shadow-sm leading-relaxed"
               >
                 <div className="flex items-center justify-between gap-2">
                   <div>
@@ -247,18 +297,18 @@ export const MapView = () => {
                     </p>
                   </div>
                   <button
-                    className="text-xs font-semibold text-sky-700 underline disabled:opacity-50"
+                    className="text-xs font-semibold text-teal-700 underline disabled:opacity-50"
                     disabled={!hit.location}
                     onClick={() => {
                       if (!hit.location) return;
-                  setFocusTarget({
-                    id: hit.id,
-                    kind: hit.kind,
-                    lat: hit.location.lat,
-                    lng: hit.location.lng,
-                    name: hit.name,
-                    openPopup: true
-                  });
+                      setFocusTarget({
+                        id: hit.id,
+                        kind: hit.kind,
+                        lat: hit.location.lat,
+                        lng: hit.location.lng,
+                        name: hit.name,
+                        openPopup: true
+                      });
                     }}
                   >
                     Show on map
@@ -274,14 +324,17 @@ export const MapView = () => {
       </div>
 
       {highlightTags.length > 0 && (
-        <div className="flex flex-wrap items-center gap-2 rounded-lg border border-sky-100 bg-sky-50 px-3 py-2 text-sm text-sky-800">
+        <div className="flex flex-wrap items-center gap-2 rounded-lg border border-orange-100 bg-orange-50 px-3 py-2 text-sm text-orange-800">
           <span className="font-semibold">Guide filter:</span>
           {highlightTags.map((tag) => (
             <span key={tag} className="rounded-full bg-white px-2 py-1 text-xs font-semibold">
               {tag}
             </span>
           ))}
-          <button className="ml-2 text-xs font-medium text-sky-700 underline" onClick={() => setHighlightTags([])}>
+          <button
+            className="ml-2 text-xs font-medium text-orange-700 underline"
+            onClick={() => setHighlightTags([])}
+          >
             Clear
           </button>
         </div>
@@ -295,7 +348,7 @@ export const MapView = () => {
       )}
 
 
-      <div className="rounded-xl border border-slate-200 bg-white shadow-sm">
+      <div className="glass-panel p-3 animate-rise">
         <MapContainer
           center={houstonCenter}
           zoom={11}
@@ -314,7 +367,7 @@ export const MapView = () => {
 };
 
 const StatCard = ({ label, value }: { label: string; value: number }) => (
-  <div className="rounded-xl border border-slate-100 bg-white/90 px-4 py-3 shadow-sm">
+  <div className="glass-panel px-4 py-3">
     <p className="text-[11px] uppercase tracking-wide text-slate-500">{label}</p>
     <p className="text-2xl font-semibold leading-tight text-slate-900">{value}</p>
   </div>
@@ -383,7 +436,7 @@ const PinLayer = ({ markers, focus }: { markers: MarkerFeature[]; focus: FocusTa
                   {props.name} <span className="text-xs uppercase">({props.kind})</span>
                 </p>
                 {props.website && (
-                  <a className="text-sky-600" href={props.website} target="_blank" rel="noreferrer">
+                  <a className="accent-link" href={props.website} target="_blank" rel="noreferrer">
                     Visit site
                   </a>
                 )}

@@ -2,10 +2,21 @@
   height: 70vh;
   min-height: 520px;
   width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .leaflet-container {
   font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 16px;
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.18);
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
 }
 
 .pin-icon {

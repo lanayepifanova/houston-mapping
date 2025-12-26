@@ -3,16 +3,154 @@
 @tailwind utilities;
 
 :root {
-  color: #0f172a;
-  background-color: #f8fafc;
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #0b1220;
+  background-color: #f4f1ea;
+  font-family: "Space Grotesk", "Segoe UI", "Helvetica Neue", sans-serif;
+  --ink: #0b1220;
+  --muted: #5b6b7a;
+  --accent: #f97316;
+  --accent-soft: #ffd9c2;
+  --ocean: #0f766e;
+  --surface: #ffffff;
+  --surface-2: rgba(255, 255, 255, 0.7);
+  --surface-3: rgba(255, 255, 255, 0.86);
+  --outline: rgba(15, 23, 42, 0.12);
+  --shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
 }
 
 body {
   margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background: radial-gradient(circle at top left, #fff4e6 0%, transparent 48%),
+    radial-gradient(circle at 20% 40%, #e7f7f4 0%, transparent 45%),
+    linear-gradient(135deg, #f4f1ea 0%, #f8fafc 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: linear-gradient(120deg, rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(60deg, rgba(15, 23, 42, 0.02) 1px, transparent 1px);
+  background-size: 120px 120px, 80px 80px;
+  opacity: 0.35;
+  pointer-events: none;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", "Times New Roman", serif;
+}
+
+.app-shell {
+  position: relative;
+  z-index: 0;
+}
+
+.app-hero {
+  border: 1px solid var(--outline);
+  border-radius: 28px;
+  background: var(--surface-3);
+  box-shadow: var(--shadow);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.12);
+  color: var(--ocean);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.nav-pill {
+  border-radius: 999px;
+  padding: 8px 14px;
+  background: var(--surface);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+}
+
+.nav-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
+  border-color: rgba(15, 23, 42, 0.2);
+}
+
+.nav-pill-active {
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.16) 0%, rgba(15, 118, 110, 0.12) 100%);
+  border-color: rgba(249, 115, 22, 0.4);
+}
+
+.glass-panel {
+  border-radius: 20px;
+  border: 1px solid var(--outline);
+  background: var(--surface-2);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.1);
+  backdrop-filter: blur(16px);
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.accent-link {
+  color: var(--ocean);
+}
+
+.tag-pill {
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 6px 12px;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tag-pill-active {
+  border-color: rgba(249, 115, 22, 0.6);
+  background: rgba(249, 115, 22, 0.12);
+  color: #9a3412;
+}
+
+.animate-rise {
+  animation: rise 0.5s ease both;
+}
+
+.animate-rise-delayed {
+  animation: rise 0.6s ease both;
+  animation-delay: 0.08s;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-rise-delayed {
+    animation: none;
+  }
 }
