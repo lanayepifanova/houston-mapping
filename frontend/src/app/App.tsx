@@ -20,16 +20,16 @@ export const App = () => {
                 <div className="space-y-4 max-w-2xl animate-rise">
                   <span className="badge">Houston ecosystem atlas</span>
                   <div className="space-y-2">
-                    <h1 className="text-4xl sm:text-5xl text-slate-900">
+                    <h1 className="text-4xl sm:text-5xl text-neutral-900">
                       Houston Mapping
                     </h1>
-                    <p className="text-sm text-slate-700 sm:text-base sm:leading-relaxed">
+                    <p className="text-sm text-neutral-700 sm:text-base sm:leading-relaxed">
                       VC firms, startups, and communities mapped for the Rice Residency
                       hacker house. Browse the city by tags, stages, and guides.
                     </p>
                   </div>
                 </div>
-                <nav className="flex flex-wrap gap-2 text-sm font-semibold text-slate-700 animate-rise-delayed">
+                <nav className="flex flex-wrap gap-2 text-sm font-semibold text-neutral-700 animate-rise-delayed">
                   <NavLink className={navClass} to="/" end>
                     Map
                   </NavLink>

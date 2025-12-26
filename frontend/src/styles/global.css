@@ -3,40 +3,26 @@
 @tailwind utilities;
 
 :root {
-  color: #1b1a17;
-  background-color: #f2eee6;
+  color: #111111;
+  background-color: #ffffff;
   font-family: "Space Grotesk", "Segoe UI", "Helvetica Neue", sans-serif;
-  --ink: #1b1a17;
-  --muted: #6a6257;
-  --accent: #c2410c;
-  --accent-soft: #f4d8c5;
-  --ocean: #115e59;
-  --surface: #faf7f2;
-  --surface-2: rgba(250, 247, 242, 0.74);
-  --surface-3: rgba(250, 247, 242, 0.9);
-  --outline: rgba(27, 26, 23, 0.16);
-  --shadow: 0 20px 45px rgba(27, 26, 23, 0.16);
+  --ink: #111111;
+  --muted: #4b4b4b;
+  --accent: #111111;
+  --accent-soft: #f5f5f5;
+  --ocean: #111111;
+  --surface: #ffffff;
+  --surface-2: #ffffff;
+  --surface-3: #ffffff;
+  --outline: rgba(0, 0, 0, 0.2);
+  --shadow: none;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  background: radial-gradient(circle at top left, #f6e9d7 0%, transparent 52%),
-    radial-gradient(circle at 20% 35%, #e3f2ec 0%, transparent 48%),
-    linear-gradient(135deg, #f2eee6 0%, #f8f6f2 100%);
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image: linear-gradient(120deg, rgba(27, 26, 23, 0.05) 1px, transparent 1px),
-    linear-gradient(60deg, rgba(27, 26, 23, 0.03) 1px, transparent 1px),
-    repeating-linear-gradient(0deg, rgba(27, 26, 23, 0.02) 0px, rgba(27, 26, 23, 0.02) 1px, transparent 1px, transparent 4px);
-  background-size: 130px 130px, 90px 90px, 6px 6px;
-  opacity: 0.3;
-  pointer-events: none;
+  background: #ffffff;
 }
 
 a {
@@ -57,9 +43,9 @@ h3 {
 
 .app-hero {
   border: 1px solid var(--outline);
-  border-radius: 26px;
-  background: linear-gradient(140deg, rgba(250, 247, 242, 0.96) 0%, rgba(246, 240, 232, 0.9) 100%);
-  box-shadow: 0 24px 50px rgba(27, 26, 23, 0.18);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: none;
 }
 
 .badge {
@@ -68,8 +54,9 @@ h3 {
   gap: 8px;
   padding: 6px 12px;
   border-radius: 999px;
-  background: rgba(17, 94, 89, 0.14);
-  color: var(--ocean);
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--outline);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -80,28 +67,27 @@ h3 {
   border-radius: 999px;
   padding: 8px 14px;
   background: var(--surface);
-  border: 1px solid rgba(27, 26, 23, 0.12);
-  box-shadow: 0 8px 20px rgba(27, 26, 23, 0.12);
+  border: 1px solid var(--outline);
+  box-shadow: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
 }
 
 .nav-pill:hover {
   transform: translateY(-1px);
-  box-shadow: 0 12px 26px rgba(27, 26, 23, 0.16);
-  border-color: rgba(27, 26, 23, 0.22);
+  border-color: rgba(0, 0, 0, 0.4);
 }
 
 .nav-pill-active {
-  background: linear-gradient(135deg, rgba(194, 65, 12, 0.2) 0%, rgba(17, 94, 89, 0.12) 100%);
-  border-color: rgba(194, 65, 12, 0.45);
+  background: #111111;
+  border-color: #111111;
+  color: #ffffff;
 }
 
 .glass-panel {
   border-radius: 20px;
   border: 1px solid var(--outline);
   background: var(--surface-2);
-  box-shadow: 0 16px 34px rgba(27, 26, 23, 0.12);
-  backdrop-filter: blur(10px);
+  box-shadow: none;
 }
 
 .section-title {
@@ -111,22 +97,23 @@ h3 {
 }
 
 .accent-link {
-  color: var(--ocean);
+  color: var(--ink);
+  text-decoration: underline;
 }
 
 .tag-pill {
   border-radius: 999px;
-  border: 1px solid rgba(27, 26, 23, 0.16);
+  border: 1px solid var(--outline);
   padding: 6px 12px;
-  background: #fffdf9;
+  background: #ffffff;
   font-size: 12px;
   font-weight: 600;
 }
 
 .tag-pill-active {
-  border-color: rgba(194, 65, 12, 0.6);
-  background: rgba(194, 65, 12, 0.14);
-  color: #9a3412;
+  border-color: #111111;
+  background: #111111;
+  color: #ffffff;
 }
 
 .animate-rise {

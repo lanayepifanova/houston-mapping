@@ -2,7 +2,7 @@
   height: 70vh;
   min-height: 520px;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
 }
 
@@ -11,8 +11,9 @@
 }
 
 .leaflet-popup-content-wrapper {
-  border-radius: 16px;
-  box-shadow: 0 18px 34px rgba(27, 26, 23, 0.22);
+  border-radius: 12px;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .leaflet-popup-content {
@@ -29,7 +30,8 @@
   position: relative;
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  border: 1px solid #111111;
 }
 
 .pin::after {
@@ -39,19 +41,19 @@
   left: 50%;
   width: 6px;
   height: 6px;
-  background: #ffffffcc;
+  background: #ffffff;
   border-radius: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .pin-firm {
-  border: 2px solid #e0f2fe;
+  border: 1px solid #111111;
 }
 
 .pin-startup {
-  border: 2px solid #dcfce7;
+  border: 1px solid #111111;
 }
 
 .pin-community {
-  border: 2px solid #fef3c7;
+  border: 1px solid #111111;
 }

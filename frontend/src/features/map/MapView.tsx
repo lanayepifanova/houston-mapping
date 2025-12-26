@@ -184,12 +184,12 @@ export const MapView = () => {
       <div className="glass-panel p-5 space-y-4 animate-rise">
         <div className="flex flex-col gap-4 leading-relaxed lg:flex-row lg:flex-wrap">
           <div className="flex flex-wrap gap-4">
-            <label className="space-y-1 text-sm font-medium text-slate-800">
-              <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500">
+            <label className="space-y-1 text-sm font-medium text-neutral-800">
+              <span className="block text-xs font-semibold uppercase tracking-wide text-neutral-500">
                 Filter by tag
               </span>
               <select
-                className="w-44 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-orange-300 focus:outline-none sm:w-48"
+                className="w-44 rounded-lg border border-black bg-white px-3 py-2 text-sm focus:outline-none sm:w-48"
                 value={tagFilter}
                 onChange={(e) => setTagFilter(e.target.value)}
               >
@@ -202,12 +202,12 @@ export const MapView = () => {
               </select>
             </label>
 
-            <label className="space-y-1 text-sm font-medium text-slate-800">
-              <span className="block text-xs font-semibold uppercase tracking-wide text-slate-500">
+            <label className="space-y-1 text-sm font-medium text-neutral-800">
+              <span className="block text-xs font-semibold uppercase tracking-wide text-neutral-500">
                 Filter startups by stage
               </span>
               <select
-                className="w-48 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm shadow-sm focus:border-orange-300 focus:outline-none"
+                className="w-48 rounded-lg border border-black bg-white px-3 py-2 text-sm focus:outline-none"
                 value={stageFilter}
                 onChange={(e) => setStageFilter(e.target.value)}
               >
@@ -229,8 +229,8 @@ export const MapView = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center gap-2 text-sm text-slate-700">
-          <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+        <div className="flex flex-wrap items-center gap-2 text-sm text-neutral-700">
+          <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
             Show on map
           </span>
           {(Object.keys(kindLabels) as MarkerFeature["kind"][]).map((kind) => (
@@ -244,7 +244,7 @@ export const MapView = () => {
             >
               <span className="h-2.5 w-2.5 rounded-full" style={{ background: getKindColor(kind) }} />
               {kindLabels[kind]}
-              <span className="text-xs text-slate-500">{kindCounts[kind]}</span>
+              <span className="text-xs text-neutral-500">{kindCounts[kind]}</span>
             </button>
           ))}
         </div>
@@ -252,11 +252,11 @@ export const MapView = () => {
 
       <div className="glass-panel p-4 animate-rise-delayed">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-          <div className="flex flex-col text-sm font-medium text-slate-800">
-            <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">Search</span>
+          <div className="flex flex-col text-sm font-medium text-neutral-800">
+            <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Search</span>
             <div className="mt-1 flex flex-col gap-2 sm:flex-row sm:items-center">
               <input
-                className="w-full rounded-lg border border-slate-200 px-3 py-2 shadow-inner focus:border-orange-300 focus:outline-none sm:w-72"
+                className="w-full rounded-lg border border-black px-3 py-2 focus:outline-none sm:w-72"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Find firms/startups/communities..."
@@ -271,7 +271,7 @@ export const MapView = () => {
                     setSearching(false);
                   }
                 }}
-                className="rounded-lg bg-orange-500 px-3 py-2 text-sm font-semibold text-white shadow hover:bg-orange-600 disabled:opacity-60"
+                className="rounded-lg bg-black px-3 py-2 text-sm font-semibold text-white disabled:opacity-60"
                 disabled={searching}
               >
                 {searching ? "..." : "Search"}
@@ -285,19 +285,19 @@ export const MapView = () => {
             {searchResults.map((hit) => (
               <div
                 key={`${hit.kind}-${hit.id}`}
-                className="rounded-lg border border-slate-100 bg-white/90 p-3 shadow-sm leading-relaxed"
+                className="rounded-lg border border-black bg-white p-3 leading-relaxed"
               >
                 <div className="flex items-center justify-between gap-2">
                   <div>
-                    <p className="text-sm font-semibold text-slate-900">
+                    <p className="text-sm font-semibold text-black">
                       {hit.name}
-                      <span className="ml-2 rounded-full bg-white px-2 py-0.5 text-xs font-semibold text-slate-600">
+                      <span className="ml-2 rounded-full border border-black px-2 py-0.5 text-xs font-semibold text-black">
                         {hit.kind}
                       </span>
                     </p>
                   </div>
                   <button
-                    className="text-xs font-semibold text-teal-700 underline disabled:opacity-50"
+                    className="text-xs font-semibold text-black underline disabled:opacity-50"
                     disabled={!hit.location}
                     onClick={() => {
                       if (!hit.location) return;
@@ -315,7 +315,7 @@ export const MapView = () => {
                   </button>
                 </div>
                 {hit.description && (
-                  <p className="mt-1 text-xs text-slate-600 line-clamp-2">{hit.description}</p>
+                  <p className="mt-1 text-xs text-neutral-600 line-clamp-2">{hit.description}</p>
                 )}
               </div>
             ))}
@@ -324,15 +324,15 @@ export const MapView = () => {
       </div>
 
       {highlightTags.length > 0 && (
-        <div className="flex flex-wrap items-center gap-2 rounded-lg border border-orange-100 bg-orange-50 px-3 py-2 text-sm text-orange-800">
+        <div className="flex flex-wrap items-center gap-2 rounded-lg border border-black bg-white px-3 py-2 text-sm text-black">
           <span className="font-semibold">Guide filter:</span>
           {highlightTags.map((tag) => (
-            <span key={tag} className="rounded-full bg-white px-2 py-1 text-xs font-semibold">
+            <span key={tag} className="rounded-full border border-black px-2 py-1 text-xs font-semibold">
               {tag}
             </span>
           ))}
           <button
-            className="ml-2 text-xs font-medium text-orange-700 underline"
+            className="ml-2 text-xs font-medium text-black underline"
             onClick={() => setHighlightTags([])}
           >
             Clear
@@ -340,9 +340,9 @@ export const MapView = () => {
         </div>
       )}
 
-      {isLoading && <p className="text-slate-600">Loading map data…</p>}
+      {isLoading && <p className="text-neutral-600">Loading map data…</p>}
       {hasError && (
-        <p className="text-red-600">
+        <p className="text-neutral-700">
           Failed to load data. Ensure backend is running at the configured API URL.
         </p>
       )}
@@ -368,8 +368,8 @@ export const MapView = () => {
 
 const StatCard = ({ label, value }: { label: string; value: number }) => (
   <div className="glass-panel px-4 py-3">
-    <p className="text-[11px] uppercase tracking-wide text-slate-500">{label}</p>
-    <p className="text-2xl font-semibold leading-tight text-slate-900">{value}</p>
+    <p className="text-[11px] uppercase tracking-wide text-neutral-500">{label}</p>
+    <p className="text-2xl font-semibold leading-tight text-black">{value}</p>
   </div>
 );
 
@@ -440,21 +440,21 @@ const PinLayer = ({ markers, focus }: { markers: MarkerFeature[]; focus: FocusTa
                     Visit site
                   </a>
                 )}
-                {props.description && <p className="text-sm text-slate-600">{props.description}</p>}
+                {props.description && <p className="text-sm text-neutral-600">{props.description}</p>}
                 {props.tags?.length ? (
                   <div className="flex flex-wrap gap-1">
                     {props.tags.map((tag: string) => (
                       <span
                         key={tag}
-                        className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600"
+                        className="rounded-full border border-black px-2 py-0.5 text-xs text-black"
                       >
                         {tag}
                       </span>
                     ))}
                   </div>
                 ) : null}
-                {props.stage && <p className="text-xs text-slate-500">Stage: {props.stage}</p>}
-                {props.category && <p className="text-xs text-slate-500">Category: {props.category}</p>}
+                {props.stage && <p className="text-xs text-neutral-500">Stage: {props.stage}</p>}
+                {props.category && <p className="text-xs text-neutral-500">Category: {props.category}</p>}
               </div>
             </Popup>
           </Marker>
@@ -465,10 +465,10 @@ const PinLayer = ({ markers, focus }: { markers: MarkerFeature[]; focus: FocusTa
 };
 
 const getKindColor = (kind: MarkerFeature["kind"]) =>
-  kind === "firm" ? "#0ea5e9" : kind === "startup" ? "#22c55e" : "#f59e0b";
+  kind === "firm" ? "#111111" : kind === "startup" ? "#4b4b4b" : "#7a7a7a";
 
 const createPinIcon = (kind: MarkerFeature["kind"], focused: boolean) => {
-  const color = focused ? "#a855f7" : getKindColor(kind);
+  const color = focused ? "#000000" : getKindColor(kind);
   const size = focused ? 26 : 22;
   return L.divIcon({
     className: "pin-icon",

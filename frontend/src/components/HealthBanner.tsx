@@ -22,7 +22,7 @@ export const HealthBanner = () => {
   if (!isError) return null;
 
   return (
-    <div className="rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-sm text-red-700">
+    <div className="rounded-lg border border-black px-4 py-2 text-sm text-black">
       Backend unreachable. Ensure the API server is running and CORS allows this origin.
     </div>
   );

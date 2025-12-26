@@ -21,9 +21,9 @@ export const GuidesView = () => {
 
   return (
     <section className="space-y-6">
-      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <h2 className="text-3xl font-semibold text-slate-900">Deep Industry Guides</h2>
-        <p className="mt-2 text-sm text-slate-600">
+      <div className="rounded-2xl border border-black bg-white p-5">
+        <h2 className="text-3xl font-semibold text-black">Deep Industry Guides</h2>
+        <p className="mt-2 text-sm text-neutral-700">
           Playbooks for Houston’s core sectors: who matters, where startups win, how to land pilots, and what to avoid.
           Use the TOC to jump, or open the related map layer to see relevant pins.
         </p>
@@ -32,7 +32,7 @@ export const GuidesView = () => {
             <button
               key={item.id}
               onClick={() => scrollToId(item.id)}
-              className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm text-slate-700 shadow-sm hover:bg-white"
+              className="rounded-lg border border-black bg-white px-3 py-1.5 text-sm text-black hover:bg-neutral-50"
             >
               {item.title}
             </button>
@@ -66,16 +66,16 @@ const GuideCard = ({ guideId }: { guideId: string }) => {
   };
 
   return (
-    <div id={guide.id} className="rounded-2xl border border-slate-200 bg-gradient-to-br from-slate-50 via-white to-slate-50 p-6 shadow-sm space-y-4">
-      <div className="flex flex-wrap items-start justify-between gap-3 border-b border-slate-100 pb-4">
+    <div id={guide.id} className="rounded-2xl border border-black bg-white p-6 space-y-4">
+      <div className="flex flex-wrap items-start justify-between gap-3 border-b border-neutral-200 pb-4">
         <div className="space-y-1 leading-relaxed">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Deep Industry Guide</p>
-          <h3 className="text-2xl font-semibold text-slate-900">{guide.title}</h3>
-          <p className="text-sm text-slate-600">{guide.summary}</p>
+          <p className="text-xs uppercase tracking-wide text-neutral-500">Deep Industry Guide</p>
+          <h3 className="text-2xl font-semibold text-black">{guide.title}</h3>
+          <p className="text-sm text-neutral-700">{guide.summary}</p>
         </div>
         <div className="flex flex-wrap gap-2">
           <button
-            className="rounded-lg border border-sky-200 bg-sky-50 px-3 py-1.5 text-sm font-medium text-sky-700 shadow-sm hover:bg-sky-100"
+            className="rounded-lg border border-black bg-white px-3 py-1.5 text-sm font-medium text-black hover:bg-neutral-50"
             onClick={() =>
               navigate("/", {
                 state: { highlightTags: guide.relatedTags }
@@ -94,21 +94,21 @@ const GuideCard = ({ guideId }: { guideId: string }) => {
 
       <div className="space-y-3">
         {guide.sections.map((section) => (
-          <div key={section.id} className="rounded-xl border border-slate-100 bg-white/80 p-3 shadow-sm">
+          <div key={section.id} className="rounded-xl border border-neutral-200 bg-white p-3">
             <button
               className="flex w-full items-center justify-between text-left"
               onClick={() => toggleSection(section.id)}
               aria-expanded={openSections[section.id]}
             >
-              <p className="text-sm font-semibold text-slate-800">{section.title}</p>
-              <span className="text-slate-500">{openSections[section.id] ? "▴" : "▾"}</span>
+              <p className="text-sm font-semibold text-neutral-800">{section.title}</p>
+              <span className="text-neutral-500">{openSections[section.id] ? "▴" : "▾"}</span>
             </button>
             {openSections[section.id] && (
-              <ul id={section.id} className="mt-2 space-y-2 text-sm text-slate-700 leading-relaxed">
+              <ul id={section.id} className="mt-2 space-y-2 text-sm text-neutral-700 leading-relaxed">
                 {section.bullets.map((bullet) => (
-                  <li key={bullet.text} className="space-y-2 rounded-lg bg-slate-50 p-3 shadow-sm">
+                  <li key={bullet.text} className="space-y-2 rounded-lg border border-neutral-200 bg-white p-3">
                     <div className="flex gap-2">
-                      <span className="mt-1 h-2 w-2 rounded-full bg-sky-500" />
+                      <span className="mt-1 h-2 w-2 rounded-full bg-black" />
                       <span>{bullet.text}</span>
                     </div>
                     {bullet.orgs && bullet.orgs.length > 0 && (
@@ -119,9 +119,9 @@ const GuideCard = ({ guideId }: { guideId: string }) => {
                       </div>
                     )}
                     {bullet.tags && bullet.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-1 text-xs text-slate-500">
+                      <div className="flex flex-wrap gap-1 text-xs text-neutral-500">
                         {bullet.tags.map((tag) => (
-                          <span key={tag} className="rounded-full bg-white px-2 py-0.5">
+                          <span key={tag} className="rounded-full border border-black px-2 py-0.5 text-black">
                             {tag}
                           </span>
                         ))}
@@ -141,15 +141,15 @@ const GuideCard = ({ guideId }: { guideId: string }) => {
 const CardBlock = ({ title, items, accent }: { title: string; items: string[]; accent: "sky" | "rose" }) => {
   const color =
     accent === "sky"
-      ? "border-sky-100 bg-sky-50/70 text-sky-800"
-      : "border-rose-100 bg-rose-50/70 text-rose-800";
+      ? "border-black bg-white text-black"
+      : "border-black bg-neutral-50 text-black";
   return (
     <div className={`rounded-xl border ${color} p-4`}>
       <p className="text-sm font-semibold">{title}</p>
-      <ul className="mt-2 space-y-2 text-sm text-slate-800">
+      <ul className="mt-2 space-y-2 text-sm text-neutral-800">
         {items.map((item) => (
           <li key={item} className="flex gap-2">
-            <span className="mt-1 h-2 w-2 rounded-full bg-slate-500" />
+            <span className="mt-1 h-2 w-2 rounded-full bg-black" />
             <span>{item}</span>
           </li>
         ))}
@@ -161,7 +161,7 @@ const CardBlock = ({ title, items, accent }: { title: string; items: string[]; a
 const OrgChip = ({ org }: { org: { id: string; label: string; kind: string } }) => {
   const navigate = useNavigate();
   const kindColor =
-    org.kind === "firm" ? "bg-sky-50 text-sky-700" : org.kind === "startup" ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700";
+    "border border-black bg-white text-black";
 
   return (
     <button
@@ -170,7 +170,7 @@ const OrgChip = ({ org }: { org: { id: string; label: string; kind: string } }) 
           state: { focusId: org.id }
         })
       }
-      className={`rounded-full px-3 py-1 text-xs font-semibold shadow-sm ${kindColor}`}
+      className={`rounded-full px-3 py-1 text-xs font-semibold ${kindColor}`}
     >
       {org.label}
     </button>

@@ -26,31 +26,31 @@ export const SearchView = () => {
 
   return (
     <section className="space-y-4">
-      <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm space-y-3">
+      <div className="rounded-xl border border-black bg-white p-4 space-y-3">
         <h2 className="text-2xl font-semibold">Search</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          <label className="flex flex-col gap-1 text-sm text-slate-700">
+          <label className="flex flex-col gap-1 text-sm text-neutral-700">
             Query
             <input
-              className="rounded-lg border border-slate-300 px-3 py-2"
+              className="rounded-lg border border-black px-3 py-2"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Find firms or startups…"
             />
           </label>
-          <label className="flex flex-col gap-1 text-sm text-slate-700">
+          <label className="flex flex-col gap-1 text-sm text-neutral-700">
             Tags (comma separated)
             <input
-              className="rounded-lg border border-slate-300 px-3 py-2"
+              className="rounded-lg border border-black px-3 py-2"
               value={tags}
               onChange={(e) => setTags(e.target.value)}
               placeholder="energy, health, aerospace"
             />
           </label>
-          <label className="flex flex-col gap-1 text-sm text-slate-700">
+          <label className="flex flex-col gap-1 text-sm text-neutral-700">
             Results per page
             <select
-              className="rounded-lg border border-slate-300 px-3 py-2"
+              className="rounded-lg border border-black px-3 py-2"
               value={limit}
               onChange={(e) => {
                 setLimit(Number(e.target.value));
@@ -73,13 +73,13 @@ export const SearchView = () => {
               setSubmittedTags(parsedTags);
               setHasSearched(true);
             }}
-            className="rounded-lg bg-sky-600 px-4 py-2 text-white shadow hover:bg-sky-700 disabled:opacity-60"
+            className="rounded-lg bg-black px-4 py-2 text-white disabled:opacity-60"
             disabled={isFetching}
           >
             {isFetching ? "Searching…" : "Search"}
           </button>
         </div>
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-neutral-500">
           Runs fully in-browser against the static index (firms, startups, communities). Tag filters
           are applied before scoring.
         </p>
@@ -118,7 +118,7 @@ const Results = ({
 
   if (isFetching) {
     return (
-      <div className="rounded-xl border border-dashed border-slate-300 bg-slate-50 p-4 text-slate-600">
+      <div className="rounded-xl border border-dashed border-black bg-white p-4 text-neutral-600">
         Searching…
       </div>
     );
@@ -126,7 +126,7 @@ const Results = ({
 
   if (!items.length) {
     return (
-      <div className="rounded-xl border border-dashed border-slate-300 bg-slate-50 p-4 text-slate-600">
+      <div className="rounded-xl border border-dashed border-black bg-white p-4 text-neutral-600">
         No results yet.
       </div>
     );
@@ -138,20 +138,20 @@ const Results = ({
 
   return (
     <div className="space-y-3">
-      <div className="flex items-center justify-between text-sm text-slate-600">
+      <div className="flex items-center justify-between text-sm text-neutral-600">
         <span>
           Showing {start}-{end} of {total} hits
         </span>
         <div className="flex gap-2">
           <button
-            className="rounded-lg border border-slate-200 bg-white px-3 py-1.5 shadow-sm disabled:opacity-50"
+            className="rounded-lg border border-black bg-white px-3 py-1.5 disabled:opacity-50"
             disabled={page === 1}
             onClick={() => onPageChange(Math.max(1, page - 1))}
           >
             Prev
           </button>
           <button
-            className="rounded-lg border border-slate-200 bg-white px-3 py-1.5 shadow-sm disabled:opacity-50"
+            className="rounded-lg border border-black bg-white px-3 py-1.5 disabled:opacity-50"
             disabled={!hasNext}
             onClick={() => onPageChange(page + 1)}
           >
@@ -162,21 +162,21 @@ const Results = ({
       {items.map((item) => (
         <div
           key={`${item.kind}-${item.id}`}
-          className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+          className="rounded-xl border border-black bg-white p-4 transition hover:bg-neutral-50"
         >
           <div className="flex flex-wrap items-baseline justify-between gap-2">
             <div className="space-y-1">
-              <p className="text-xs uppercase tracking-wide text-slate-500">{item.kind}</p>
+              <p className="text-xs uppercase tracking-wide text-neutral-500">{item.kind}</p>
               <div className="flex flex-wrap items-center gap-2">
                 <h3 className="text-lg font-semibold">{item.name}</h3>
-                <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">
+                <span className="rounded-full border border-black px-2 py-0.5 text-xs text-black">
                   Score {item.score}
                 </span>
               </div>
             </div>
             {item.website && (
               <a
-                className="text-sm font-medium text-sky-600 hover:text-sky-700"
+                className="text-sm font-medium text-black underline"
                 href={item.website}
                 target="_blank"
                 rel="noreferrer"
@@ -185,27 +185,27 @@ const Results = ({
               </a>
             )}
           </div>
-          {item.description && <p className="mt-2 text-sm text-slate-700">{item.description}</p>}
-          <div className="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
+          {item.description && <p className="mt-2 text-sm text-neutral-700">{item.description}</p>}
+          <div className="mt-3 flex flex-wrap gap-2 text-xs text-neutral-600">
             {item.tags.map((tag) => (
-              <span key={tag} className="rounded-full bg-slate-100 px-2 py-1">
+              <span key={tag} className="rounded-full border border-black px-2 py-1 text-black">
                 {tag}
               </span>
             ))}
             {item.stage && (
-              <span className="rounded-full bg-emerald-50 px-2 py-1 text-emerald-700">Stage: {item.stage}</span>
+              <span className="rounded-full border border-black px-2 py-1 text-black">Stage: {item.stage}</span>
             )}
             {item.category && (
-              <span className="rounded-full bg-amber-50 px-2 py-1 text-amber-700">Category: {item.category}</span>
+              <span className="rounded-full border border-black px-2 py-1 text-black">Category: {item.category}</span>
             )}
           </div>
           {item.location && (
-            <div className="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
-              <span className="rounded-full bg-slate-50 px-2 py-1 text-slate-700">
+            <div className="mt-3 flex flex-wrap gap-2 text-xs text-neutral-600">
+              <span className="rounded-full border border-black px-2 py-1 text-black">
                 {item.location.address || `${item.location.lat.toFixed(3)}, ${item.location.lng.toFixed(3)}`}
               </span>
               <button
-                className="rounded-full bg-sky-50 px-3 py-1 text-sky-700 transition hover:bg-sky-100"
+                className="rounded-full border border-black px-3 py-1 text-black transition hover:bg-neutral-100"
                 onClick={() =>
                   navigate("/", {
                     state: {

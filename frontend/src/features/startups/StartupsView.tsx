@@ -28,7 +28,7 @@ export const StartupsView = () => {
     );
   }, [data?.features, tagFilter, stageFilter]);
 
-  if (error) return <p className="text-red-600">Failed to load startups from static data.</p>;
+  if (error) return <p className="text-neutral-700">Failed to load startups from static data.</p>;
 
   return (
     <section className="space-y-4">
@@ -36,13 +36,13 @@ export const StartupsView = () => {
 
       <div className="flex flex-wrap gap-3">
         <input
-          className="rounded-lg border border-slate-300 px-3 py-2"
+          className="rounded-lg border border-black px-3 py-2"
           placeholder="Filter by tag"
           value={tagFilter}
           onChange={(e) => setTagFilter(e.target.value)}
         />
         <input
-          className="rounded-lg border border-slate-300 px-3 py-2"
+          className="rounded-lg border border-black px-3 py-2"
           placeholder="Filter by stage"
           value={stageFilter}
           onChange={(e) => setStageFilter(e.target.value)}
@@ -56,7 +56,7 @@ export const StartupsView = () => {
             : filtered.map((startup) => (
                 <article
                   key={startup.properties.id}
-                  className="cursor-pointer rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-emerald-200 hover:shadow"
+                  className="cursor-pointer rounded-xl border border-black bg-white p-4 transition hover:bg-neutral-50"
                   onClick={() => setSelected(startup)}
                 >
                   <div className="flex items-center justify-between gap-3">
@@ -65,7 +65,7 @@ export const StartupsView = () => {
                       {startup.properties.website && (
                         <a
                           href={startup.properties.website}
-                          className="text-sm text-sky-600"
+                          className="text-sm text-black underline"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -73,12 +73,12 @@ export const StartupsView = () => {
                         </a>
                       )}
                     </div>
-                    <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
+                    <span className="rounded-full border border-black px-3 py-1 text-xs font-semibold text-black">
                       Startup
                     </span>
                   </div>
                   {startup.properties.description && (
-                    <p className="mt-2 text-sm text-slate-700 line-clamp-3">
+                    <p className="mt-2 text-sm text-neutral-700 line-clamp-3">
                       {startup.properties.description}
                     </p>
                   )}
@@ -86,29 +86,29 @@ export const StartupsView = () => {
                     {startup.properties.tags.map((tag: string) => (
                       <span
                         key={tag}
-                        className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600"
+                        className="rounded-full border border-black px-2 py-0.5 text-xs text-black"
                       >
                         {tag}
                       </span>
                     ))}
                   </div>
-                  <p className="mt-3 text-xs text-slate-500">
+                  <p className="mt-3 text-xs text-neutral-500">
                     {startup.geometry.coordinates[1].toFixed(3)}, {startup.geometry.coordinates[0].toFixed(3)}
                   </p>
                 </article>
               ))}
-          {!isLoading && filtered.length === 0 && <p className="text-slate-600">No startups found.</p>}
+          {!isLoading && filtered.length === 0 && <p className="text-neutral-600">No startups found.</p>}
         </div>
 
-        <aside className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+        <aside className="rounded-xl border border-black bg-white p-4">
           {selected ? (
             <div className="space-y-2">
-              <p className="text-xs uppercase text-emerald-700 font-semibold">Selected startup</p>
+              <p className="text-xs uppercase text-black font-semibold">Selected startup</p>
               <h3 className="text-xl font-semibold">{selected.properties.name}</h3>
               {selected.properties.website && (
                 <a
                   href={selected.properties.website}
-                  className="text-sm text-sky-600"
+                  className="text-sm text-black underline"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -116,27 +116,27 @@ export const StartupsView = () => {
                 </a>
               )}
               {selected.properties.description && (
-                <p className="text-sm text-slate-700">{selected.properties.description}</p>
+                <p className="text-sm text-neutral-700">{selected.properties.description}</p>
               )}
               <div className="flex flex-wrap gap-2">
                 {selected.properties.tags.map((tag) => (
-                  <span key={tag} className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">
+                  <span key={tag} className="rounded-full border border-black px-2 py-0.5 text-xs text-black">
                     {tag}
                   </span>
                 ))}
               </div>
-              <p className="text-sm text-slate-600">
+              <p className="text-sm text-neutral-600">
                 {selected.geometry.coordinates[1].toFixed(3)}, {selected.geometry.coordinates[0].toFixed(3)}
               </p>
               {selected.properties.stage && (
-                <p className="text-sm text-slate-600">Stage: {selected.properties.stage}</p>
+                <p className="text-sm text-neutral-600">Stage: {selected.properties.stage}</p>
               )}
               {selected.properties.industry && (
-                <p className="text-sm text-slate-600">Industry: {selected.properties.industry}</p>
+                <p className="text-sm text-neutral-600">Industry: {selected.properties.industry}</p>
               )}
             </div>
           ) : (
-            <p className="text-slate-600">Select a startup card to see details here.</p>
+            <p className="text-neutral-600">Select a startup card to see details here.</p>
           )}
         </aside>
       </div>
