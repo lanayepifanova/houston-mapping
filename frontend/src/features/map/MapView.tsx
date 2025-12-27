@@ -221,12 +221,6 @@ export const MapView = () => {
             </label>
           </div>
 
-          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:gap-2 sm:ml-auto">
-            <StatCard label="Firms" value={firmsQuery.data?.features.length ?? 0} />
-            <StatCard label="Startups" value={startupsQuery.data?.features.length ?? 0} />
-            <StatCard label="Communities" value={communitiesQuery.data?.features.length ?? 0} />
-            <StatCard label="Markers" value={filteredMarkers.length} />
-          </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-2 text-sm text-neutral-700">
@@ -365,13 +359,6 @@ export const MapView = () => {
     </section>
   );
 };
-
-const StatCard = ({ label, value }: { label: string; value: number }) => (
-  <div className="glass-panel px-4 py-3">
-    <p className="text-[11px] uppercase tracking-wide text-neutral-500">{label}</p>
-    <p className="text-2xl font-semibold leading-tight text-black">{value}</p>
-  </div>
-);
 
 const PinLayer = ({ markers, focus }: { markers: MarkerFeature[]; focus: FocusTarget | null }) => {
   const map = useMap();
